@@ -1,7 +1,0 @@
-module branchPredictor(
-input [31:0] addressMem,
-output reg [31:0] 
-);
-
-
-endmodule

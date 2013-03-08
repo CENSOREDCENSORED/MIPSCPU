@@ -1,6 +1,0 @@
-module halfadder(
-input a_in,
-input b_in,
-input carry_in,
-output sum,
-output carry_out

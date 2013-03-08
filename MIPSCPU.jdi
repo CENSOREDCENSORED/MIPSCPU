@@ -1,8 +1,0 @@
-<sld_project_info>
-  <file_info>
-    <file checksum="0x006D24E6" device="EP2C35F672C6" path="MIPSCPU.sof" usercode="0xFFFFFFFF"/>
-    <file checksum="0x1C0FFA63" device="EPCS16" path="MIPSCPU.pof" usercode="0x00000000"/>
-  </file_info>
-  <hub_info ir_width="0" node_count="0"/>
-  <node_info/>
-</sld_project_info>

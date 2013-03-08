@@ -1,8 +1,0 @@
-module signextender(
-input[15:0] input1,
-output[31:0] output1
-);
-
-
-
-endmodule
