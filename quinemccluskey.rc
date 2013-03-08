@@ -1,0 +1,346 @@
+// quinemccluskey.rc
+// Uses the Quine-McCluskey algorithm to minimize logical expressions
+//
+const int varMax = 10; //15; // The maximum number of variables
+const int maxPrimes = 5905; //956594; // (3^varMax)/varMax
+const int maxMinterms = 1024; //32768; // 2^varMax
+
+
+// counts the number of 1's in a number
+function : int count1s(int i) {
+	int count = 0;
+	while (i > 0) {
+		count = count + (i & 1);
+		i = i / 2;
+	}
+	return count;
+}
+
+
+//
+function : int pow(int b, int e) {
+	if (e < 0) {
+		return 0;
+	}
+	int r = 1;
+	while (e-- > 0) {
+		r = r * b;
+	}
+	return r;
+}
+
+
+// Converts a minterm into an "implicant"
+// 0 -> 00, 1 -> 11
+function : int intToImplicant(int i) {
+	int ret = 0;
+	int pos = 1;
+	while (i > 0) {
+		if ((i & 1) == 1) {
+			ret = ret + 3 * pos;
+		}
+		pos = pos * 4;
+		i = i / 2; // i >>= 1;
+	}
+	return ret;
+}
+
+
+// Prints a prime implicant (0's 1's and x's)
+function : void printImplicant(int implicant, int numVars) {
+	int mask = 3 * pow(4, numVars-1);
+	while (mask > 0) {
+		if ((implicant & mask) == mask) {
+			cout << 1;
+		}
+		else { if ((implicant & mask) == 0) {
+			cout << 0;
+		}
+		else {
+			cout << "-";
+		} }
+		
+		mask = mask / 4;
+	}
+}
+
+// A bit vector
+structdef BITVECTOR {
+	int[maxMinterms/32] vectors;
+	
+	function : bool isBitSet(int bit) {
+		int index = bit / 32;
+		int mask = pow(2, bit % 32);
+		
+		return (this.vectors[index] & mask) == mask;
+	}
+	function : void setBit(int bit) {
+		int index = bit / 32;
+		this.vectors[index] = this.vectors[index] | pow(2, bit % 32);
+	}
+	function : void getUnion(BITVECTOR & other, BITVECTOR & result) {
+		int i = 0;
+		while (i < maxMinterms/32) {
+			result.vectors[i] = this.vectors[i] | other.vectors[i];
+			i++;
+		}
+	}
+	function : void getIntersection(BITVECTOR & other, BITVECTOR & result) {
+		int i = 0;
+		while (i < maxMinterms/32) {
+			result.vectors[i] = this.vectors[i] & other.vectors[i];
+			i++;
+		}
+	}
+};
+
+// A vector
+structdef VECTOR {
+	int[maxPrimes] items;
+	int count;
+	function : void addItem(int item) {
+		this.items[this.count++] = item;
+	}
+};
+
+
+// Represents a single implicant
+structdef ROW {
+	int implicant;
+	BITVECTOR minterms;
+	bool covered;
+	
+	// Checks if two rows can be combined. If they can, implicant is set
+	// to the resulting implicant.
+	function : bool matchAgainst(ROW & row, int & implicant) {
+		int i1 = this.implicant;
+		int i2 = row.implicant;
+		int difs = 0;
+		
+		implicant = 0;
+		int pos = 1;
+		while (i1 > 0 || i2 > 0) {
+			if ((i1 & 3) != (i2 & 3)) {
+				// If they are different and one is a -
+				if ((i1 & 3) == 2 || (i2 & 3) == 2 || difs == 1) {
+					return false;
+				}
+				difs = 1;
+				implicant = implicant + 2 * pos;
+			}
+			else {
+				implicant = implicant + (i1 & 3) * pos;
+			}
+			
+			pos = pos * 4;
+			i1 = i1 / 4;
+			i2 = i2 / 4;
+		}
+		
+		this.covered = row.covered = true;
+		
+		return true;
+	}
+	
+	// Prints this row
+	function : void print(int numVars) {
+		cout << "printing";
+		printImplicant(this.implicant, numVars);
+		
+		cout << " " << this.covered << endl;
+	}
+};
+
+
+// Contains all implicants in a particular group
+structdef GROUP {
+	ROW[maxMinterms] rows;
+	int count;
+	
+	// Adds a row to this group
+	function : void addRow(int implicant) {
+		this.rows[this.count++].implicant = implicant;
+	}
+	
+	// Prints all rows in the group
+	function : void print(int numVars) {
+		int row = 0;
+		while (row < this.count) {
+			this.rows[row++].print(numVars);
+		}
+	}
+};
+
+
+// 
+structdef TABLE {
+	GROUP[varMax+1] groups;
+	
+	// Adds an implicant to a group
+	function : void addToGroup(int group, int i) {
+		this.groups[group].addRow(i);
+	}
+	
+	// Generates the next table
+	function : void generateNextTable(VECTOR* primes, bool & allPrimes, TABLE* & nextTbl) {
+		int group;
+		int row;
+		int nextGrpRow;
+		int implicant;
+		
+		// Match implicants
+		group = 0;
+		while (group < varMax) {
+			row = 0;
+			while (row < this.groups[group].count) {
+				nextGrpRow = 0;
+				funcptr : bool(ROW & row, int & implicant) matcher = this.groups[group].rows[row].matchAgainst;
+				while (nextGrpRow < this.groups[group+1].count) {
+					if (matcher(this.groups[group+1].rows[nextGrpRow], implicant)) {
+						bool dup = false;
+						
+						int nr = 0;
+						while (nr < nextTbl->groups[group].count) {
+							if (nextTbl->groups[group].rows[nr].implicant == implicant) {
+								dup = true;
+								break;
+							}
+							nr++;
+						}
+						
+						if (!dup) {
+							nextTbl->addToGroup(group, implicant);
+						}
+					}
+					nextGrpRow++;
+				}
+				row++;
+			}
+			group++;
+		}
+		
+		// Grab primes
+		group = 0;
+		allPrimes = true;
+		while (group < varMax + 1) {
+			row = 0;
+			while (row < this.groups[group].count) {
+				if (!this.groups[group].rows[row].covered) {
+					primes->addItem(this.groups[group].rows[row].implicant);
+				}
+				else {
+					allPrimes = false;
+				}
+				row++;
+			}
+			group++;
+		}
+	}
+	
+	// Prints this table
+	function : void print(int numVars) {
+		cout << this << " " << &this.groups[0] << endl;
+		int group = 0;
+		while (group < varMax+1) {
+			cout << "G" << group << ":" << endl;
+			this.groups[group++].print(numVars);
+		}
+	}
+};
+
+
+structdef BOOLVEC {
+	bool[maxPrimes] cells;
+};
+
+
+structdef PRUNINGMATRIX {
+	BOOLVEC[maxMinterms] columns;
+};
+
+
+//
+function : VECTOR* prune(VECTOR * primes, int numVars) {
+	VECTOR * essentials;
+	new essentials;
+	
+	PRUNINGMATRIX * matrix;
+	new matrix;
+	
+	bool changeMade = false;
+	
+	int maxMinterm = pow(2, numVars);
+	
+	
+	delete matrix;
+	
+	return essentials;
+}
+
+
+//
+function : void main() {
+	int i;
+	int mintermCount = 0;
+	int numVars = 1;
+	int numVarsP = 1;
+	
+	// Our tables
+	TABLE *currentTable, *nextTable;
+	VECTOR *primes, *essentials;
+	
+	new primes;
+	
+	// Build the original table, from the minterms
+	new currentTable;
+	while (true) {
+		cin >> i;
+		if (i == -1) {
+			break;
+		}
+		while (i > numVarsP) {
+			numVars++;
+			numVarsP = numVarsP * 2;
+		}
+		currentTable->addToGroup(count1s(i), intToImplicant(i));
+		mintermCount++;
+	}
+	numVars--;
+	
+	// Print the number of variables involved
+	cout << "Number of variables: " << numVars << endl;
+	
+	// Get our prime implicants
+	bool allPrimes = false;
+	while (!allPrimes) {
+		new nextTable;
+		currentTable->generateNextTable(primes, allPrimes, nextTable);
+		delete currentTable;
+		currentTable = nextTable;
+	}
+	delete currentTable;
+	
+	// Print our prime implicants
+	i = 0;
+	cout << "Number of prime implicants: " << primes->count << endl;
+	cout << "Prime Implicants: " << printImplicant(primes->items[i++], numVars);
+	while (i < primes->count) {
+		cout << ", " << printImplicant(primes->items[i++], numVars);
+	}
+	cout << endl;
+	
+	// Prune!
+	/*essentials = prune(primes, numVars);
+	i = 0;
+	cout << "Number of Essential Implicants after QM: " << essentials->count << endl;
+	if (essentials->count > 0) {
+		cout << "Essential Implicants: " << printImplicant(essentials->items[i++], numVars);
+		while (i < primes->count) {
+			cout << ", " << printImplicant(primes->items[i++], numVars);
+		}
+		cout << endl;
+	}
+	
+	delete essentials;*/
+	delete primes;
+}

@@ -1,0 +1,430 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\Raymond\Desktop\UCSD\MIPSCPU\simulation\modelsim
+vadder
+IbM=d20[;G<G=5Uk_G5Gzz1
+VMI]Uj[Bi_m]OjGkj=DbGS2
+Z1 dC:\Users\Raymond\Desktop\UCSD\MIPSCPU\simulation\modelsim
+w1360739334
+8C:/Users/Raymond/Desktop/UCSD/MIPSCPU/adder.v
+FC:/Users/Raymond/Desktop/UCSD/MIPSCPU/adder.v
+L0 1
+Z2 OV;L;10.0c;49
+r1
+31
+Z3 o-vlog01compat -work work -O0
+Z4 !s92 -vlog01compat -work work +incdir+C:/Users/Raymond/Desktop/UCSD/MIPSCPU -O0
+!s100 >9EgTk`Vb];;^;JLWZ6hi0
+!s85 0
+!s108 1362373814.024000
+!s107 C:/Users/Raymond/Desktop/UCSD/MIPSCPU/adder.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Raymond/Desktop/UCSD/MIPSCPU|-O0|C:/Users/Raymond/Desktop/UCSD/MIPSCPU/adder.v|
+!s101 -O0
+valu
+IZ4^U_^ALY^oCU:]S1BbWa2
+V`N1UO88Ekg5Q?HU_k_>950
+R1
+w1361911746
+8C:/Users/Raymond/Desktop/UCSD/MIPSCPU/alu.v
+FC:/Users/Raymond/Desktop/UCSD/MIPSCPU/alu.v
+L0 12
+R2
+r1
+31
+R3
+R4
+!s100 01=iaNlnl56ehODRi;D8g0
+!s85 0
+!s108 1362373814.226000
+!s107 C:/Users/Raymond/Desktop/UCSD/MIPSCPU/alu.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Raymond/Desktop/UCSD/MIPSCPU|-O0|C:/Users/Raymond/Desktop/UCSD/MIPSCPU/alu.v|
+!s101 -O0
+vasync_memory
+IEn2093^iiXEbK5KEkPUd21
+V1:X<f^Z85f0R[h1FInc9h0
+R1
+w1360772050
+8C:/Users/Raymond/Desktop/UCSD/MIPSCPU/async_memory.v
+FC:/Users/Raymond/Desktop/UCSD/MIPSCPU/async_memory.v
+L0 22
+R2
+r1
+31
+R3
+R4
+!s100 Wz6@MZ<:R3lRSZEj1PzLQ3
+!s85 0
+!s108 1362373814.396000
+!s107 C:/Users/Raymond/Desktop/UCSD/MIPSCPU/async_memory.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Raymond/Desktop/UCSD/MIPSCPU|-O0|C:/Users/Raymond/Desktop/UCSD/MIPSCPU/async_memory.v|
+!s101 -O0
+vbranchPredictor
+IdPfSAiZ7;zTI9`Eo2KcTE2
+VM4NTIm?WF<m6^I;5>iIfR0
+R1
+w1361931748
+8C:/Users/Raymond/Desktop/UCSD/MIPSCPU/branchPredictor.v
+FC:/Users/Raymond/Desktop/UCSD/MIPSCPU/branchPredictor.v
+L0 1
+R2
+r1
+31
+R3
+R4
+nbranch@predictor
+!s100 bP9O5@VL;jSzWZd6mALN:2
+!s85 0
+!s108 1362373814.572000
+!s107 C:/Users/Raymond/Desktop/UCSD/MIPSCPU/branchPredictor.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Raymond/Desktop/UCSD/MIPSCPU|-O0|C:/Users/Raymond/Desktop/UCSD/MIPSCPU/branchPredictor.v|
+!s101 -O0
+vcontrolunit
+Ioil2j`O3cglZEh1zBbHkP0
+VX_RP5g>c[UDP^]gMh]SjO1
+R1
+w1362371338
+8C:/Users/Raymond/Desktop/UCSD/MIPSCPU/controlunit.v
+FC:/Users/Raymond/Desktop/UCSD/MIPSCPU/controlunit.v
+L0 1
+R2
+r1
+31
+R3
+R4
+!s100 Q8<]eX163R@JUYS@N;Tgf2
+!s85 0
+!s108 1362373815.097000
+!s107 C:/Users/Raymond/Desktop/UCSD/MIPSCPU/controlunit.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Raymond/Desktop/UCSD/MIPSCPU|-O0|C:/Users/Raymond/Desktop/UCSD/MIPSCPU/controlunit.v|
+!s101 -O0
+vcounter
+IgQW<2[WPM3kT:ke=oZGcg2
+V325R>mR6We2o<[NO`h?Ih1
+R1
+w1361706118
+8C:/Users/Raymond/Desktop/UCSD/MIPSCPU/counter.v
+FC:/Users/Raymond/Desktop/UCSD/MIPSCPU/counter.v
+L0 1
+R2
+r1
+31
+R3
+R4
+!s100 zoJ:;H<`1UMfQc_b[[XGX1
+!s85 0
+!s108 1362373815.387000
+!s107 C:/Users/Raymond/Desktop/UCSD/MIPSCPU/counter.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Raymond/Desktop/UCSD/MIPSCPU|-O0|C:/Users/Raymond/Desktop/UCSD/MIPSCPU/counter.v|
+!s101 -O0
+vdata_memory
+I3j[RTgg:<n`]Laf:A@6D61
+VkDFS[5Vik3C]]l_>DQaU30
+R1
+w1362373240
+8C:/Users/Raymond/Desktop/UCSD/MIPSCPU/data_memory.v
+FC:/Users/Raymond/Desktop/UCSD/MIPSCPU/data_memory.v
+L0 26
+R2
+r1
+31
+R3
+R4
+!s100 FcXRY:9zZHA;W=dYXbad=1
+!s85 0
+!s108 1362373815.702000
+!s107 C:/Users/Raymond/Desktop/UCSD/MIPSCPU/data_memory.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Raymond/Desktop/UCSD/MIPSCPU|-O0|C:/Users/Raymond/Desktop/UCSD/MIPSCPU/data_memory.v|
+!s101 -O0
+vEXMEMPipe
+IRWXJ7nne2X@J4`l6zN;<]0
+VC4bo^VL7_H[EN<i8i3F6N2
+R1
+w1362371978
+8C:/Users/Raymond/Desktop/UCSD/MIPSCPU/EXMEMPipe.v
+FC:/Users/Raymond/Desktop/UCSD/MIPSCPU/EXMEMPipe.v
+L0 1
+R2
+r1
+31
+R3
+R4
+n@e@x@m@e@m@pipe
+!s100 g;bbeG3AB[EldMV>E]L<i1
+!s85 0
+!s108 1362373815.996000
+!s107 C:/Users/Raymond/Desktop/UCSD/MIPSCPU/EXMEMPipe.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Raymond/Desktop/UCSD/MIPSCPU|-O0|C:/Users/Raymond/Desktop/UCSD/MIPSCPU/EXMEMPipe.v|
+!s101 -O0
+vhazardDetectionNoStall
+I5kQLDD1T0:<95E2M7JGK`3
+VmCV:D]4iA0zE^6IPNW9f41
+R1
+w1362306364
+8C:/Users/Raymond/Desktop/UCSD/MIPSCPU/hazardDetectionNoStall.v
+FC:/Users/Raymond/Desktop/UCSD/MIPSCPU/hazardDetectionNoStall.v
+L0 1
+R2
+r1
+31
+R3
+R4
+nhazard@detection@no@stall
+!s100 b37`lo:eS0HlcR^PfiAO02
+!s85 0
+!s108 1362373816.293000
+!s107 C:/Users/Raymond/Desktop/UCSD/MIPSCPU/hazardDetectionNoStall.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Raymond/Desktop/UCSD/MIPSCPU|-O0|C:/Users/Raymond/Desktop/UCSD/MIPSCPU/hazardDetectionNoStall.v|
+!s101 -O0
+vhazardDetectionStall
+IahzBd=^SdMDDW69^Gf<`J2
+V2jhm^23`dDSYLPJP_8I=P0
+R1
+w1361516163
+8C:/Users/Raymond/Desktop/UCSD/MIPSCPU/hazardDetectionStall.v
+FC:/Users/Raymond/Desktop/UCSD/MIPSCPU/hazardDetectionStall.v
+L0 1
+R2
+r1
+31
+R3
+R4
+nhazard@detection@stall
+!s100 Y7fkkLIeTYEliNA]@8V2O1
+!s85 0
+!s108 1362373816.496000
+!s107 C:/Users/Raymond/Desktop/UCSD/MIPSCPU/hazardDetectionStall.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Raymond/Desktop/UCSD/MIPSCPU|-O0|C:/Users/Raymond/Desktop/UCSD/MIPSCPU/hazardDetectionStall.v|
+!s101 -O0
+vIDEXPipe
+I_7?EozQ>a^G^ffdL]RX7B1
+VVU8QWo3jd`S<DU=j^?e_?2
+R1
+w1362371891
+8C:/Users/Raymond/Desktop/UCSD/MIPSCPU/IDEXPipe.v
+FC:/Users/Raymond/Desktop/UCSD/MIPSCPU/IDEXPipe.v
+L0 1
+R2
+r1
+31
+R3
+R4
+n@i@d@e@x@pipe
+!s100 VZdVmR<kn2bkKG87^Xlj20
+!s85 0
+!s108 1362373816.703000
+!s107 C:/Users/Raymond/Desktop/UCSD/MIPSCPU/IDEXPipe.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Raymond/Desktop/UCSD/MIPSCPU|-O0|C:/Users/Raymond/Desktop/UCSD/MIPSCPU/IDEXPipe.v|
+!s101 -O0
+vIFIDPipe
+I<9]POjIBL@OR4QI579LiJ3
+VG5BFK_XheSD>;9@FS?A0H3
+R1
+w1361929492
+8C:/Users/Raymond/Desktop/UCSD/MIPSCPU/IFIDPipe.v
+FC:/Users/Raymond/Desktop/UCSD/MIPSCPU/IFIDPipe.v
+L0 1
+R2
+r1
+31
+R3
+R4
+n@i@f@i@d@pipe
+!s100 lj[a9O7>CTGW6H0Am<FJz0
+!s85 0
+!s108 1362373817.366000
+!s107 C:/Users/Raymond/Desktop/UCSD/MIPSCPU/IFIDPipe.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Raymond/Desktop/UCSD/MIPSCPU|-O0|C:/Users/Raymond/Desktop/UCSD/MIPSCPU/IFIDPipe.v|
+!s101 -O0
+vinst_rom
+IS4zoMJ^J<ce8oKaFdPDhH1
+VVogm@flc0=O<_l7he1:A32
+R1
+w1361482759
+8C:/Users/Raymond/Desktop/UCSD/MIPSCPU/inst_rom.v
+FC:/Users/Raymond/Desktop/UCSD/MIPSCPU/inst_rom.v
+L0 15
+R2
+r1
+31
+R3
+R4
+!s100 YkZ1:XbLzbIRPGf>o:^Q@3
+!s85 0
+!s108 1362373817.813000
+!s107 C:/Users/Raymond/Desktop/UCSD/MIPSCPU/inst_rom.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Raymond/Desktop/UCSD/MIPSCPU|-O0|C:/Users/Raymond/Desktop/UCSD/MIPSCPU/inst_rom.v|
+!s101 -O0
+vinstructioncounter
+ISUV3?czJGmCboW_Cnhk7:1
+V9FThBUAVO5hD_X<4VUC:H0
+R1
+w1361706661
+8C:/Users/Raymond/Desktop/UCSD/MIPSCPU/instructioncounter.v
+FC:/Users/Raymond/Desktop/UCSD/MIPSCPU/instructioncounter.v
+L0 1
+R2
+r1
+31
+R3
+R4
+!s100 >hG6DD1>QQ_aH6@[amTcH2
+!s85 0
+!s108 1362373818.064000
+!s107 C:/Users/Raymond/Desktop/UCSD/MIPSCPU/instructioncounter.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Raymond/Desktop/UCSD/MIPSCPU|-O0|C:/Users/Raymond/Desktop/UCSD/MIPSCPU/instructioncounter.v|
+!s101 -O0
+vMEMWBPipe
+I`8_VWSTVhiZBo;Q^W371i0
+VVUGTZXbZa^f>cQ5glTZ7Q1
+R1
+w1361511389
+8C:/Users/Raymond/Desktop/UCSD/MIPSCPU/MEMWBPipe.v
+FC:/Users/Raymond/Desktop/UCSD/MIPSCPU/MEMWBPipe.v
+L0 1
+R2
+r1
+31
+R3
+R4
+n@m@e@m@w@b@pipe
+!s100 QFeBM5N`flXJazjiQDF4d0
+!s85 0
+!s108 1362373818.341000
+!s107 C:/Users/Raymond/Desktop/UCSD/MIPSCPU/MEMWBPipe.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Raymond/Desktop/UCSD/MIPSCPU|-O0|C:/Users/Raymond/Desktop/UCSD/MIPSCPU/MEMWBPipe.v|
+!s101 -O0
+vMUX
+Ij]QZ:`BJISR;5K7^[?9L@2
+Vg^2ZclJ31d0Jelz0kWcA11
+R1
+w1360743873
+8C:/Users/Raymond/Desktop/UCSD/MIPSCPU/MUX.v
+FC:/Users/Raymond/Desktop/UCSD/MIPSCPU/MUX.v
+L0 1
+R2
+r1
+31
+R3
+R4
+n@m@u@x
+!s100 UXD2C<2Z:AP]Q7[cKQ;CA0
+!s85 0
+!s108 1362373818.595000
+!s107 C:/Users/Raymond/Desktop/UCSD/MIPSCPU/MUX.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Raymond/Desktop/UCSD/MIPSCPU|-O0|C:/Users/Raymond/Desktop/UCSD/MIPSCPU/MUX.v|
+!s101 -O0
+vprocessor
+ISbFPD;E7_0Dg4glMaD0:T1
+V4[Z5;;Ol2ieM:XUbIMGL43
+R1
+w1362373355
+8C:/Users/Raymond/Desktop/UCSD/MIPSCPU/processor.v
+FC:/Users/Raymond/Desktop/UCSD/MIPSCPU/processor.v
+L0 2
+R2
+r1
+31
+R3
+R4
+!s100 O[Q[8LF9P@g62=1[lM2lA3
+!s85 0
+!s108 1362373821.042000
+!s107 C:/Users/Raymond/Desktop/UCSD/MIPSCPU/processor.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Raymond/Desktop/UCSD/MIPSCPU|-O0|C:/Users/Raymond/Desktop/UCSD/MIPSCPU/processor.v|
+!s101 -O0
+vprogramcounter
+IikaWFJzBccX?O89bk2_NJ3
+V5WmgYBPzNgTeF@Rd]81IM3
+R1
+w1361513559
+8C:/Users/Raymond/Desktop/UCSD/MIPSCPU/programcounter.v
+FC:/Users/Raymond/Desktop/UCSD/MIPSCPU/programcounter.v
+L0 1
+R2
+r1
+31
+R3
+R4
+!s100 EFYeN4KVg3nneSSckzYWG3
+!s85 0
+!s108 1362373821.377000
+!s107 C:/Users/Raymond/Desktop/UCSD/MIPSCPU/programcounter.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Raymond/Desktop/UCSD/MIPSCPU|-O0|C:/Users/Raymond/Desktop/UCSD/MIPSCPU/programcounter.v|
+!s101 -O0
+vregfile
+IRZBPf@onA<96Y_zb=_o5J2
+VBH6Bg5<WXU0fDdCMKGV@G0
+R1
+w1362373797
+8C:/Users/Raymond/Desktop/UCSD/MIPSCPU/regfile.v
+FC:/Users/Raymond/Desktop/UCSD/MIPSCPU/regfile.v
+L0 9
+R2
+r1
+31
+R3
+R4
+!s100 QTki??ggb2D^fYDMm3dV12
+!s85 0
+!s108 1362373821.887000
+!s107 C:/Users/Raymond/Desktop/UCSD/MIPSCPU/regfile.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Raymond/Desktop/UCSD/MIPSCPU|-O0|C:/Users/Raymond/Desktop/UCSD/MIPSCPU/regfile.v|
+!s101 -O0
+vserial_buffer
+IDd@<<z8zUk;<^L5KS9dCn0
+VS4Cc8o;OC:hoY4jSEj;<[0
+R1
+w1326670372
+8C:/Users/Raymond/Desktop/UCSD/MIPSCPU/serial_buf.v
+FC:/Users/Raymond/Desktop/UCSD/MIPSCPU/serial_buf.v
+L0 17
+R2
+r1
+31
+R3
+R4
+!s100 E=^o3TTJNOJE@f_lKU3i22
+!s85 0
+!s108 1362373822.158000
+!s107 C:/Users/Raymond/Desktop/UCSD/MIPSCPU/serial_buf.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Raymond/Desktop/UCSD/MIPSCPU|-O0|C:/Users/Raymond/Desktop/UCSD/MIPSCPU/serial_buf.v|
+!s101 -O0
+vsignextender
+IX0lP=YAFb[]Xd;6m[]A8I2
+VlBedRllAJMkz8V<iG>JNP1
+R1
+w1360746324
+8C:/Users/Raymond/Desktop/UCSD/MIPSCPU/signextender.v
+FC:/Users/Raymond/Desktop/UCSD/MIPSCPU/signextender.v
+L0 1
+R2
+r1
+31
+R3
+R4
+!s100 E]m`0CMCg]h5BWAR0<a7A1
+!s85 0
+!s108 1362373822.441000
+!s107 C:/Users/Raymond/Desktop/UCSD/MIPSCPU/signextender.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Raymond/Desktop/UCSD/MIPSCPU|-O0|C:/Users/Raymond/Desktop/UCSD/MIPSCPU/signextender.v|
+!s101 -O0
+vtestbench
+!s100 e[CKSLOXnQ7J`Nzae=NXC1
+Ih:?5c3EkU<QSmePSk8^a=3
+VhGfW:390DM[oDMzegDH9`2
+R1
+w1361784550
+8C:/Users/Raymond/Desktop/UCSD/MIPSCPU/simulation/modelsim/testbench.v
+FC:/Users/Raymond/Desktop/UCSD/MIPSCPU/simulation/modelsim/testbench.v
+L0 3
+R2
+r1
+!s85 0
+31
+!s108 1362373822.587000
+!s107 C:/Users/Raymond/Desktop/UCSD/MIPSCPU/simulation/modelsim/testbench.v|
+!s90 -reportprogress|300|-work|work|-O0|C:/Users/Raymond/Desktop/UCSD/MIPSCPU/simulation/modelsim/testbench.v|
+!s101 -O0
+o-work work -O0

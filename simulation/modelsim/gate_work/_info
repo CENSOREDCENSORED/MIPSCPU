@@ -1,0 +1,24 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\Raymond\Desktop\UCSD\MIPSCPU\simulation\modelsim
+vprocessor
+!s100 RU:GZF^6d`jCHII]4;97M0
+I56bm:V7V4eWaOnSD7>]Ko1
+VlYDBSUzgMYbDHmi1`WUmz1
+Z1 dC:\Users\Raymond\Desktop\UCSD\MIPSCPU\simulation\modelsim
+w1361784761
+8MIPSCPU.vo
+FMIPSCPU.vo
+L0 31
+OV;L;10.0c;49
+r1
+!s85 0
+31
+!s108 1361784828.878000
+!s107 MIPSCPU.vo|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+.|MIPSCPU.vo|
+!s101 -O0
+o-vlog01compat -work work -O0
+!s92 -vlog01compat -work work +incdir+. -O0

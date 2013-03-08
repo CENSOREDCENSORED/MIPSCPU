@@ -1,0 +1,11 @@
+module counter(
+input clock,
+output [31:0] counter
+);
+
+always @(posedge clock)
+begin
+	counter <= counter + 1;
+end
+
+endmodule
