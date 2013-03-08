@@ -1,0 +1,1048 @@
+# Reading C:/altera/11.1/modelsim_ase/tcl/vsim/pref.tcl 
+# do MIPSCPU_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying c:\altera\11.1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied c:\altera\11.1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/Raymond/Desktop/UCSD/MIPSCPU {C:/Users/Raymond/Desktop/UCSD/MIPSCPU/hazardDetectionStall.v}
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# -- Compiling module hazardDetectionStall
+# 
+# Top level modules:
+# 	hazardDetectionStall
+# vlog -vlog01compat -work work +incdir+C:/Users/Raymond/Desktop/UCSD/MIPSCPU {C:/Users/Raymond/Desktop/UCSD/MIPSCPU/hazardDetectionNoStall.v}
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# -- Compiling module hazardDetectionNoStall
+# 
+# Top level modules:
+# 	hazardDetectionNoStall
+# vlog -vlog01compat -work work +incdir+C:/Users/Raymond/Desktop/UCSD/MIPSCPU {C:/Users/Raymond/Desktop/UCSD/MIPSCPU/serial_buf.v}
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# -- Compiling module serial_buffer
+# 
+# Top level modules:
+# 	serial_buffer
+# vlog -vlog01compat -work work +incdir+C:/Users/Raymond/Desktop/UCSD/MIPSCPU {C:/Users/Raymond/Desktop/UCSD/MIPSCPU/async_memory.v}
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# -- Compiling module async_memory
+# 
+# Top level modules:
+# 	async_memory
+# vlog -vlog01compat -work work +incdir+C:/Users/Raymond/Desktop/UCSD/MIPSCPU {C:/Users/Raymond/Desktop/UCSD/MIPSCPU/inst_rom.v}
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# -- Compiling module inst_rom
+# 
+# Top level modules:
+# 	inst_rom
+# vlog -vlog01compat -work work +incdir+C:/Users/Raymond/Desktop/UCSD/MIPSCPU {C:/Users/Raymond/Desktop/UCSD/MIPSCPU/data_memory.v}
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# -- Compiling module data_memory
+# 
+# Top level modules:
+# 	data_memory
+# vlog -vlog01compat -work work +incdir+C:/Users/Raymond/Desktop/UCSD/MIPSCPU {C:/Users/Raymond/Desktop/UCSD/MIPSCPU/alu.v}
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	alu
+# vlog -vlog01compat -work work +incdir+C:/Users/Raymond/Desktop/UCSD/MIPSCPU {C:/Users/Raymond/Desktop/UCSD/MIPSCPU/processor.v}
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# -- Compiling module processor
+# 
+# Top level modules:
+# 	processor
+# vlog -vlog01compat -work work +incdir+C:/Users/Raymond/Desktop/UCSD/MIPSCPU {C:/Users/Raymond/Desktop/UCSD/MIPSCPU/programcounter.v}
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# -- Compiling module programcounter
+# 
+# Top level modules:
+# 	programcounter
+# vlog -vlog01compat -work work +incdir+C:/Users/Raymond/Desktop/UCSD/MIPSCPU {C:/Users/Raymond/Desktop/UCSD/MIPSCPU/adder.v}
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# -- Compiling module adder
+# 
+# Top level modules:
+# 	adder
+# vlog -vlog01compat -work work +incdir+C:/Users/Raymond/Desktop/UCSD/MIPSCPU {C:/Users/Raymond/Desktop/UCSD/MIPSCPU/regfile.v}
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# -- Compiling module regfile
+# 
+# Top level modules:
+# 	regfile
+# vlog -vlog01compat -work work +incdir+C:/Users/Raymond/Desktop/UCSD/MIPSCPU {C:/Users/Raymond/Desktop/UCSD/MIPSCPU/MUX.v}
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# -- Compiling module MUX
+# 
+# Top level modules:
+# 	MUX
+# vlog -vlog01compat -work work +incdir+C:/Users/Raymond/Desktop/UCSD/MIPSCPU {C:/Users/Raymond/Desktop/UCSD/MIPSCPU/signextender.v}
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# -- Compiling module signextender
+# 
+# Top level modules:
+# 	signextender
+# vlog -vlog01compat -work work +incdir+C:/Users/Raymond/Desktop/UCSD/MIPSCPU {C:/Users/Raymond/Desktop/UCSD/MIPSCPU/controlunit.v}
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# -- Compiling module controlunit
+# 
+# Top level modules:
+# 	controlunit
+# vlog -vlog01compat -work work +incdir+C:/Users/Raymond/Desktop/UCSD/MIPSCPU {C:/Users/Raymond/Desktop/UCSD/MIPSCPU/IFIDPipe.v}
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# -- Compiling module IFIDPipe
+# 
+# Top level modules:
+# 	IFIDPipe
+# vlog -vlog01compat -work work +incdir+C:/Users/Raymond/Desktop/UCSD/MIPSCPU {C:/Users/Raymond/Desktop/UCSD/MIPSCPU/IDEXPipe.v}
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# -- Compiling module IDEXPipe
+# 
+# Top level modules:
+# 	IDEXPipe
+# vlog -vlog01compat -work work +incdir+C:/Users/Raymond/Desktop/UCSD/MIPSCPU {C:/Users/Raymond/Desktop/UCSD/MIPSCPU/EXMEMPipe.v}
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# -- Compiling module EXMEMPipe
+# 
+# Top level modules:
+# 	EXMEMPipe
+# vlog -vlog01compat -work work +incdir+C:/Users/Raymond/Desktop/UCSD/MIPSCPU {C:/Users/Raymond/Desktop/UCSD/MIPSCPU/MEMWBPipe.v}
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# -- Compiling module MEMWBPipe
+# 
+# Top level modules:
+# 	MEMWBPipe
+# vlog -vlog01compat -work work +incdir+C:/Users/Raymond/Desktop/UCSD/MIPSCPU {C:/Users/Raymond/Desktop/UCSD/MIPSCPU/counter.v}
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# -- Compiling module counter
+# 
+# Top level modules:
+# 	counter
+# vlog -vlog01compat -work work +incdir+C:/Users/Raymond/Desktop/UCSD/MIPSCPU {C:/Users/Raymond/Desktop/UCSD/MIPSCPU/instructioncounter.v}
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# -- Compiling module instructioncounter
+# 
+# Top level modules:
+# 	instructioncounter
+# vlog -vlog01compat -work work +incdir+C:/Users/Raymond/Desktop/UCSD/MIPSCPU {C:/Users/Raymond/Desktop/UCSD/MIPSCPU/branchPredictor.v}
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# -- Compiling module branchPredictor
+# 
+# Top level modules:
+# 	branchPredictor
+# 
+#  
+vlog -reportprogress 300 -work work C:/Users/Raymond/Desktop/UCSD/MIPSCPU/simulation/modelsim/testbench.v
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+vsim -voptargs=+acc work.testbench
+# vsim -voptargs=+acc work.testbench 
+# Loading work.testbench
+# Loading work.processor
+# Loading work.programcounter
+# Loading work.adder
+# Loading work.inst_rom
+# Loading work.branchPredictor
+# Loading work.MUX
+# Loading work.IFIDPipe
+# Loading work.controlunit
+# Loading work.regfile
+# Loading work.signextender
+# Loading work.hazardDetectionNoStall
+# Loading work.hazardDetectionStall
+# Loading work.IDEXPipe
+# Loading work.alu
+# Loading work.EXMEMPipe
+# Loading work.data_memory
+# Loading work.async_memory
+# Loading work.serial_buffer
+# Loading work.MEMWBPipe
+# Loading work.counter
+# Loading work.instructioncounter
+# ** Warning: (vsim-3015) C:/Users/Raymond/Desktop/UCSD/MIPSCPU/processor.v(392): [PCDPC] - Port size (32 or 32) does not match connection size (34) for port 'jumpAddress'. The port definition is at: C:/Users/Raymond/Desktop/UCSD/MIPSCPU/IDEXPipe.v(22).
+#         Region: /testbench/dut/IDEXPipe
+# ** Warning: (vsim-3017) C:/Users/Raymond/Desktop/UCSD/MIPSCPU/processor.v(547): [TFMPC] - Too few port connections. Expected 18, found 14.
+#         Region: /testbench/dut/dmem
+# ** Warning: (vsim-3722) C:/Users/Raymond/Desktop/UCSD/MIPSCPU/processor.v(547): [TFMPC] - Missing connection for port 'lhunsigned_outEXMEM'.
+# ** Warning: (vsim-3722) C:/Users/Raymond/Desktop/UCSD/MIPSCPU/processor.v(547): [TFMPC] - Missing connection for port 'lhsigned_outEXMEM'.
+# ** Warning: (vsim-3722) C:/Users/Raymond/Desktop/UCSD/MIPSCPU/processor.v(547): [TFMPC] - Missing connection for port 'lbunsigned_outEXMEM'.
+# ** Warning: (vsim-3722) C:/Users/Raymond/Desktop/UCSD/MIPSCPU/processor.v(547): [TFMPC] - Missing connection for port 'lbsigned_outEXMEM'.
+# ** Warning: (vsim-3015) C:/Users/Raymond/Desktop/UCSD/MIPSCPU/processor.v(590): [PCDPC] - Port size (32 or 32) does not match connection size (5) for port 'input1'. The port definition is at: C:/Users/Raymond/Desktop/UCSD/MIPSCPU/MUX.v(2).
+#         Region: /testbench/dut/mux1
+# ** Warning: (vsim-3015) C:/Users/Raymond/Desktop/UCSD/MIPSCPU/processor.v(590): [PCDPC] - Port size (32 or 32) does not match connection size (5) for port 'input2'. The port definition is at: C:/Users/Raymond/Desktop/UCSD/MIPSCPU/MUX.v(3).
+#         Region: /testbench/dut/mux1
+# ** Warning: (vsim-3015) C:/Users/Raymond/Desktop/UCSD/MIPSCPU/processor.v(590): [PCDPC] - Port size (32 or 32) does not match connection size (5) for port 'output1'. The port definition is at: C:/Users/Raymond/Desktop/UCSD/MIPSCPU/MUX.v(6).
+#         Region: /testbench/dut/mux1
+# ** Warning: (vsim-3015) C:/Users/Raymond/Desktop/UCSD/MIPSCPU/processor.v(606): [PCDPC] - Port size (32 or 32) does not match connection size (5) for port 'input1'. The port definition is at: C:/Users/Raymond/Desktop/UCSD/MIPSCPU/MUX.v(2).
+#         Region: /testbench/dut/mux6
+# ** Warning: (vsim-3015) C:/Users/Raymond/Desktop/UCSD/MIPSCPU/processor.v(606): [PCDPC] - Port size (32 or 32) does not match connection size (5) for port 'output1'. The port definition is at: C:/Users/Raymond/Desktop/UCSD/MIPSCPU/MUX.v(6).
+#         Region: /testbench/dut/mux6
+do C:/Users/Raymond/Desktop/UCSD/MIPSCPU/simulation/modelsim/Nicewave.do
+# ** Error: (vish-4014) No objects found matching '/testbench/dut/counter'.
+# Executing ONERROR command at macro C:\Users\Raymond\Desktop\UCSD\MIPSCPU\simulation\modelsim\Nicewave.do line 3
+run
+run
+add wave -position 6  sim:/testbench/dut/lbsigned_outEXMEM
+add wave -position 7  sim:/testbench/dut/lbunsigned_outEXMEM
+add wave -position 8  sim:/testbench/dut/lhsigned_outEXMEM
+add wave -position 9  sim:/testbench/dut/lhunsigned_outIDEX
+restart
+# ** Warning: (vsim-3015) C:/Users/Raymond/Desktop/UCSD/MIPSCPU/processor.v(392): [PCDPC] - Port size (32 or 32) does not match connection size (34) for port 'jumpAddress'. The port definition is at: C:/Users/Raymond/Desktop/UCSD/MIPSCPU/IDEXPipe.v(22).
+#         Region: /testbench/dut/IDEXPipe
+# ** Warning: (vsim-3017) C:/Users/Raymond/Desktop/UCSD/MIPSCPU/processor.v(547): [TFMPC] - Too few port connections. Expected 18, found 14.
+#         Region: /testbench/dut/dmem
+# ** Warning: (vsim-3722) C:/Users/Raymond/Desktop/UCSD/MIPSCPU/processor.v(547): [TFMPC] - Missing connection for port 'lhunsigned_outEXMEM'.
+# ** Warning: (vsim-3722) C:/Users/Raymond/Desktop/UCSD/MIPSCPU/processor.v(547): [TFMPC] - Missing connection for port 'lhsigned_outEXMEM'.
+# ** Warning: (vsim-3722) C:/Users/Raymond/Desktop/UCSD/MIPSCPU/processor.v(547): [TFMPC] - Missing connection for port 'lbunsigned_outEXMEM'.
+# ** Warning: (vsim-3722) C:/Users/Raymond/Desktop/UCSD/MIPSCPU/processor.v(547): [TFMPC] - Missing connection for port 'lbsigned_outEXMEM'.
+# ** Warning: (vsim-3015) C:/Users/Raymond/Desktop/UCSD/MIPSCPU/processor.v(590): [PCDPC] - Port size (32 or 32) does not match connection size (5) for port 'input1'. The port definition is at: C:/Users/Raymond/Desktop/UCSD/MIPSCPU/MUX.v(2).
+#         Region: /testbench/dut/mux1
+# ** Warning: (vsim-3015) C:/Users/Raymond/Desktop/UCSD/MIPSCPU/processor.v(590): [PCDPC] - Port size (32 or 32) does not match connection size (5) for port 'input2'. The port definition is at: C:/Users/Raymond/Desktop/UCSD/MIPSCPU/MUX.v(3).
+#         Region: /testbench/dut/mux1
+# ** Warning: (vsim-3015) C:/Users/Raymond/Desktop/UCSD/MIPSCPU/processor.v(590): [PCDPC] - Port size (32 or 32) does not match connection size (5) for port 'output1'. The port definition is at: C:/Users/Raymond/Desktop/UCSD/MIPSCPU/MUX.v(6).
+#         Region: /testbench/dut/mux1
+# ** Warning: (vsim-3015) C:/Users/Raymond/Desktop/UCSD/MIPSCPU/processor.v(606): [PCDPC] - Port size (32 or 32) does not match connection size (5) for port 'input1'. The port definition is at: C:/Users/Raymond/Desktop/UCSD/MIPSCPU/MUX.v(2).
+#         Region: /testbench/dut/mux6
+# ** Warning: (vsim-3015) C:/Users/Raymond/Desktop/UCSD/MIPSCPU/processor.v(606): [PCDPC] - Port size (32 or 32) does not match connection size (5) for port 'output1'. The port definition is at: C:/Users/Raymond/Desktop/UCSD/MIPSCPU/MUX.v(6).
+#         Region: /testbench/dut/mux6
+run
+run
+add wave -position 9  sim:/testbench/dut/lhunsigned_outEXMEM
+restart
+# ** Warning: (vsim-3015) C:/Users/Raymond/Desktop/UCSD/MIPSCPU/processor.v(392): [PCDPC] - Port size (32 or 32) does not match connection size (34) for port 'jumpAddress'. The port definition is at: C:/Users/Raymond/Desktop/UCSD/MIPSCPU/IDEXPipe.v(22).
+#         Region: /testbench/dut/IDEXPipe
+# ** Warning: (vsim-3017) C:/Users/Raymond/Desktop/UCSD/MIPSCPU/processor.v(547): [TFMPC] - Too few port connections. Expected 18, found 14.
+#         Region: /testbench/dut/dmem
+# ** Warning: (vsim-3722) C:/Users/Raymond/Desktop/UCSD/MIPSCPU/processor.v(547): [TFMPC] - Missing connection for port 'lhunsigned_outEXMEM'.
+# ** Warning: (vsim-3722) C:/Users/Raymond/Desktop/UCSD/MIPSCPU/processor.v(547): [TFMPC] - Missing connection for port 'lhsigned_outEXMEM'.
+# ** Warning: (vsim-3722) C:/Users/Raymond/Desktop/UCSD/MIPSCPU/processor.v(547): [TFMPC] - Missing connection for port 'lbunsigned_outEXMEM'.
+# ** Warning: (vsim-3722) C:/Users/Raymond/Desktop/UCSD/MIPSCPU/processor.v(547): [TFMPC] - Missing connection for port 'lbsigned_outEXMEM'.
+# ** Warning: (vsim-3015) C:/Users/Raymond/Desktop/UCSD/MIPSCPU/processor.v(590): [PCDPC] - Port size (32 or 32) does not match connection size (5) for port 'input1'. The port definition is at: C:/Users/Raymond/Desktop/UCSD/MIPSCPU/MUX.v(2).
+#         Region: /testbench/dut/mux1
+# ** Warning: (vsim-3015) C:/Users/Raymond/Desktop/UCSD/MIPSCPU/processor.v(590): [PCDPC] - Port size (32 or 32) does not match connection size (5) for port 'input2'. The port definition is at: C:/Users/Raymond/Desktop/UCSD/MIPSCPU/MUX.v(3).
+#         Region: /testbench/dut/mux1
+# ** Warning: (vsim-3015) C:/Users/Raymond/Desktop/UCSD/MIPSCPU/processor.v(590): [PCDPC] - Port size (32 or 32) does not match connection size (5) for port 'output1'. The port definition is at: C:/Users/Raymond/Desktop/UCSD/MIPSCPU/MUX.v(6).
+#         Region: /testbench/dut/mux1
+# ** Warning: (vsim-3015) C:/Users/Raymond/Desktop/UCSD/MIPSCPU/processor.v(606): [PCDPC] - Port size (32 or 32) does not match connection size (5) for port 'input1'. The port definition is at: C:/Users/Raymond/Desktop/UCSD/MIPSCPU/MUX.v(2).
+#         Region: /testbench/dut/mux6
+# ** Warning: (vsim-3015) C:/Users/Raymond/Desktop/UCSD/MIPSCPU/processor.v(606): [PCDPC] - Port size (32 or 32) does not match connection size (5) for port 'output1'. The port definition is at: C:/Users/Raymond/Desktop/UCSD/MIPSCPU/MUX.v(6).
+#         Region: /testbench/dut/mux6
+run
+run
+add wave -position 10  sim:/testbench/dut/dmem/readdata_out
+restart
+# ** Warning: (vsim-3015) C:/Users/Raymond/Desktop/UCSD/MIPSCPU/processor.v(392): [PCDPC] - Port size (32 or 32) does not match connection size (34) for port 'jumpAddress'. The port definition is at: C:/Users/Raymond/Desktop/UCSD/MIPSCPU/IDEXPipe.v(22).
+#         Region: /testbench/dut/IDEXPipe
+# ** Warning: (vsim-3017) C:/Users/Raymond/Desktop/UCSD/MIPSCPU/processor.v(547): [TFMPC] - Too few port connections. Expected 18, found 14.
+#         Region: /testbench/dut/dmem
+# ** Warning: (vsim-3722) C:/Users/Raymond/Desktop/UCSD/MIPSCPU/processor.v(547): [TFMPC] - Missing connection for port 'lhunsigned_outEXMEM'.
+# ** Warning: (vsim-3722) C:/Users/Raymond/Desktop/UCSD/MIPSCPU/processor.v(547): [TFMPC] - Missing connection for port 'lhsigned_outEXMEM'.
+# ** Warning: (vsim-3722) C:/Users/Raymond/Desktop/UCSD/MIPSCPU/processor.v(547): [TFMPC] - Missing connection for port 'lbunsigned_outEXMEM'.
+# ** Warning: (vsim-3722) C:/Users/Raymond/Desktop/UCSD/MIPSCPU/processor.v(547): [TFMPC] - Missing connection for port 'lbsigned_outEXMEM'.
+# ** Warning: (vsim-3015) C:/Users/Raymond/Desktop/UCSD/MIPSCPU/processor.v(590): [PCDPC] - Port size (32 or 32) does not match connection size (5) for port 'input1'. The port definition is at: C:/Users/Raymond/Desktop/UCSD/MIPSCPU/MUX.v(2).
+#         Region: /testbench/dut/mux1
+# ** Warning: (vsim-3015) C:/Users/Raymond/Desktop/UCSD/MIPSCPU/processor.v(590): [PCDPC] - Port size (32 or 32) does not match connection size (5) for port 'input2'. The port definition is at: C:/Users/Raymond/Desktop/UCSD/MIPSCPU/MUX.v(3).
+#         Region: /testbench/dut/mux1
+# ** Warning: (vsim-3015) C:/Users/Raymond/Desktop/UCSD/MIPSCPU/processor.v(590): [PCDPC] - Port size (32 or 32) does not match connection size (5) for port 'output1'. The port definition is at: C:/Users/Raymond/Desktop/UCSD/MIPSCPU/MUX.v(6).
+#         Region: /testbench/dut/mux1
+# ** Warning: (vsim-3015) C:/Users/Raymond/Desktop/UCSD/MIPSCPU/processor.v(606): [PCDPC] - Port size (32 or 32) does not match connection size (5) for port 'input1'. The port definition is at: C:/Users/Raymond/Desktop/UCSD/MIPSCPU/MUX.v(2).
+#         Region: /testbench/dut/mux6
+# ** Warning: (vsim-3015) C:/Users/Raymond/Desktop/UCSD/MIPSCPU/processor.v(606): [PCDPC] - Port size (32 or 32) does not match connection size (5) for port 'output1'. The port definition is at: C:/Users/Raymond/Desktop/UCSD/MIPSCPU/MUX.v(6).
+#         Region: /testbench/dut/mux6
+run
+run
+quit -sim
+vlog -vlog01compat -work work +incdir+C:/Users/Raymond/Desktop/UCSD/MIPSCPU -O0 C:/Users/Raymond/Desktop/UCSD/MIPSCPU/adder.v
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# -- Compiling module adder
+# 
+# Top level modules:
+# 	adder
+vlog -vlog01compat -work work +incdir+C:/Users/Raymond/Desktop/UCSD/MIPSCPU -O0 C:/Users/Raymond/Desktop/UCSD/MIPSCPU/alu.v
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	alu
+vlog -vlog01compat -work work +incdir+C:/Users/Raymond/Desktop/UCSD/MIPSCPU -O0 C:/Users/Raymond/Desktop/UCSD/MIPSCPU/async_memory.v
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# -- Compiling module async_memory
+# 
+# Top level modules:
+# 	async_memory
+vlog -vlog01compat -work work +incdir+C:/Users/Raymond/Desktop/UCSD/MIPSCPU -O0 C:/Users/Raymond/Desktop/UCSD/MIPSCPU/branchPredictor.v
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# -- Compiling module branchPredictor
+# 
+# Top level modules:
+# 	branchPredictor
+vlog -vlog01compat -work work +incdir+C:/Users/Raymond/Desktop/UCSD/MIPSCPU -O0 C:/Users/Raymond/Desktop/UCSD/MIPSCPU/controlunit.v
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# -- Compiling module controlunit
+# 
+# Top level modules:
+# 	controlunit
+vlog -vlog01compat -work work +incdir+C:/Users/Raymond/Desktop/UCSD/MIPSCPU -O0 C:/Users/Raymond/Desktop/UCSD/MIPSCPU/counter.v
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# -- Compiling module counter
+# 
+# Top level modules:
+# 	counter
+vlog -vlog01compat -work work +incdir+C:/Users/Raymond/Desktop/UCSD/MIPSCPU -O0 C:/Users/Raymond/Desktop/UCSD/MIPSCPU/data_memory.v
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# -- Compiling module data_memory
+# 
+# Top level modules:
+# 	data_memory
+vlog -vlog01compat -work work +incdir+C:/Users/Raymond/Desktop/UCSD/MIPSCPU -O0 C:/Users/Raymond/Desktop/UCSD/MIPSCPU/EXMEMPipe.v
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# -- Compiling module EXMEMPipe
+# 
+# Top level modules:
+# 	EXMEMPipe
+vlog -vlog01compat -work work +incdir+C:/Users/Raymond/Desktop/UCSD/MIPSCPU -O0 C:/Users/Raymond/Desktop/UCSD/MIPSCPU/hazardDetectionNoStall.v
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# -- Compiling module hazardDetectionNoStall
+# 
+# Top level modules:
+# 	hazardDetectionNoStall
+vlog -vlog01compat -work work +incdir+C:/Users/Raymond/Desktop/UCSD/MIPSCPU -O0 C:/Users/Raymond/Desktop/UCSD/MIPSCPU/hazardDetectionStall.v
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# -- Compiling module hazardDetectionStall
+# 
+# Top level modules:
+# 	hazardDetectionStall
+vlog -vlog01compat -work work +incdir+C:/Users/Raymond/Desktop/UCSD/MIPSCPU -O0 C:/Users/Raymond/Desktop/UCSD/MIPSCPU/IDEXPipe.v
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# -- Compiling module IDEXPipe
+# 
+# Top level modules:
+# 	IDEXPipe
+vlog -vlog01compat -work work +incdir+C:/Users/Raymond/Desktop/UCSD/MIPSCPU -O0 C:/Users/Raymond/Desktop/UCSD/MIPSCPU/IFIDPipe.v
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# -- Compiling module IFIDPipe
+# 
+# Top level modules:
+# 	IFIDPipe
+vlog -vlog01compat -work work +incdir+C:/Users/Raymond/Desktop/UCSD/MIPSCPU -O0 C:/Users/Raymond/Desktop/UCSD/MIPSCPU/inst_rom.v
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# -- Compiling module inst_rom
+# 
+# Top level modules:
+# 	inst_rom
+vlog -vlog01compat -work work +incdir+C:/Users/Raymond/Desktop/UCSD/MIPSCPU -O0 C:/Users/Raymond/Desktop/UCSD/MIPSCPU/instructioncounter.v
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# -- Compiling module instructioncounter
+# 
+# Top level modules:
+# 	instructioncounter
+vlog -vlog01compat -work work +incdir+C:/Users/Raymond/Desktop/UCSD/MIPSCPU -O0 C:/Users/Raymond/Desktop/UCSD/MIPSCPU/MEMWBPipe.v
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# -- Compiling module MEMWBPipe
+# 
+# Top level modules:
+# 	MEMWBPipe
+vlog -vlog01compat -work work +incdir+C:/Users/Raymond/Desktop/UCSD/MIPSCPU -O0 C:/Users/Raymond/Desktop/UCSD/MIPSCPU/MUX.v
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# -- Compiling module MUX
+# 
+# Top level modules:
+# 	MUX
+vlog -vlog01compat -work work +incdir+C:/Users/Raymond/Desktop/UCSD/MIPSCPU -O0 C:/Users/Raymond/Desktop/UCSD/MIPSCPU/processor.v
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# -- Compiling module processor
+# 
+# Top level modules:
+# 	processor
+vlog -vlog01compat -work work +incdir+C:/Users/Raymond/Desktop/UCSD/MIPSCPU -O0 C:/Users/Raymond/Desktop/UCSD/MIPSCPU/programcounter.v
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# -- Compiling module programcounter
+# 
+# Top level modules:
+# 	programcounter
+vlog -vlog01compat -work work +incdir+C:/Users/Raymond/Desktop/UCSD/MIPSCPU -O0 C:/Users/Raymond/Desktop/UCSD/MIPSCPU/regfile.v
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# -- Compiling module regfile
+# 
+# Top level modules:
+# 	regfile
+vlog -vlog01compat -work work +incdir+C:/Users/Raymond/Desktop/UCSD/MIPSCPU -O0 C:/Users/Raymond/Desktop/UCSD/MIPSCPU/serial_buf.v
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# -- Compiling module serial_buffer
+# 
+# Top level modules:
+# 	serial_buffer
+vlog -vlog01compat -work work +incdir+C:/Users/Raymond/Desktop/UCSD/MIPSCPU -O0 C:/Users/Raymond/Desktop/UCSD/MIPSCPU/signextender.v
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# -- Compiling module signextender
+# 
+# Top level modules:
+# 	signextender
+vlog -work work -O0 C:/Users/Raymond/Desktop/UCSD/MIPSCPU/simulation/modelsim/testbench.v
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+vsim -voptargs=+acc work.testbench
+# vsim -voptargs=+acc work.testbench 
+# Loading work.testbench
+# Loading work.processor
+# Loading work.programcounter
+# Loading work.adder
+# Loading work.inst_rom
+# Loading work.branchPredictor
+# Loading work.MUX
+# Loading work.IFIDPipe
+# Loading work.controlunit
+# Loading work.regfile
+# Loading work.signextender
+# Loading work.hazardDetectionNoStall
+# Loading work.hazardDetectionStall
+# Loading work.IDEXPipe
+# Loading work.alu
+# Loading work.EXMEMPipe
+# Loading work.data_memory
+# Loading work.async_memory
+# Loading work.serial_buffer
+# Loading work.MEMWBPipe
+# Loading work.counter
+# Loading work.instructioncounter
+# ** Warning: (vsim-3015) C:/Users/Raymond/Desktop/UCSD/MIPSCPU/processor.v(392): [PCDPC] - Port size (32 or 32) does not match connection size (34) for port 'jumpAddress'. The port definition is at: C:/Users/Raymond/Desktop/UCSD/MIPSCPU/IDEXPipe.v(22).
+#         Region: /testbench/dut/IDEXPipe
+# ** Warning: (vsim-3017) C:/Users/Raymond/Desktop/UCSD/MIPSCPU/processor.v(547): [TFMPC] - Too few port connections. Expected 18, found 14.
+#         Region: /testbench/dut/dmem
+# ** Warning: (vsim-3722) C:/Users/Raymond/Desktop/UCSD/MIPSCPU/processor.v(547): [TFMPC] - Missing connection for port 'lhunsigned_outEXMEM'.
+# ** Warning: (vsim-3722) C:/Users/Raymond/Desktop/UCSD/MIPSCPU/processor.v(547): [TFMPC] - Missing connection for port 'lhsigned_outEXMEM'.
+# ** Warning: (vsim-3722) C:/Users/Raymond/Desktop/UCSD/MIPSCPU/processor.v(547): [TFMPC] - Missing connection for port 'lbunsigned_outEXMEM'.
+# ** Warning: (vsim-3722) C:/Users/Raymond/Desktop/UCSD/MIPSCPU/processor.v(547): [TFMPC] - Missing connection for port 'lbsigned_outEXMEM'.
+# ** Warning: (vsim-3015) C:/Users/Raymond/Desktop/UCSD/MIPSCPU/processor.v(590): [PCDPC] - Port size (32 or 32) does not match connection size (5) for port 'input1'. The port definition is at: C:/Users/Raymond/Desktop/UCSD/MIPSCPU/MUX.v(2).
+#         Region: /testbench/dut/mux1
+# ** Warning: (vsim-3015) C:/Users/Raymond/Desktop/UCSD/MIPSCPU/processor.v(590): [PCDPC] - Port size (32 or 32) does not match connection size (5) for port 'input2'. The port definition is at: C:/Users/Raymond/Desktop/UCSD/MIPSCPU/MUX.v(3).
+#         Region: /testbench/dut/mux1
+# ** Warning: (vsim-3015) C:/Users/Raymond/Desktop/UCSD/MIPSCPU/processor.v(590): [PCDPC] - Port size (32 or 32) does not match connection size (5) for port 'output1'. The port definition is at: C:/Users/Raymond/Desktop/UCSD/MIPSCPU/MUX.v(6).
+#         Region: /testbench/dut/mux1
+# ** Warning: (vsim-3015) C:/Users/Raymond/Desktop/UCSD/MIPSCPU/processor.v(606): [PCDPC] - Port size (32 or 32) does not match connection size (5) for port 'input1'. The port definition is at: C:/Users/Raymond/Desktop/UCSD/MIPSCPU/MUX.v(2).
+#         Region: /testbench/dut/mux6
+# ** Warning: (vsim-3015) C:/Users/Raymond/Desktop/UCSD/MIPSCPU/processor.v(606): [PCDPC] - Port size (32 or 32) does not match connection size (5) for port 'output1'. The port definition is at: C:/Users/Raymond/Desktop/UCSD/MIPSCPU/MUX.v(6).
+#         Region: /testbench/dut/mux6
+do C:/Users/Raymond/Desktop/UCSD/MIPSCPU/simulation/modelsim/Nicewave.do
+run
+run
+add wave -position 7  sim:/testbench/dut/dmem/lbsigned_outEXMEM
+add wave -position 8  sim:/testbench/dut/dmem/lbunsigned_outEXMEM
+add wave -position 9  sim:/testbench/dut/dmem/lhsigned_outEXMEM
+add wave -position 10  sim:/testbench/dut/dmem/lhunsigned_outEXMEM
+add wave -position 11  sim:/testbench/dut/dmem/readdata_out
+restart
+# ** Warning: (vsim-3015) C:/Users/Raymond/Desktop/UCSD/MIPSCPU/processor.v(392): [PCDPC] - Port size (32 or 32) does not match connection size (34) for port 'jumpAddress'. The port definition is at: C:/Users/Raymond/Desktop/UCSD/MIPSCPU/IDEXPipe.v(22).
+#         Region: /testbench/dut/IDEXPipe
+# ** Warning: (vsim-3017) C:/Users/Raymond/Desktop/UCSD/MIPSCPU/processor.v(547): [TFMPC] - Too few port connections. Expected 18, found 14.
+#         Region: /testbench/dut/dmem
+# ** Warning: (vsim-3722) C:/Users/Raymond/Desktop/UCSD/MIPSCPU/processor.v(547): [TFMPC] - Missing connection for port 'lhunsigned_outEXMEM'.
+# ** Warning: (vsim-3722) C:/Users/Raymond/Desktop/UCSD/MIPSCPU/processor.v(547): [TFMPC] - Missing connection for port 'lhsigned_outEXMEM'.
+# ** Warning: (vsim-3722) C:/Users/Raymond/Desktop/UCSD/MIPSCPU/processor.v(547): [TFMPC] - Missing connection for port 'lbunsigned_outEXMEM'.
+# ** Warning: (vsim-3722) C:/Users/Raymond/Desktop/UCSD/MIPSCPU/processor.v(547): [TFMPC] - Missing connection for port 'lbsigned_outEXMEM'.
+# ** Warning: (vsim-3015) C:/Users/Raymond/Desktop/UCSD/MIPSCPU/processor.v(590): [PCDPC] - Port size (32 or 32) does not match connection size (5) for port 'input1'. The port definition is at: C:/Users/Raymond/Desktop/UCSD/MIPSCPU/MUX.v(2).
+#         Region: /testbench/dut/mux1
+# ** Warning: (vsim-3015) C:/Users/Raymond/Desktop/UCSD/MIPSCPU/processor.v(590): [PCDPC] - Port size (32 or 32) does not match connection size (5) for port 'input2'. The port definition is at: C:/Users/Raymond/Desktop/UCSD/MIPSCPU/MUX.v(3).
+#         Region: /testbench/dut/mux1
+# ** Warning: (vsim-3015) C:/Users/Raymond/Desktop/UCSD/MIPSCPU/processor.v(590): [PCDPC] - Port size (32 or 32) does not match connection size (5) for port 'output1'. The port definition is at: C:/Users/Raymond/Desktop/UCSD/MIPSCPU/MUX.v(6).
+#         Region: /testbench/dut/mux1
+# ** Warning: (vsim-3015) C:/Users/Raymond/Desktop/UCSD/MIPSCPU/processor.v(606): [PCDPC] - Port size (32 or 32) does not match connection size (5) for port 'input1'. The port definition is at: C:/Users/Raymond/Desktop/UCSD/MIPSCPU/MUX.v(2).
+#         Region: /testbench/dut/mux6
+# ** Warning: (vsim-3015) C:/Users/Raymond/Desktop/UCSD/MIPSCPU/processor.v(606): [PCDPC] - Port size (32 or 32) does not match connection size (5) for port 'output1'. The port definition is at: C:/Users/Raymond/Desktop/UCSD/MIPSCPU/MUX.v(6).
+#         Region: /testbench/dut/mux6
+run
+run
+quit -sim
+vlog -vlog01compat -work work +incdir+C:/Users/Raymond/Desktop/UCSD/MIPSCPU -O0 C:/Users/Raymond/Desktop/UCSD/MIPSCPU/adder.v
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# -- Compiling module adder
+# 
+# Top level modules:
+# 	adder
+vlog -vlog01compat -work work +incdir+C:/Users/Raymond/Desktop/UCSD/MIPSCPU -O0 C:/Users/Raymond/Desktop/UCSD/MIPSCPU/alu.v
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	alu
+vlog -vlog01compat -work work +incdir+C:/Users/Raymond/Desktop/UCSD/MIPSCPU -O0 C:/Users/Raymond/Desktop/UCSD/MIPSCPU/async_memory.v
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# -- Compiling module async_memory
+# 
+# Top level modules:
+# 	async_memory
+vlog -vlog01compat -work work +incdir+C:/Users/Raymond/Desktop/UCSD/MIPSCPU -O0 C:/Users/Raymond/Desktop/UCSD/MIPSCPU/branchPredictor.v
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# -- Compiling module branchPredictor
+# 
+# Top level modules:
+# 	branchPredictor
+vlog -vlog01compat -work work +incdir+C:/Users/Raymond/Desktop/UCSD/MIPSCPU -O0 C:/Users/Raymond/Desktop/UCSD/MIPSCPU/controlunit.v
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# -- Compiling module controlunit
+# 
+# Top level modules:
+# 	controlunit
+vlog -vlog01compat -work work +incdir+C:/Users/Raymond/Desktop/UCSD/MIPSCPU -O0 C:/Users/Raymond/Desktop/UCSD/MIPSCPU/counter.v
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# -- Compiling module counter
+# 
+# Top level modules:
+# 	counter
+vlog -vlog01compat -work work +incdir+C:/Users/Raymond/Desktop/UCSD/MIPSCPU -O0 C:/Users/Raymond/Desktop/UCSD/MIPSCPU/data_memory.v
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# -- Compiling module data_memory
+# 
+# Top level modules:
+# 	data_memory
+vlog -vlog01compat -work work +incdir+C:/Users/Raymond/Desktop/UCSD/MIPSCPU -O0 C:/Users/Raymond/Desktop/UCSD/MIPSCPU/EXMEMPipe.v
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# -- Compiling module EXMEMPipe
+# 
+# Top level modules:
+# 	EXMEMPipe
+vlog -vlog01compat -work work +incdir+C:/Users/Raymond/Desktop/UCSD/MIPSCPU -O0 C:/Users/Raymond/Desktop/UCSD/MIPSCPU/hazardDetectionNoStall.v
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# -- Compiling module hazardDetectionNoStall
+# 
+# Top level modules:
+# 	hazardDetectionNoStall
+vlog -vlog01compat -work work +incdir+C:/Users/Raymond/Desktop/UCSD/MIPSCPU -O0 C:/Users/Raymond/Desktop/UCSD/MIPSCPU/hazardDetectionStall.v
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# -- Compiling module hazardDetectionStall
+# 
+# Top level modules:
+# 	hazardDetectionStall
+vlog -vlog01compat -work work +incdir+C:/Users/Raymond/Desktop/UCSD/MIPSCPU -O0 C:/Users/Raymond/Desktop/UCSD/MIPSCPU/IDEXPipe.v
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# -- Compiling module IDEXPipe
+# 
+# Top level modules:
+# 	IDEXPipe
+vlog -vlog01compat -work work +incdir+C:/Users/Raymond/Desktop/UCSD/MIPSCPU -O0 C:/Users/Raymond/Desktop/UCSD/MIPSCPU/IFIDPipe.v
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# -- Compiling module IFIDPipe
+# 
+# Top level modules:
+# 	IFIDPipe
+vlog -vlog01compat -work work +incdir+C:/Users/Raymond/Desktop/UCSD/MIPSCPU -O0 C:/Users/Raymond/Desktop/UCSD/MIPSCPU/inst_rom.v
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# -- Compiling module inst_rom
+# 
+# Top level modules:
+# 	inst_rom
+vlog -vlog01compat -work work +incdir+C:/Users/Raymond/Desktop/UCSD/MIPSCPU -O0 C:/Users/Raymond/Desktop/UCSD/MIPSCPU/instructioncounter.v
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# -- Compiling module instructioncounter
+# 
+# Top level modules:
+# 	instructioncounter
+vlog -vlog01compat -work work +incdir+C:/Users/Raymond/Desktop/UCSD/MIPSCPU -O0 C:/Users/Raymond/Desktop/UCSD/MIPSCPU/MEMWBPipe.v
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# -- Compiling module MEMWBPipe
+# 
+# Top level modules:
+# 	MEMWBPipe
+vlog -vlog01compat -work work +incdir+C:/Users/Raymond/Desktop/UCSD/MIPSCPU -O0 C:/Users/Raymond/Desktop/UCSD/MIPSCPU/MUX.v
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# -- Compiling module MUX
+# 
+# Top level modules:
+# 	MUX
+vlog -vlog01compat -work work +incdir+C:/Users/Raymond/Desktop/UCSD/MIPSCPU -O0 C:/Users/Raymond/Desktop/UCSD/MIPSCPU/processor.v
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# -- Compiling module processor
+# 
+# Top level modules:
+# 	processor
+vlog -vlog01compat -work work +incdir+C:/Users/Raymond/Desktop/UCSD/MIPSCPU -O0 C:/Users/Raymond/Desktop/UCSD/MIPSCPU/programcounter.v
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# -- Compiling module programcounter
+# 
+# Top level modules:
+# 	programcounter
+vlog -vlog01compat -work work +incdir+C:/Users/Raymond/Desktop/UCSD/MIPSCPU -O0 C:/Users/Raymond/Desktop/UCSD/MIPSCPU/regfile.v
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# -- Compiling module regfile
+# 
+# Top level modules:
+# 	regfile
+vlog -vlog01compat -work work +incdir+C:/Users/Raymond/Desktop/UCSD/MIPSCPU -O0 C:/Users/Raymond/Desktop/UCSD/MIPSCPU/serial_buf.v
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# -- Compiling module serial_buffer
+# 
+# Top level modules:
+# 	serial_buffer
+vlog -vlog01compat -work work +incdir+C:/Users/Raymond/Desktop/UCSD/MIPSCPU -O0 C:/Users/Raymond/Desktop/UCSD/MIPSCPU/signextender.v
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# -- Compiling module signextender
+# 
+# Top level modules:
+# 	signextender
+vlog -work work -O0 C:/Users/Raymond/Desktop/UCSD/MIPSCPU/simulation/modelsim/testbench.v
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+vsim -voptargs=+acc work.testbench
+# vsim -voptargs=+acc work.testbench 
+# Loading work.testbench
+# Loading work.processor
+# Loading work.programcounter
+# Loading work.adder
+# Loading work.inst_rom
+# Loading work.branchPredictor
+# Loading work.MUX
+# Loading work.IFIDPipe
+# Loading work.controlunit
+# Loading work.regfile
+# Loading work.signextender
+# Loading work.hazardDetectionNoStall
+# Loading work.hazardDetectionStall
+# Loading work.IDEXPipe
+# Loading work.alu
+# Loading work.EXMEMPipe
+# Loading work.data_memory
+# Loading work.async_memory
+# Loading work.serial_buffer
+# Loading work.MEMWBPipe
+# Loading work.counter
+# Loading work.instructioncounter
+# ** Warning: (vsim-3015) C:/Users/Raymond/Desktop/UCSD/MIPSCPU/processor.v(392): [PCDPC] - Port size (32 or 32) does not match connection size (34) for port 'jumpAddress'. The port definition is at: C:/Users/Raymond/Desktop/UCSD/MIPSCPU/IDEXPipe.v(22).
+#         Region: /testbench/dut/IDEXPipe
+# ** Warning: (vsim-3017) C:/Users/Raymond/Desktop/UCSD/MIPSCPU/processor.v(547): [TFMPC] - Too few port connections. Expected 18, found 14.
+#         Region: /testbench/dut/dmem
+# ** Warning: (vsim-3722) C:/Users/Raymond/Desktop/UCSD/MIPSCPU/processor.v(547): [TFMPC] - Missing connection for port 'lhunsigned_outEXMEM'.
+# ** Warning: (vsim-3722) C:/Users/Raymond/Desktop/UCSD/MIPSCPU/processor.v(547): [TFMPC] - Missing connection for port 'lhsigned_outEXMEM'.
+# ** Warning: (vsim-3722) C:/Users/Raymond/Desktop/UCSD/MIPSCPU/processor.v(547): [TFMPC] - Missing connection for port 'lbunsigned_outEXMEM'.
+# ** Warning: (vsim-3722) C:/Users/Raymond/Desktop/UCSD/MIPSCPU/processor.v(547): [TFMPC] - Missing connection for port 'lbsigned_outEXMEM'.
+# ** Warning: (vsim-3015) C:/Users/Raymond/Desktop/UCSD/MIPSCPU/processor.v(590): [PCDPC] - Port size (32 or 32) does not match connection size (5) for port 'input1'. The port definition is at: C:/Users/Raymond/Desktop/UCSD/MIPSCPU/MUX.v(2).
+#         Region: /testbench/dut/mux1
+# ** Warning: (vsim-3015) C:/Users/Raymond/Desktop/UCSD/MIPSCPU/processor.v(590): [PCDPC] - Port size (32 or 32) does not match connection size (5) for port 'input2'. The port definition is at: C:/Users/Raymond/Desktop/UCSD/MIPSCPU/MUX.v(3).
+#         Region: /testbench/dut/mux1
+# ** Warning: (vsim-3015) C:/Users/Raymond/Desktop/UCSD/MIPSCPU/processor.v(590): [PCDPC] - Port size (32 or 32) does not match connection size (5) for port 'output1'. The port definition is at: C:/Users/Raymond/Desktop/UCSD/MIPSCPU/MUX.v(6).
+#         Region: /testbench/dut/mux1
+# ** Warning: (vsim-3015) C:/Users/Raymond/Desktop/UCSD/MIPSCPU/processor.v(606): [PCDPC] - Port size (32 or 32) does not match connection size (5) for port 'input1'. The port definition is at: C:/Users/Raymond/Desktop/UCSD/MIPSCPU/MUX.v(2).
+#         Region: /testbench/dut/mux6
+# ** Warning: (vsim-3015) C:/Users/Raymond/Desktop/UCSD/MIPSCPU/processor.v(606): [PCDPC] - Port size (32 or 32) does not match connection size (5) for port 'output1'. The port definition is at: C:/Users/Raymond/Desktop/UCSD/MIPSCPU/MUX.v(6).
+#         Region: /testbench/dut/mux6
+do C:/Users/Raymond/Desktop/UCSD/MIPSCPU/simulation/modelsim/Nicewave.do
+run
+run
+add wave -position 7  sim:/testbench/dut/dmem/lbsigned_outEXMEM
+add wave -position 8  sim:/testbench/dut/dmem/lbunsigned_outEXMEM
+add wave -position 9  sim:/testbench/dut/dmem/lhsigned_outEXMEM
+add wave -position 10  sim:/testbench/dut/dmem/lhunsigned_outEXMEM
+add wave -position 11  sim:/testbench/dut/dmem/readdata_out
+restart
+# ** Warning: (vsim-3015) C:/Users/Raymond/Desktop/UCSD/MIPSCPU/processor.v(392): [PCDPC] - Port size (32 or 32) does not match connection size (34) for port 'jumpAddress'. The port definition is at: C:/Users/Raymond/Desktop/UCSD/MIPSCPU/IDEXPipe.v(22).
+#         Region: /testbench/dut/IDEXPipe
+# ** Warning: (vsim-3017) C:/Users/Raymond/Desktop/UCSD/MIPSCPU/processor.v(547): [TFMPC] - Too few port connections. Expected 18, found 14.
+#         Region: /testbench/dut/dmem
+# ** Warning: (vsim-3722) C:/Users/Raymond/Desktop/UCSD/MIPSCPU/processor.v(547): [TFMPC] - Missing connection for port 'lhunsigned_outEXMEM'.
+# ** Warning: (vsim-3722) C:/Users/Raymond/Desktop/UCSD/MIPSCPU/processor.v(547): [TFMPC] - Missing connection for port 'lhsigned_outEXMEM'.
+# ** Warning: (vsim-3722) C:/Users/Raymond/Desktop/UCSD/MIPSCPU/processor.v(547): [TFMPC] - Missing connection for port 'lbunsigned_outEXMEM'.
+# ** Warning: (vsim-3722) C:/Users/Raymond/Desktop/UCSD/MIPSCPU/processor.v(547): [TFMPC] - Missing connection for port 'lbsigned_outEXMEM'.
+# ** Warning: (vsim-3015) C:/Users/Raymond/Desktop/UCSD/MIPSCPU/processor.v(590): [PCDPC] - Port size (32 or 32) does not match connection size (5) for port 'input1'. The port definition is at: C:/Users/Raymond/Desktop/UCSD/MIPSCPU/MUX.v(2).
+#         Region: /testbench/dut/mux1
+# ** Warning: (vsim-3015) C:/Users/Raymond/Desktop/UCSD/MIPSCPU/processor.v(590): [PCDPC] - Port size (32 or 32) does not match connection size (5) for port 'input2'. The port definition is at: C:/Users/Raymond/Desktop/UCSD/MIPSCPU/MUX.v(3).
+#         Region: /testbench/dut/mux1
+# ** Warning: (vsim-3015) C:/Users/Raymond/Desktop/UCSD/MIPSCPU/processor.v(590): [PCDPC] - Port size (32 or 32) does not match connection size (5) for port 'output1'. The port definition is at: C:/Users/Raymond/Desktop/UCSD/MIPSCPU/MUX.v(6).
+#         Region: /testbench/dut/mux1
+# ** Warning: (vsim-3015) C:/Users/Raymond/Desktop/UCSD/MIPSCPU/processor.v(606): [PCDPC] - Port size (32 or 32) does not match connection size (5) for port 'input1'. The port definition is at: C:/Users/Raymond/Desktop/UCSD/MIPSCPU/MUX.v(2).
+#         Region: /testbench/dut/mux6
+# ** Warning: (vsim-3015) C:/Users/Raymond/Desktop/UCSD/MIPSCPU/processor.v(606): [PCDPC] - Port size (32 or 32) does not match connection size (5) for port 'output1'. The port definition is at: C:/Users/Raymond/Desktop/UCSD/MIPSCPU/MUX.v(6).
+#         Region: /testbench/dut/mux6
+run
+run
+run
+quit -sim
+vlog -vlog01compat -work work +incdir+C:/Users/Raymond/Desktop/UCSD/MIPSCPU -O0 C:/Users/Raymond/Desktop/UCSD/MIPSCPU/adder.v
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# -- Compiling module adder
+# 
+# Top level modules:
+# 	adder
+vlog -vlog01compat -work work +incdir+C:/Users/Raymond/Desktop/UCSD/MIPSCPU -O0 C:/Users/Raymond/Desktop/UCSD/MIPSCPU/alu.v
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	alu
+vlog -vlog01compat -work work +incdir+C:/Users/Raymond/Desktop/UCSD/MIPSCPU -O0 C:/Users/Raymond/Desktop/UCSD/MIPSCPU/async_memory.v
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# -- Compiling module async_memory
+# 
+# Top level modules:
+# 	async_memory
+vlog -vlog01compat -work work +incdir+C:/Users/Raymond/Desktop/UCSD/MIPSCPU -O0 C:/Users/Raymond/Desktop/UCSD/MIPSCPU/branchPredictor.v
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# -- Compiling module branchPredictor
+# 
+# Top level modules:
+# 	branchPredictor
+vlog -vlog01compat -work work +incdir+C:/Users/Raymond/Desktop/UCSD/MIPSCPU -O0 C:/Users/Raymond/Desktop/UCSD/MIPSCPU/controlunit.v
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# -- Compiling module controlunit
+# 
+# Top level modules:
+# 	controlunit
+vlog -vlog01compat -work work +incdir+C:/Users/Raymond/Desktop/UCSD/MIPSCPU -O0 C:/Users/Raymond/Desktop/UCSD/MIPSCPU/counter.v
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# -- Compiling module counter
+# 
+# Top level modules:
+# 	counter
+vlog -vlog01compat -work work +incdir+C:/Users/Raymond/Desktop/UCSD/MIPSCPU -O0 C:/Users/Raymond/Desktop/UCSD/MIPSCPU/data_memory.v
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# -- Compiling module data_memory
+# 
+# Top level modules:
+# 	data_memory
+vlog -vlog01compat -work work +incdir+C:/Users/Raymond/Desktop/UCSD/MIPSCPU -O0 C:/Users/Raymond/Desktop/UCSD/MIPSCPU/EXMEMPipe.v
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# -- Compiling module EXMEMPipe
+# 
+# Top level modules:
+# 	EXMEMPipe
+vlog -vlog01compat -work work +incdir+C:/Users/Raymond/Desktop/UCSD/MIPSCPU -O0 C:/Users/Raymond/Desktop/UCSD/MIPSCPU/hazardDetectionNoStall.v
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# -- Compiling module hazardDetectionNoStall
+# 
+# Top level modules:
+# 	hazardDetectionNoStall
+vlog -vlog01compat -work work +incdir+C:/Users/Raymond/Desktop/UCSD/MIPSCPU -O0 C:/Users/Raymond/Desktop/UCSD/MIPSCPU/hazardDetectionStall.v
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# -- Compiling module hazardDetectionStall
+# 
+# Top level modules:
+# 	hazardDetectionStall
+vlog -vlog01compat -work work +incdir+C:/Users/Raymond/Desktop/UCSD/MIPSCPU -O0 C:/Users/Raymond/Desktop/UCSD/MIPSCPU/IDEXPipe.v
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# -- Compiling module IDEXPipe
+# 
+# Top level modules:
+# 	IDEXPipe
+vlog -vlog01compat -work work +incdir+C:/Users/Raymond/Desktop/UCSD/MIPSCPU -O0 C:/Users/Raymond/Desktop/UCSD/MIPSCPU/IFIDPipe.v
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# -- Compiling module IFIDPipe
+# 
+# Top level modules:
+# 	IFIDPipe
+vlog -vlog01compat -work work +incdir+C:/Users/Raymond/Desktop/UCSD/MIPSCPU -O0 C:/Users/Raymond/Desktop/UCSD/MIPSCPU/inst_rom.v
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# -- Compiling module inst_rom
+# 
+# Top level modules:
+# 	inst_rom
+vlog -vlog01compat -work work +incdir+C:/Users/Raymond/Desktop/UCSD/MIPSCPU -O0 C:/Users/Raymond/Desktop/UCSD/MIPSCPU/instructioncounter.v
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# -- Compiling module instructioncounter
+# 
+# Top level modules:
+# 	instructioncounter
+vlog -vlog01compat -work work +incdir+C:/Users/Raymond/Desktop/UCSD/MIPSCPU -O0 C:/Users/Raymond/Desktop/UCSD/MIPSCPU/MEMWBPipe.v
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# -- Compiling module MEMWBPipe
+# 
+# Top level modules:
+# 	MEMWBPipe
+vlog -vlog01compat -work work +incdir+C:/Users/Raymond/Desktop/UCSD/MIPSCPU -O0 C:/Users/Raymond/Desktop/UCSD/MIPSCPU/MUX.v
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# -- Compiling module MUX
+# 
+# Top level modules:
+# 	MUX
+vlog -vlog01compat -work work +incdir+C:/Users/Raymond/Desktop/UCSD/MIPSCPU -O0 C:/Users/Raymond/Desktop/UCSD/MIPSCPU/processor.v
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# -- Compiling module processor
+# 
+# Top level modules:
+# 	processor
+vlog -vlog01compat -work work +incdir+C:/Users/Raymond/Desktop/UCSD/MIPSCPU -O0 C:/Users/Raymond/Desktop/UCSD/MIPSCPU/programcounter.v
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# -- Compiling module programcounter
+# 
+# Top level modules:
+# 	programcounter
+vlog -vlog01compat -work work +incdir+C:/Users/Raymond/Desktop/UCSD/MIPSCPU -O0 C:/Users/Raymond/Desktop/UCSD/MIPSCPU/regfile.v
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# -- Compiling module regfile
+# 
+# Top level modules:
+# 	regfile
+vlog -vlog01compat -work work +incdir+C:/Users/Raymond/Desktop/UCSD/MIPSCPU -O0 C:/Users/Raymond/Desktop/UCSD/MIPSCPU/serial_buf.v
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# -- Compiling module serial_buffer
+# 
+# Top level modules:
+# 	serial_buffer
+vlog -vlog01compat -work work +incdir+C:/Users/Raymond/Desktop/UCSD/MIPSCPU -O0 C:/Users/Raymond/Desktop/UCSD/MIPSCPU/signextender.v
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# -- Compiling module signextender
+# 
+# Top level modules:
+# 	signextender
+vlog -work work -O0 C:/Users/Raymond/Desktop/UCSD/MIPSCPU/simulation/modelsim/testbench.v
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+vsim -voptargs=+acc work.testbench
+# vsim -voptargs=+acc work.testbench 
+# Loading work.testbench
+# Loading work.processor
+# Loading work.programcounter
+# Loading work.adder
+# Loading work.inst_rom
+# Loading work.branchPredictor
+# Loading work.MUX
+# Loading work.IFIDPipe
+# Loading work.controlunit
+# Loading work.regfile
+# Loading work.signextender
+# Loading work.hazardDetectionNoStall
+# Loading work.hazardDetectionStall
+# Loading work.IDEXPipe
+# Loading work.alu
+# Loading work.EXMEMPipe
+# Loading work.data_memory
+# Loading work.async_memory
+# Loading work.serial_buffer
+# Loading work.MEMWBPipe
+# Loading work.counter
+# Loading work.instructioncounter
+# ** Warning: (vsim-3015) C:/Users/Raymond/Desktop/UCSD/MIPSCPU/processor.v(392): [PCDPC] - Port size (32 or 32) does not match connection size (34) for port 'jumpAddress'. The port definition is at: C:/Users/Raymond/Desktop/UCSD/MIPSCPU/IDEXPipe.v(22).
+#         Region: /testbench/dut/IDEXPipe
+# ** Warning: (vsim-3015) C:/Users/Raymond/Desktop/UCSD/MIPSCPU/processor.v(594): [PCDPC] - Port size (32 or 32) does not match connection size (5) for port 'input1'. The port definition is at: C:/Users/Raymond/Desktop/UCSD/MIPSCPU/MUX.v(2).
+#         Region: /testbench/dut/mux1
+# ** Warning: (vsim-3015) C:/Users/Raymond/Desktop/UCSD/MIPSCPU/processor.v(594): [PCDPC] - Port size (32 or 32) does not match connection size (5) for port 'input2'. The port definition is at: C:/Users/Raymond/Desktop/UCSD/MIPSCPU/MUX.v(3).
+#         Region: /testbench/dut/mux1
+# ** Warning: (vsim-3015) C:/Users/Raymond/Desktop/UCSD/MIPSCPU/processor.v(594): [PCDPC] - Port size (32 or 32) does not match connection size (5) for port 'output1'. The port definition is at: C:/Users/Raymond/Desktop/UCSD/MIPSCPU/MUX.v(6).
+#         Region: /testbench/dut/mux1
+# ** Warning: (vsim-3015) C:/Users/Raymond/Desktop/UCSD/MIPSCPU/processor.v(610): [PCDPC] - Port size (32 or 32) does not match connection size (5) for port 'input1'. The port definition is at: C:/Users/Raymond/Desktop/UCSD/MIPSCPU/MUX.v(2).
+#         Region: /testbench/dut/mux6
+# ** Warning: (vsim-3015) C:/Users/Raymond/Desktop/UCSD/MIPSCPU/processor.v(610): [PCDPC] - Port size (32 or 32) does not match connection size (5) for port 'output1'. The port definition is at: C:/Users/Raymond/Desktop/UCSD/MIPSCPU/MUX.v(6).
+#         Region: /testbench/dut/mux6
+do C:/Users/Raymond/Desktop/UCSD/MIPSCPU/simulation/modelsim/Nicewave.do
+run
+run
+run
+run
+run
+restart
+# ** Warning: (vsim-3015) C:/Users/Raymond/Desktop/UCSD/MIPSCPU/processor.v(392): [PCDPC] - Port size (32 or 32) does not match connection size (34) for port 'jumpAddress'. The port definition is at: C:/Users/Raymond/Desktop/UCSD/MIPSCPU/IDEXPipe.v(22).
+#         Region: /testbench/dut/IDEXPipe
+# ** Warning: (vsim-3015) C:/Users/Raymond/Desktop/UCSD/MIPSCPU/processor.v(594): [PCDPC] - Port size (32 or 32) does not match connection size (5) for port 'input1'. The port definition is at: C:/Users/Raymond/Desktop/UCSD/MIPSCPU/MUX.v(2).
+#         Region: /testbench/dut/mux1
+# ** Warning: (vsim-3015) C:/Users/Raymond/Desktop/UCSD/MIPSCPU/processor.v(594): [PCDPC] - Port size (32 or 32) does not match connection size (5) for port 'input2'. The port definition is at: C:/Users/Raymond/Desktop/UCSD/MIPSCPU/MUX.v(3).
+#         Region: /testbench/dut/mux1
+# ** Warning: (vsim-3015) C:/Users/Raymond/Desktop/UCSD/MIPSCPU/processor.v(594): [PCDPC] - Port size (32 or 32) does not match connection size (5) for port 'output1'. The port definition is at: C:/Users/Raymond/Desktop/UCSD/MIPSCPU/MUX.v(6).
+#         Region: /testbench/dut/mux1
+# ** Warning: (vsim-3015) C:/Users/Raymond/Desktop/UCSD/MIPSCPU/processor.v(610): [PCDPC] - Port size (32 or 32) does not match connection size (5) for port 'input1'. The port definition is at: C:/Users/Raymond/Desktop/UCSD/MIPSCPU/MUX.v(2).
+#         Region: /testbench/dut/mux6
+# ** Warning: (vsim-3015) C:/Users/Raymond/Desktop/UCSD/MIPSCPU/processor.v(610): [PCDPC] - Port size (32 or 32) does not match connection size (5) for port 'output1'. The port definition is at: C:/Users/Raymond/Desktop/UCSD/MIPSCPU/MUX.v(6).
+#         Region: /testbench/dut/mux6
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+quit -sim
+vlog -vlog01compat -work work +incdir+C:/Users/Raymond/Desktop/UCSD/MIPSCPU -O0 C:/Users/Raymond/Desktop/UCSD/MIPSCPU/adder.v
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# -- Compiling module adder
+# 
+# Top level modules:
+# 	adder
+vlog -vlog01compat -work work +incdir+C:/Users/Raymond/Desktop/UCSD/MIPSCPU -O0 C:/Users/Raymond/Desktop/UCSD/MIPSCPU/alu.v
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	alu
+vlog -vlog01compat -work work +incdir+C:/Users/Raymond/Desktop/UCSD/MIPSCPU -O0 C:/Users/Raymond/Desktop/UCSD/MIPSCPU/async_memory.v
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# -- Compiling module async_memory
+# 
+# Top level modules:
+# 	async_memory
+vlog -vlog01compat -work work +incdir+C:/Users/Raymond/Desktop/UCSD/MIPSCPU -O0 C:/Users/Raymond/Desktop/UCSD/MIPSCPU/branchPredictor.v
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# -- Compiling module branchPredictor
+# 
+# Top level modules:
+# 	branchPredictor
+vlog -vlog01compat -work work +incdir+C:/Users/Raymond/Desktop/UCSD/MIPSCPU -O0 C:/Users/Raymond/Desktop/UCSD/MIPSCPU/controlunit.v
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# -- Compiling module controlunit
+# 
+# Top level modules:
+# 	controlunit
+vlog -vlog01compat -work work +incdir+C:/Users/Raymond/Desktop/UCSD/MIPSCPU -O0 C:/Users/Raymond/Desktop/UCSD/MIPSCPU/counter.v
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# -- Compiling module counter
+# 
+# Top level modules:
+# 	counter
+vlog -vlog01compat -work work +incdir+C:/Users/Raymond/Desktop/UCSD/MIPSCPU -O0 C:/Users/Raymond/Desktop/UCSD/MIPSCPU/data_memory.v
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# -- Compiling module data_memory
+# 
+# Top level modules:
+# 	data_memory
+vlog -vlog01compat -work work +incdir+C:/Users/Raymond/Desktop/UCSD/MIPSCPU -O0 C:/Users/Raymond/Desktop/UCSD/MIPSCPU/EXMEMPipe.v
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# -- Compiling module EXMEMPipe
+# 
+# Top level modules:
+# 	EXMEMPipe
+vlog -vlog01compat -work work +incdir+C:/Users/Raymond/Desktop/UCSD/MIPSCPU -O0 C:/Users/Raymond/Desktop/UCSD/MIPSCPU/hazardDetectionNoStall.v
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# -- Compiling module hazardDetectionNoStall
+# 
+# Top level modules:
+# 	hazardDetectionNoStall
+vlog -vlog01compat -work work +incdir+C:/Users/Raymond/Desktop/UCSD/MIPSCPU -O0 C:/Users/Raymond/Desktop/UCSD/MIPSCPU/hazardDetectionStall.v
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# -- Compiling module hazardDetectionStall
+# 
+# Top level modules:
+# 	hazardDetectionStall
+vlog -vlog01compat -work work +incdir+C:/Users/Raymond/Desktop/UCSD/MIPSCPU -O0 C:/Users/Raymond/Desktop/UCSD/MIPSCPU/IDEXPipe.v
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# -- Compiling module IDEXPipe
+# 
+# Top level modules:
+# 	IDEXPipe
+vlog -vlog01compat -work work +incdir+C:/Users/Raymond/Desktop/UCSD/MIPSCPU -O0 C:/Users/Raymond/Desktop/UCSD/MIPSCPU/IFIDPipe.v
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# -- Compiling module IFIDPipe
+# 
+# Top level modules:
+# 	IFIDPipe
+vlog -vlog01compat -work work +incdir+C:/Users/Raymond/Desktop/UCSD/MIPSCPU -O0 C:/Users/Raymond/Desktop/UCSD/MIPSCPU/inst_rom.v
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# -- Compiling module inst_rom
+# 
+# Top level modules:
+# 	inst_rom
+vlog -vlog01compat -work work +incdir+C:/Users/Raymond/Desktop/UCSD/MIPSCPU -O0 C:/Users/Raymond/Desktop/UCSD/MIPSCPU/instructioncounter.v
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# -- Compiling module instructioncounter
+# 
+# Top level modules:
+# 	instructioncounter
+vlog -vlog01compat -work work +incdir+C:/Users/Raymond/Desktop/UCSD/MIPSCPU -O0 C:/Users/Raymond/Desktop/UCSD/MIPSCPU/MEMWBPipe.v
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# -- Compiling module MEMWBPipe
+# 
+# Top level modules:
+# 	MEMWBPipe
+vlog -vlog01compat -work work +incdir+C:/Users/Raymond/Desktop/UCSD/MIPSCPU -O0 C:/Users/Raymond/Desktop/UCSD/MIPSCPU/MUX.v
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# -- Compiling module MUX
+# 
+# Top level modules:
+# 	MUX
+vlog -vlog01compat -work work +incdir+C:/Users/Raymond/Desktop/UCSD/MIPSCPU -O0 C:/Users/Raymond/Desktop/UCSD/MIPSCPU/processor.v
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# -- Compiling module processor
+# 
+# Top level modules:
+# 	processor
+vlog -vlog01compat -work work +incdir+C:/Users/Raymond/Desktop/UCSD/MIPSCPU -O0 C:/Users/Raymond/Desktop/UCSD/MIPSCPU/programcounter.v
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# -- Compiling module programcounter
+# 
+# Top level modules:
+# 	programcounter
+vlog -vlog01compat -work work +incdir+C:/Users/Raymond/Desktop/UCSD/MIPSCPU -O0 C:/Users/Raymond/Desktop/UCSD/MIPSCPU/regfile.v
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# -- Compiling module regfile
+# 
+# Top level modules:
+# 	regfile
+vlog -vlog01compat -work work +incdir+C:/Users/Raymond/Desktop/UCSD/MIPSCPU -O0 C:/Users/Raymond/Desktop/UCSD/MIPSCPU/serial_buf.v
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# -- Compiling module serial_buffer
+# 
+# Top level modules:
+# 	serial_buffer
+vlog -vlog01compat -work work +incdir+C:/Users/Raymond/Desktop/UCSD/MIPSCPU -O0 C:/Users/Raymond/Desktop/UCSD/MIPSCPU/signextender.v
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# -- Compiling module signextender
+# 
+# Top level modules:
+# 	signextender
+vlog -work work -O0 C:/Users/Raymond/Desktop/UCSD/MIPSCPU/simulation/modelsim/testbench.v
+# Model Technology ModelSim ALTERA vlog 10.0c Compiler 2011.09 Sep 21 2011
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+vsim -voptargs=+acc work.testbench
+# vsim -voptargs=+acc work.testbench 
+# Loading work.testbench
+# Loading work.processor
+# Loading work.programcounter
+# Loading work.adder
+# Loading work.inst_rom
+# Loading work.branchPredictor
+# Loading work.MUX
+# Loading work.IFIDPipe
+# Loading work.controlunit
+# Loading work.regfile
+# Loading work.signextender
+# Loading work.hazardDetectionNoStall
+# Loading work.hazardDetectionStall
+# Loading work.IDEXPipe
+# Loading work.alu
+# Loading work.EXMEMPipe
+# Loading work.data_memory
+# Loading work.async_memory
+# Loading work.serial_buffer
+# Loading work.MEMWBPipe
+# Loading work.counter
+# Loading work.instructioncounter
+# ** Warning: (vsim-3015) C:/Users/Raymond/Desktop/UCSD/MIPSCPU/processor.v(392): [PCDPC] - Port size (32 or 32) does not match connection size (34) for port 'jumpAddress'. The port definition is at: C:/Users/Raymond/Desktop/UCSD/MIPSCPU/IDEXPipe.v(22).
+#         Region: /testbench/dut/IDEXPipe
+# ** Warning: (vsim-3015) C:/Users/Raymond/Desktop/UCSD/MIPSCPU/processor.v(594): [PCDPC] - Port size (32 or 32) does not match connection size (5) for port 'input1'. The port definition is at: C:/Users/Raymond/Desktop/UCSD/MIPSCPU/MUX.v(2).
+#         Region: /testbench/dut/mux1
+# ** Warning: (vsim-3015) C:/Users/Raymond/Desktop/UCSD/MIPSCPU/processor.v(594): [PCDPC] - Port size (32 or 32) does not match connection size (5) for port 'input2'. The port definition is at: C:/Users/Raymond/Desktop/UCSD/MIPSCPU/MUX.v(3).
+#         Region: /testbench/dut/mux1
+# ** Warning: (vsim-3015) C:/Users/Raymond/Desktop/UCSD/MIPSCPU/processor.v(594): [PCDPC] - Port size (32 or 32) does not match connection size (5) for port 'output1'. The port definition is at: C:/Users/Raymond/Desktop/UCSD/MIPSCPU/MUX.v(6).
+#         Region: /testbench/dut/mux1
+# ** Warning: (vsim-3015) C:/Users/Raymond/Desktop/UCSD/MIPSCPU/processor.v(610): [PCDPC] - Port size (32 or 32) does not match connection size (5) for port 'input1'. The port definition is at: C:/Users/Raymond/Desktop/UCSD/MIPSCPU/MUX.v(2).
+#         Region: /testbench/dut/mux6
+# ** Warning: (vsim-3015) C:/Users/Raymond/Desktop/UCSD/MIPSCPU/processor.v(610): [PCDPC] - Port size (32 or 32) does not match connection size (5) for port 'output1'. The port definition is at: C:/Users/Raymond/Desktop/UCSD/MIPSCPU/MUX.v(6).
+#         Region: /testbench/dut/mux6
+do C:/Users/Raymond/Desktop/UCSD/MIPSCPU/simulation/modelsim/Nicewave.do
+run
+run
+run
+run
+run
+run
+run
+run
+run
