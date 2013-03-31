@@ -175,7 +175,7 @@ adder adder(
 );
 
 inst_rom #(
-	.INIT_PROGRAM("C:/Users/Raymond/Desktop/UCSD/MIPSCPU/program.txt")
+	.INIT_PROGRAM("C:/Users/Raymond/Documents/GitHub/MIPSCPU/program.txt")
 ) myInstructionROM(
 	.clock(clock),
 	.reset(reset),
@@ -521,10 +521,10 @@ EXMEMPipe EXMEMPipe(
 //-------------------------------------------------
 //Memory
 data_memory #(
-	.INIT_PROGRAM0("C:/Users/Raymond/Desktop/UCSD/MIPSCPU/nbhelloworld.data_ram0.memh"),
-	.INIT_PROGRAM1("C:/Users/Raymond/Desktop/UCSD/MIPSCPU/nbhelloworld.data_ram1.memh"),
-	.INIT_PROGRAM2("C:/Users/Raymond/Desktop/UCSD/MIPSCPU/nbhelloworld.data_ram2.memh"),
-	.INIT_PROGRAM3("C:/Users/Raymond/Desktop/UCSD/MIPSCPU/nbhelloworld.data_ram3.memh")
+	.INIT_PROGRAM0("C:/Users/Raymond/Documents/GitHub/MIPSCPU/nbhelloworld.data_ram0.memh"),
+	.INIT_PROGRAM1("C:/Users/Raymond/Documents/GitHub/MIPSCPU/nbhelloworld.data_ram1.memh"),
+	.INIT_PROGRAM2("C:/Users/Raymond/Documents/GitHub/MIPSCPU/nbhelloworld.data_ram2.memh"),
+	.INIT_PROGRAM3("C:/Users/Raymond/Documents/GitHub/MIPSCPU/nbhelloworld.data_ram3.memh")
 ) dmem
 (
 	.clock(clock),

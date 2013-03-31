@@ -147,13 +147,13 @@ module alu(
 		
 		case (Func_in[1:0])
 			2'b00: //shift logical left
-				ShiftOut <= B_in << A_in;
+				ShiftOut = B_in << A_in;
 			2'b01: //shift logical right	
-				ShiftOut <= B_in >> A_in;
+				ShiftOut = B_in >> A_in;
 			2'b11: //shift arithmetic right
-				ShiftOut <= B_in >>> A_in;
+				ShiftOut = B_in >>> A_in;
 			default:
-				ShiftOut <= B_in;
+				ShiftOut = B_in;
 		endcase
 	
 	

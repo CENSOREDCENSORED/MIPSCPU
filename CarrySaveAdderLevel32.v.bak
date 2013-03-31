@@ -1,0 +1,12 @@
+module CarrySaveAdderLevel32(
+input [31:0] addend1,
+input [31:0] addend2,
+
+output [31:0] sums,
+output[31:0] carries
+
+);
+
+
+
+endmodule

@@ -1,8 +1,8 @@
 --lpm_counter CBX_DECLARE_ALL_CONNECTED_PORTS="OFF" DEVICE_FAMILY="Cyclone II" lpm_avalue=1 lpm_direction="DOWN" lpm_port_updown="PORT_UNUSED" lpm_width=1 aset clk_en clock cnt_en cout
---VERSION_BEGIN 11.1 cbx_cycloneii 2011:10:31:21:11:05:SJ cbx_lpm_add_sub 2011:10:31:21:11:05:SJ cbx_lpm_compare 2011:10:31:21:11:05:SJ cbx_lpm_counter 2011:10:31:21:11:05:SJ cbx_lpm_decode 2011:10:31:21:11:05:SJ cbx_mgl 2011:10:31:21:12:31:SJ cbx_stratix 2011:10:31:21:11:05:SJ cbx_stratixii 2011:10:31:21:11:05:SJ  VERSION_END
+--VERSION_BEGIN 12.0SP2 cbx_cycloneii 2012:08:02:15:18:54:SJ cbx_lpm_add_sub 2012:08:02:15:18:54:SJ cbx_lpm_compare 2012:08:02:15:18:54:SJ cbx_lpm_counter 2012:08:02:15:18:54:SJ cbx_lpm_decode 2012:08:02:15:18:54:SJ cbx_mgl 2012:08:02:15:20:46:SJ cbx_stratix 2012:08:02:15:18:54:SJ cbx_stratixii 2012:08:02:15:18:54:SJ  VERSION_END
 
 
--- Copyright (C) 1991-2011 Altera Corporation
+-- Copyright (C) 1991-2012 Altera Corporation
 --  Your use of Altera Corporation's design tools, logic functions 
 --  and other software and tools, and its AMPP partner logic 
 --  functions, and any output files from any of the foregoing 
