@@ -7,6 +7,7 @@
 **
 **  Change Log:
 **  1/13/2012 - Adrian Caulfield - Initial Implementation
+**  4/15/2013 - Raymond Paseman - Augmented ALU to include shift functionality
 */
 
 module alu(
@@ -23,6 +24,8 @@ module alu(
 	// Mapping of Func_i to ALU Operations (X is don't care)
 	// Func_in		O_out								"Operation"
 	//--------------------------------------------------------------
+	// 0100 00		A * B								UNSIGNED MULTIPLY
+	// 0110 00		A / B								UNSIGNED DIVIDE
 	// 1000 0X		A + B								ADD
 	// 1000 1X		A - B								SUB
 	// 1001 00		A & B								AND
@@ -33,9 +36,9 @@ module alu(
 	//	101 XX0		signed(A) < signed(B)		Set-Less-Than signed
 	//	101 XX1		A < B								Set-Less-Than unsigned
 	
-	// 110 000     B >> A							shift logical left
-	// 110 001     B << A							shift logical right
-	// 110 011     B << A 							shift arithmetic right
+	// 110 000     B << A							shift left logical
+	// 110 001     B >> A							shift right logical
+	// 110 011     B >> A 							shift right arithmetic
 
 	// 111 000		A									BLTZ
 	//	111 001		A									BGEZ
@@ -87,7 +90,7 @@ module alu(
 		end
 		
 		AdderOut = A_in + AdderInputB + Func_in[1];
-
+			
 
 		//logic
 		case (Func_in[1:0])
@@ -174,7 +177,7 @@ module alu(
 			Branch_out = DoBranch;
 			Jump_out = DoJump;
 		end else begin
-			O_out = 0;//32'bxxxxxxxx_xxxxxxxx_xxxxxxxx_xxxxxxxx;
+			O_out = B_in;
 		end
 		
 		if (upper)

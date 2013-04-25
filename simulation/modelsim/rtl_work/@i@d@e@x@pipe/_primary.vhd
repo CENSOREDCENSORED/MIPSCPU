@@ -33,6 +33,7 @@ entity IDEXPipe is
         lhsigned_out    : in     vl_logic;
         lbunsigned_out  : in     vl_logic;
         lbsigned_out    : in     vl_logic;
+        size_in         : in     vl_logic_vector(1 downto 0);
         pcPlus4IDEX     : out    vl_logic_vector(31 downto 0);
         Func_inIDEX     : out    vl_logic_vector(5 downto 0);
         mux1SelectIDEX  : out    vl_logic;
@@ -58,6 +59,7 @@ entity IDEXPipe is
         lhunsigned_outIDEX: out    vl_logic;
         lhsigned_outIDEX: out    vl_logic;
         lbunsigned_outIDEX: out    vl_logic;
-        lbsigned_outIDEX: out    vl_logic
+        lbsigned_outIDEX: out    vl_logic;
+        size_inIDEX     : out    vl_logic_vector(1 downto 0)
     );
 end IDEXPipe;

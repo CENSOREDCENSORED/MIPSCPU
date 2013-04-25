@@ -17,6 +17,8 @@ entity controlunit is
         lhunsigned_out  : out    vl_logic;
         lhsigned_out    : out    vl_logic;
         lbunsigned_out  : out    vl_logic;
-        lbsigned_out    : out    vl_logic
+        lbsigned_out    : out    vl_logic;
+        signExtendEnable: out    vl_logic;
+        size_in         : out    vl_logic_vector(1 downto 0)
     );
 end controlunit;

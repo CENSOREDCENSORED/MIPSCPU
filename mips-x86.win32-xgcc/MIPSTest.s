@@ -1,11 +1,10 @@
 	.file	1 "MIPSTest.c"
 	.globl	mallochead
-	.sdata
+	.data
 	.align	2
 mallochead:
 	.word	0
 	.text
-	.align	2
 	.globl	main
 	.ent	main
 main:
@@ -16,7 +15,6 @@ main:
 	sw	$31,28($sp)
 	sw	$fp,24($sp)
 	move	$fp,$sp
-	jal	__main
 	sw	$0,mallochead
 	li	$4,16			# 0x10
 	jal	myMalloc
@@ -30,9 +28,8 @@ main:
 	lw	$31,28($sp)
 	lw	$fp,24($sp)
 	addu	$sp,$sp,32
-	j	$31
+	jr	$31
 	.end	main
-	.align	2
 	.globl	myMalloc
 	.ent	myMalloc
 myMalloc:
@@ -105,5 +102,5 @@ $L4:
 	move	$sp,$fp
 	lw	$fp,8($sp)
 	addu	$sp,$sp,16
-	j	$31
+	jr	$31
 	.end	myMalloc

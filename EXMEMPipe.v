@@ -18,6 +18,7 @@ input lhunsigned_outIDEX,
 input lhsigned_outIDEX,
 input lbunsigned_outIDEX,
 input lbsigned_outIDEX,
+input [1:0] size_inIDEX,
 
 output reg[31:0] O_outEXMEM,
 output reg[31:0] o_RT_DataEXMEM,
@@ -34,7 +35,8 @@ output reg i_Write_EnableEXMEM,
 output reg lhunsigned_outEXMEM,
 output reg lhsigned_outEXMEM,
 output reg lbunsigned_outEXMEM,
-output reg lbsigned_outEXMEM
+output reg lbsigned_outEXMEM,
+output reg[1:0] size_inEXMEM
 
 );
 
@@ -58,6 +60,7 @@ begin
 		lhsigned_outEXMEM <= 0;
 		lbunsigned_outEXMEM <= 0;
 		lbsigned_outEXMEM <= 0;
+		size_inEXMEM <= 0;
 	end
 	else 
 	begin
@@ -77,6 +80,7 @@ begin
 		lhsigned_outEXMEM <= lhsigned_outIDEX;
 		lbunsigned_outEXMEM <= lbunsigned_outIDEX;
 		lbsigned_outEXMEM <= lbsigned_outIDEX;
+		size_inEXMEM <= size_inIDEX;
 	end
 end
 

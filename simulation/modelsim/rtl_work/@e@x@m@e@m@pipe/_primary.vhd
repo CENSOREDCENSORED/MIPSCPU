@@ -20,6 +20,7 @@ entity EXMEMPipe is
         lhsigned_outIDEX: in     vl_logic;
         lbunsigned_outIDEX: in     vl_logic;
         lbsigned_outIDEX: in     vl_logic;
+        size_inIDEX     : in     vl_logic_vector(1 downto 0);
         O_outEXMEM      : out    vl_logic_vector(31 downto 0);
         o_RT_DataEXMEM  : out    vl_logic_vector(31 downto 0);
         re_inEXMEM      : out    vl_logic;
@@ -35,6 +36,7 @@ entity EXMEMPipe is
         lhunsigned_outEXMEM: out    vl_logic;
         lhsigned_outEXMEM: out    vl_logic;
         lbunsigned_outEXMEM: out    vl_logic;
-        lbsigned_outEXMEM: out    vl_logic
+        lbsigned_outEXMEM: out    vl_logic;
+        size_inEXMEM    : out    vl_logic_vector(1 downto 0)
     );
 end EXMEMPipe;

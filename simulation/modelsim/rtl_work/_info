@@ -18,26 +18,26 @@ Z3 o-vlog01compat -work work -O0
 Z4 !s92 -vlog01compat -work work +incdir+C:/Users/Raymond/Documents/GitHub/MIPSCPU -O0
 !s100 >9EgTk`Vb];;^;JLWZ6hi0
 !s85 0
-!s108 1364683369.129000
+!s108 1366797160.640000
 !s107 C:/Users/Raymond/Documents/GitHub/MIPSCPU/adder.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Raymond/Documents/GitHub/MIPSCPU|C:/Users/Raymond/Documents/GitHub/MIPSCPU/adder.v|
 !s101 -O0
 valu
-IO>W;=60TU3@eCnQj[d3S]1
+Ii@KWTQHFi0UQ>m;8WfWm40
 V`N1UO88Ekg5Q?HU_k_>950
 R1
-w1363782366
+w1366081207
 8C:/Users/Raymond/Documents/GitHub/MIPSCPU/alu.v
 FC:/Users/Raymond/Documents/GitHub/MIPSCPU/alu.v
-L0 12
+L0 13
 R2
 r1
 31
 R3
 R4
-!s100 e@oaA<d=HFO_>B@YG1U`:1
+!s100 fc[i]9dRjjh9TOLOR>_dh2
 !s85 0
-!s108 1364683368.250000
+!s108 1366797159.762000
 !s107 C:/Users/Raymond/Documents/GitHub/MIPSCPU/alu.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Raymond/Documents/GitHub/MIPSCPU|C:/Users/Raymond/Documents/GitHub/MIPSCPU/alu.v|
 !s101 -O0
@@ -56,7 +56,7 @@ R3
 R4
 !s100 Wz6@MZ<:R3lRSZEj1PzLQ3
 !s85 0
-!s108 1364683367.406000
+!s108 1366797158.560000
 !s107 C:/Users/Raymond/Documents/GitHub/MIPSCPU/async_memory.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Raymond/Documents/GitHub/MIPSCPU|C:/Users/Raymond/Documents/GitHub/MIPSCPU/async_memory.v|
 !s101 -O0
@@ -76,15 +76,15 @@ R4
 nbranch@predictor
 !s100 bP9O5@VL;jSzWZd6mALN:2
 !s85 0
-!s108 1364683372.995000
+!s108 1366797163.414000
 !s107 C:/Users/Raymond/Documents/GitHub/MIPSCPU/branchPredictor.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Raymond/Documents/GitHub/MIPSCPU|C:/Users/Raymond/Documents/GitHub/MIPSCPU/branchPredictor.v|
 !s101 -O0
 vcontrolunit
-I51gkmF>jK@m7PJiJ3ZjR_3
-VX_RP5g>c[UDP^]gMh]SjO1
+I<=Q1oTNGgQLjeYkm4_h5f2
+VQ4hECiaNBOM4Kz_kzb]nW3
 R1
-w1362374938
+w1366266489
 8C:/Users/Raymond/Documents/GitHub/MIPSCPU/controlunit.v
 FC:/Users/Raymond/Documents/GitHub/MIPSCPU/controlunit.v
 L0 1
@@ -93,9 +93,9 @@ r1
 31
 R3
 R4
-!s100 Q8<]eX163R@JUYS@N;Tgf2
+!s100 MU0_d_n7amK1=KM<J0>3g0
 !s85 0
-!s108 1364683370.631000
+!s108 1366797161.562000
 !s107 C:/Users/Raymond/Documents/GitHub/MIPSCPU/controlunit.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Raymond/Documents/GitHub/MIPSCPU|C:/Users/Raymond/Documents/GitHub/MIPSCPU/controlunit.v|
 !s101 -O0
@@ -114,15 +114,15 @@ R3
 R4
 !s100 zoJ:;H<`1UMfQc_b[[XGX1
 !s85 0
-!s108 1364683372.152000
+!s108 1366797162.824000
 !s107 C:/Users/Raymond/Documents/GitHub/MIPSCPU/counter.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Raymond/Documents/GitHub/MIPSCPU|C:/Users/Raymond/Documents/GitHub/MIPSCPU/counter.v|
 !s101 -O0
 vdata_memory
-IXBPSXMdVbDBiij0IOmE:03
+Ie<G][GDLPdh4UXA8ZP^:N3
 VkDFS[5Vik3C]]l_>DQaU30
 R1
-w1362376840
+w1366790240
 8C:/Users/Raymond/Documents/GitHub/MIPSCPU/data_memory.v
 FC:/Users/Raymond/Documents/GitHub/MIPSCPU/data_memory.v
 L0 26
@@ -131,17 +131,17 @@ r1
 31
 R3
 R4
-!s100 FcXRY:9zZHA;W=dYXbad=1
+!s100 3_ZlY@I]797W^D3lAN0UV1
 !s85 0
-!s108 1364683367.962000
+!s108 1366797159.434000
 !s107 C:/Users/Raymond/Documents/GitHub/MIPSCPU/data_memory.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Raymond/Documents/GitHub/MIPSCPU|C:/Users/Raymond/Documents/GitHub/MIPSCPU/data_memory.v|
 !s101 -O0
 vEXMEMPipe
-IZ6DmHHjmlz5<J4HkVJQZ`3
-VC4bo^VL7_H[EN<i8i3F6N2
+If7b0>2k7AGD?ioWORg?5H3
+Vdg;RfX`WYf_bhRj[<YHb40
 R1
-w1362375578
+w1365666558
 8C:/Users/Raymond/Documents/GitHub/MIPSCPU/EXMEMPipe.v
 FC:/Users/Raymond/Documents/GitHub/MIPSCPU/EXMEMPipe.v
 L0 1
@@ -151,17 +151,17 @@ r1
 R3
 R4
 n@e@x@m@e@m@pipe
-!s100 g;bbeG3AB[EldMV>E]L<i1
+!s100 W;;ZBWemSH[D]k=CzO@Wc0
 !s85 0
-!s108 1364683371.279000
+!s108 1366797162.130000
 !s107 C:/Users/Raymond/Documents/GitHub/MIPSCPU/EXMEMPipe.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Raymond/Documents/GitHub/MIPSCPU|C:/Users/Raymond/Documents/GitHub/MIPSCPU/EXMEMPipe.v|
 !s101 -O0
 vhazardDetectionNoStall
-Izi39lcIhOdo^@zVlZcle_2
+Idl;fLCg46<HUIl95BlhKL1
 VmCV:D]4iA0zE^6IPNW9f41
 R1
-w1362309964
+w1366078676
 8C:/Users/Raymond/Documents/GitHub/MIPSCPU/hazardDetectionNoStall.v
 FC:/Users/Raymond/Documents/GitHub/MIPSCPU/hazardDetectionNoStall.v
 L0 1
@@ -171,9 +171,9 @@ r1
 R3
 R4
 nhazard@detection@no@stall
-!s100 b37`lo:eS0HlcR^PfiAO02
+!s100 F7XJo@HHhMFD4_;Gam<kJ1
 !s85 0
-!s108 1364683367.094000
+!s108 1366797157.764000
 !s107 C:/Users/Raymond/Documents/GitHub/MIPSCPU/hazardDetectionNoStall.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Raymond/Documents/GitHub/MIPSCPU|C:/Users/Raymond/Documents/GitHub/MIPSCPU/hazardDetectionNoStall.v|
 !s101 -O0
@@ -193,15 +193,15 @@ nhazard@detection@stall
 R4
 !s100 Y7fkkLIeTYEliNA]@8V2O1
 !s85 0
-!s108 1364683366.887000
+!s108 1366797157.496000
 !s107 C:/Users/Raymond/Documents/GitHub/MIPSCPU/hazardDetectionStall.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Raymond/Documents/GitHub/MIPSCPU|C:/Users/Raymond/Documents/GitHub/MIPSCPU/hazardDetectionStall.v|
 !s101 -O0
 vIDEXPipe
-IP?naHTbJEa6JVg<;G@>5[1
-VVU8QWo3jd`S<DU=j^?e_?2
+I^b=Zc[MHhE@=1z?f2_cRP1
+VbnS9Q;Mg<@jo31f2elEPO0
 R1
-w1362375491
+w1365666496
 8C:/Users/Raymond/Documents/GitHub/MIPSCPU/IDEXPipe.v
 FC:/Users/Raymond/Documents/GitHub/MIPSCPU/IDEXPipe.v
 L0 1
@@ -211,9 +211,9 @@ r1
 R3
 R4
 n@i@d@e@x@pipe
-!s100 VZdVmR<kn2bkKG87^Xlj20
+!s100 G^ZaMkG6gchagVEM0WcMK0
 !s85 0
-!s108 1364683371.091000
+!s108 1366797161.906000
 !s107 C:/Users/Raymond/Documents/GitHub/MIPSCPU/IDEXPipe.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Raymond/Documents/GitHub/MIPSCPU|C:/Users/Raymond/Documents/GitHub/MIPSCPU/IDEXPipe.v|
 !s101 -O0
@@ -233,15 +233,15 @@ R4
 n@i@f@i@d@pipe
 !s100 lj[a9O7>CTGW6H0Am<FJz0
 !s85 0
-!s108 1364683370.910000
+!s108 1366797161.778000
 !s107 C:/Users/Raymond/Documents/GitHub/MIPSCPU/IFIDPipe.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Raymond/Documents/GitHub/MIPSCPU|C:/Users/Raymond/Documents/GitHub/MIPSCPU/IFIDPipe.v|
 !s101 -O0
 vinst_rom
-IPjB`ba:FdhY[0hodW<P>33
+Im[EfYZ>XeXgdoDCkYnfm22
 VVogm@flc0=O<_l7he1:A32
 R1
-w1361486359
+w1366069597
 8C:/Users/Raymond/Documents/GitHub/MIPSCPU/inst_rom.v
 FC:/Users/Raymond/Documents/GitHub/MIPSCPU/inst_rom.v
 L0 15
@@ -250,9 +250,9 @@ r1
 31
 R3
 R4
-!s100 YkZ1:XbLzbIRPGf>o:^Q@3
+!s100 :Sc:N499lWAD<IAIA5^^C3
 !s85 0
-!s108 1364683367.611000
+!s108 1366797159.144000
 !s107 C:/Users/Raymond/Documents/GitHub/MIPSCPU/inst_rom.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Raymond/Documents/GitHub/MIPSCPU|C:/Users/Raymond/Documents/GitHub/MIPSCPU/inst_rom.v|
 !s101 -O0
@@ -271,7 +271,7 @@ R3
 R4
 !s100 >hG6DD1>QQ_aH6@[amTcH2
 !s85 0
-!s108 1364683372.362000
+!s108 1366797163.204000
 !s107 C:/Users/Raymond/Documents/GitHub/MIPSCPU/instructioncounter.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Raymond/Documents/GitHub/MIPSCPU|C:/Users/Raymond/Documents/GitHub/MIPSCPU/instructioncounter.v|
 !s101 -O0
@@ -291,7 +291,7 @@ R4
 n@m@e@m@w@b@pipe
 !s100 QFeBM5N`flXJazjiQDF4d0
 !s85 0
-!s108 1364683371.953000
+!s108 1366797162.556000
 !s107 C:/Users/Raymond/Documents/GitHub/MIPSCPU/MEMWBPipe.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Raymond/Documents/GitHub/MIPSCPU|C:/Users/Raymond/Documents/GitHub/MIPSCPU/MEMWBPipe.v|
 !s101 -O0
@@ -311,15 +311,15 @@ R4
 n@m@u@x
 !s100 UXD2C<2Z:AP]Q7[cKQ;CA0
 !s85 0
-!s108 1364683370.068000
+!s108 1366797161.182000
 !s107 C:/Users/Raymond/Documents/GitHub/MIPSCPU/MUX.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Raymond/Documents/GitHub/MIPSCPU|C:/Users/Raymond/Documents/GitHub/MIPSCPU/MUX.v|
 !s101 -O0
 vprocessor
-I`:dZBeM<O[@_^K_a_7SSH0
+IJ4eF2=KHRCC9@TcU]LSHF2
 V4[Z5;;Ol2ieM:XUbIMGL43
 R1
-w1363327409
+w1366745825
 8C:/Users/Raymond/Documents/GitHub/MIPSCPU/processor.v
 FC:/Users/Raymond/Documents/GitHub/MIPSCPU/processor.v
 L0 2
@@ -328,9 +328,9 @@ r1
 31
 R3
 R4
-!s100 oJ7`]MDz1K2Om=oLK2z?J2
+!s100 >DOQOoYFKMBHJl=GJe89L3
 !s85 0
-!s108 1364683368.490000
+!s108 1366797159.994000
 !s107 C:/Users/Raymond/Documents/GitHub/MIPSCPU/processor.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Raymond/Documents/GitHub/MIPSCPU|C:/Users/Raymond/Documents/GitHub/MIPSCPU/processor.v|
 !s101 -O0
@@ -349,7 +349,7 @@ R3
 R4
 !s100 EFYeN4KVg3nneSSckzYWG3
 !s85 0
-!s108 1364683368.833000
+!s108 1366797160.348000
 !s107 C:/Users/Raymond/Documents/GitHub/MIPSCPU/programcounter.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Raymond/Documents/GitHub/MIPSCPU|C:/Users/Raymond/Documents/GitHub/MIPSCPU/programcounter.v|
 !s101 -O0
@@ -368,7 +368,7 @@ R3
 R4
 !s100 QTki??ggb2D^fYDMm3dV12
 !s85 0
-!s108 1364683369.677000
+!s108 1366797160.969000
 !s107 C:/Users/Raymond/Documents/GitHub/MIPSCPU/regfile.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Raymond/Documents/GitHub/MIPSCPU|C:/Users/Raymond/Documents/GitHub/MIPSCPU/regfile.v|
 !s101 -O0
@@ -387,15 +387,15 @@ R3
 R4
 !s100 E=^o3TTJNOJE@f_lKU3i22
 !s85 0
-!s108 1364683367.236000
+!s108 1366797158.131000
 !s107 C:/Users/Raymond/Documents/GitHub/MIPSCPU/serial_buf.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Raymond/Documents/GitHub/MIPSCPU|C:/Users/Raymond/Documents/GitHub/MIPSCPU/serial_buf.v|
 !s101 -O0
 vsignextender
-IWh0OPHc:5DRE2M?ddhLER1
-VlBedRllAJMkz8V<iG>JNP1
+IOGnT;iCAeoXJV4:71WDSk0
+V73MGoS`b^kY;abelX47T@3
 R1
-w1360749924
+w1365658392
 8C:/Users/Raymond/Documents/GitHub/MIPSCPU/signextender.v
 FC:/Users/Raymond/Documents/GitHub/MIPSCPU/signextender.v
 L0 1
@@ -404,9 +404,9 @@ r1
 31
 R3
 R4
-!s100 E]m`0CMCg]h5BWAR0<a7A1
+!s100 >?5aZ4iVQLRR<:cMh<_I61
 !s85 0
-!s108 1364683370.388000
+!s108 1366797161.425000
 !s107 C:/Users/Raymond/Documents/GitHub/MIPSCPU/signextender.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/Raymond/Documents/GitHub/MIPSCPU|C:/Users/Raymond/Documents/GitHub/MIPSCPU/signextender.v|
 !s101 -O0
@@ -423,7 +423,7 @@ R2
 r1
 !s85 0
 31
-!s108 1364683486.352000
+!s108 1366797180.643000
 !s107 C:/Users/Raymond/Documents/GitHub/MIPSCPU/simulation/modelsim/testbench.v|
 !s90 -reportprogress|300|-work|work|C:/Users/Raymond/Documents/GitHub/MIPSCPU/simulation/modelsim/testbench.v|
 !s101 -O0

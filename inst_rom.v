@@ -27,7 +27,7 @@ module inst_rom
 	reg [31:0] out;
 	wire[31:0] addr_inMinus4;
 	
-	assign data_out = out;//{out[7:0],out[15:8],out[23:16],out[31:24]}; //flip bytes
+	assign data_out = {out[7:0],out[15:8],out[23:16],out[31:24]};//out;//{out[7:0],out[15:8],out[23:16],out[31:24]}; //flip bytes
 	assign addr_inMinus4 = addr_in - 4;
 	
 	initial

@@ -7,7 +7,7 @@
 **  
 **  This module wraps several other modules to create the processors address space
 **    A 4KB memory @ 0x7ffff000 to 0x7fffffff intended for the Stack
-**		A 4KB memory @ 0x10010000 to 0x10010fff intended as RAM and static data
+**		A 4KB memory @ 0x10000000 to 0x10000fff intended as RAM and static data
 **		A 4KB memory @ 0x10040000 to 0x10040fff intended as heap/dynamic data
 **		A Serial port interface @ 0xffff0000 to 0xffff000f  used for basic input and output
 **
@@ -58,12 +58,14 @@ parameter INIT_PROGRAM3 = "";
 	wire	[31:0]	data_readdata_data;
 	wire	[31:0]	data_readdata_stack;
 	wire	[31:0]	data_readdata_heap;
+	
+	wire [1:0] lsbs = addr_in[1:0];
 
 	
 	//select correct source for memory reads
 	always @(*) begin
 		case(addr_in[31:16])
-			16'h1001:
+			16'h1000:
 				readdata_out = data_readdata_data;
 			16'h1004:
 				readdata_out = data_readdata_heap;
@@ -75,10 +77,26 @@ parameter INIT_PROGRAM3 = "";
 				readdata_out = 32'b0;
 		endcase
 		
-		if (lhunsigned_outEXMEM) readdata_out[31:16] = 0;
-		if (lhsigned_outEXMEM) readdata_out[31:16] = {16{readdata_out[15]}};
-		if (lbunsigned_outEXMEM) readdata_out[31:8] = 0;
-		if (lbsigned_outEXMEM) readdata_out[31:8] = {24{readdata_out[7]}};
+		if (lhunsigned_outEXMEM)
+		begin
+			readdata_out = readdata_out >> (16 * lsbs[1]);
+			readdata_out[31:16] = 0;
+		end
+		if (lhsigned_outEXMEM) 
+		begin
+			readdata_out = readdata_out >> (16 * lsbs[1]);
+			readdata_out[31:16] = {16{readdata_out[15]}};
+		end
+		if (lbunsigned_outEXMEM) 
+		begin
+			readdata_out = readdata_out >> (8 * lsbs);
+			readdata_out[31:8] = 0;
+		end
+		if (lbsigned_outEXMEM) 
+		begin
+			readdata_out = readdata_out >> (8 * lsbs);
+			readdata_out[31:8] = {24{readdata_out[7]}};
+		end
 	end
 	
 		
@@ -86,7 +104,7 @@ parameter INIT_PROGRAM3 = "";
 	//DATA segment
 	async_memory
 		#(
-		.MEM_ADDR(16'h1001),
+		.MEM_ADDR(16'h1000),
 		.DO_INIT(1),
 		.INIT_PROGRAM0(INIT_PROGRAM0),
 		.INIT_PROGRAM1(INIT_PROGRAM1),

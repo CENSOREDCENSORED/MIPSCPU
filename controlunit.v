@@ -15,7 +15,9 @@ module controlunit(
 	output reg lhunsigned_out,
 	output reg lhsigned_out,
 	output reg lbunsigned_out,
-	output reg lbsigned_out
+	output reg lbsigned_out,
+	output reg signExtendEnable,
+	output reg [1:0] size_in
 );
 
 wire [5:0] Opcode = instruction[31:26];
@@ -38,6 +40,8 @@ begin
 	lhsigned_out <= 0;
 	lbunsigned_out <= 0;
 	lbsigned_out <= 0;
+	signExtendEnable <= 1;
+	size_in <= 3;
 	case(Opcode)
 		6'h0:  //r-type
 		begin
@@ -108,11 +112,14 @@ begin
 				
 				6'h00: // sll
 				begin
-					Func_in <= 6'b110000;
-					mux1Select <= 1;
-					mux2Select <= 0;
-					mux3Select <= 0;
-					muxShiftSelect <= 1;
+					if (instruction != 0)
+					begin
+						Func_in <= 6'b110000;
+						mux1Select <= 1;
+						mux2Select <= 0;
+						mux3Select <= 0;
+						muxShiftSelect <= 1;
+					end
 				end
 				
 				
@@ -201,7 +208,13 @@ begin
 				
 				6'h19:  //mulu
 				begin
-						$display("Multiply Unsigned is unsupported");
+					/*
+					Func_in <= 6'b011000;
+					mux1Select <= 1;
+					mux2Select <= 0;
+					mux3Select <= 0;
+					*/
+					$display("Multiply Unsigned is unsupported");
 					//o_Uses_ALU <= TRUE;
 					//o_Writes_Back <= TRUE;				
 					//o_ALUCTL <= ALUCTL_NOP;
@@ -248,6 +261,7 @@ begin
 		6'h0c:  //andi
 		begin
 			Func_in <= 6'b100100;
+			signExtendEnable <= 0;
 			mux1Select <= 0;
 			mux2Select <= 1;
 			mux3Select <= 0;
@@ -256,6 +270,7 @@ begin
 		6'h0d:  //ori
 		begin
 			Func_in <= 6'b100101;
+			signExtendEnable <= 0;
 			mux1Select <= 0;
 			mux2Select <= 1;
 			mux3Select <= 0;
@@ -264,6 +279,7 @@ begin
 		6'h0e:  //xori
 		begin
 			Func_in <= 6'b100110;
+			signExtendEnable <= 0;
 			mux1Select <= 0;
 			mux2Select <= 1;
 			mux3Select <= 0;
@@ -328,10 +344,10 @@ begin
 			mux3Select <= 0;
 			i_Write_Enable <= 0;
 			if (instruction[19:16] == 1) begin
-				Func_in <= 6'b111000;
+				Func_in <= 6'b111001;
 			end
 			else begin
-				Func_in <= 6'b111001;
+				Func_in <= 6'b111000;
 			end
 		end
 		
@@ -412,10 +428,26 @@ begin
 
 		6'h28:  //sb
 		begin
+			Func_in <= 6'b100000;
+			mux1Select <= 0;
+			mux2Select <= 1;
+			mux3Select <= 0;
+			re_in <= 0;
+			we_in <= 1;
+			i_Write_Enable <= 0;
+			size_in <= 0;
 		end
 
 		6'h29:  //sh
 		begin
+			Func_in <= 6'b100000;
+			mux1Select <= 0;
+			mux2Select <= 1;
+			mux3Select <= 0;
+			re_in <= 0;
+			we_in <= 1;
+			i_Write_Enable <= 0;
+			size_in <= 1;
 		end
 
 		6'h2b:  //sw

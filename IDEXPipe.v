@@ -31,6 +31,7 @@ input lhunsigned_out,
 input lhsigned_out,
 input lbunsigned_out,
 input lbsigned_out,
+input [1:0] size_in,
 
 output reg[31:0] pcPlus4IDEX,
 output reg[5:0] Func_inIDEX,
@@ -57,7 +58,8 @@ output reg predictionIDEX,
 output reg lhunsigned_outIDEX,
 output reg lhsigned_outIDEX,
 output reg lbunsigned_outIDEX,
-output reg lbsigned_outIDEX
+output reg lbsigned_outIDEX,
+output reg [1:0] size_inIDEX
 );
 
 always @(posedge clock or posedge reset)
@@ -90,6 +92,7 @@ begin
 		lhsigned_outIDEX <= 0;
 		lbunsigned_outIDEX <= 0;
 		lbsigned_outIDEX <= 0;
+		size_inIDEX <= 0;
 	end
 	else begin 
 		if (stall)
@@ -120,6 +123,7 @@ begin
 			lhsigned_outIDEX <= 0;
 			lbunsigned_outIDEX <= 0;
 			lbsigned_outIDEX <= 0;
+			size_inIDEX <= 0;
 		end
 	
 		else begin
@@ -151,6 +155,7 @@ begin
 				lhsigned_outIDEX <= 0;
 				lbunsigned_outIDEX <= 0;
 				lbsigned_outIDEX <= 0;
+				size_inIDEX <= 0;
 			end
 			else begin
 				if (Jump_out)
@@ -181,6 +186,7 @@ begin
 					lhsigned_outIDEX <= 0;
 					lbunsigned_outIDEX <= 0;
 					lbsigned_outIDEX <= 0;
+					size_inIDEX <= 0;
 				end
 				else begin
 					pcPlus4IDEX <= pcPlus4IFID;
@@ -209,6 +215,7 @@ begin
 					lhsigned_outIDEX <= lhsigned_out;
 					lbunsigned_outIDEX <= lbunsigned_out;
 					lbsigned_outIDEX <= lbsigned_out;
+					size_inIDEX <= size_in;
 				end
 			end
 	end

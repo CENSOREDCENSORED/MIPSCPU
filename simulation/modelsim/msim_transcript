@@ -168,26 +168,59 @@ vsim -voptargs=+acc work.testbench
 # Loading work.MEMWBPipe
 # Loading work.counter
 # Loading work.instructioncounter
-# ** Warning: (vsim-3015) C:/Users/Raymond/Documents/GitHub/MIPSCPU/processor.v(392): [PCDPC] - Port size (32 or 32) does not match connection size (34) for port 'jumpAddress'. The port definition is at: C:/Users/Raymond/Documents/GitHub/MIPSCPU/IDEXPipe.v(22).
-#         Region: /testbench/dut/IDEXPipe
-# ** Warning: (vsim-3015) C:/Users/Raymond/Documents/GitHub/MIPSCPU/processor.v(594): [PCDPC] - Port size (32 or 32) does not match connection size (5) for port 'input1'. The port definition is at: C:/Users/Raymond/Documents/GitHub/MIPSCPU/MUX.v(2).
+# ** Warning: (vsim-3015) C:/Users/Raymond/Documents/GitHub/MIPSCPU/processor.v(628): [PCDPC] - Port size (32 or 32) does not match connection size (5) for port 'input1'. The port definition is at: C:/Users/Raymond/Documents/GitHub/MIPSCPU/MUX.v(2).
 #         Region: /testbench/dut/mux1
-# ** Warning: (vsim-3015) C:/Users/Raymond/Documents/GitHub/MIPSCPU/processor.v(594): [PCDPC] - Port size (32 or 32) does not match connection size (5) for port 'input2'. The port definition is at: C:/Users/Raymond/Documents/GitHub/MIPSCPU/MUX.v(3).
+# ** Warning: (vsim-3015) C:/Users/Raymond/Documents/GitHub/MIPSCPU/processor.v(628): [PCDPC] - Port size (32 or 32) does not match connection size (5) for port 'input2'. The port definition is at: C:/Users/Raymond/Documents/GitHub/MIPSCPU/MUX.v(3).
 #         Region: /testbench/dut/mux1
-# ** Warning: (vsim-3015) C:/Users/Raymond/Documents/GitHub/MIPSCPU/processor.v(594): [PCDPC] - Port size (32 or 32) does not match connection size (5) for port 'output1'. The port definition is at: C:/Users/Raymond/Documents/GitHub/MIPSCPU/MUX.v(6).
+# ** Warning: (vsim-3015) C:/Users/Raymond/Documents/GitHub/MIPSCPU/processor.v(628): [PCDPC] - Port size (32 or 32) does not match connection size (5) for port 'output1'. The port definition is at: C:/Users/Raymond/Documents/GitHub/MIPSCPU/MUX.v(6).
 #         Region: /testbench/dut/mux1
-# ** Warning: (vsim-3015) C:/Users/Raymond/Documents/GitHub/MIPSCPU/processor.v(610): [PCDPC] - Port size (32 or 32) does not match connection size (5) for port 'input1'. The port definition is at: C:/Users/Raymond/Documents/GitHub/MIPSCPU/MUX.v(2).
+# ** Warning: (vsim-3015) C:/Users/Raymond/Documents/GitHub/MIPSCPU/processor.v(644): [PCDPC] - Port size (32 or 32) does not match connection size (5) for port 'input1'. The port definition is at: C:/Users/Raymond/Documents/GitHub/MIPSCPU/MUX.v(2).
 #         Region: /testbench/dut/mux6
-# ** Warning: (vsim-3015) C:/Users/Raymond/Documents/GitHub/MIPSCPU/processor.v(610): [PCDPC] - Port size (32 or 32) does not match connection size (5) for port 'output1'. The port definition is at: C:/Users/Raymond/Documents/GitHub/MIPSCPU/MUX.v(6).
+# ** Warning: (vsim-3015) C:/Users/Raymond/Documents/GitHub/MIPSCPU/processor.v(644): [PCDPC] - Port size (32 or 32) does not match connection size (5) for port 'output1'. The port definition is at: C:/Users/Raymond/Documents/GitHub/MIPSCPU/MUX.v(6).
 #         Region: /testbench/dut/mux6
 do C:/Users/Raymond/Documents/GitHub/MIPSCPU/simulation/modelsim/Nicewave.do
 run
+# [963] Serial: S
+# [1413] Serial: t
+# [1863] Serial: a
+# [2313] Serial: r
+# [2763] Serial: t
+# [3213] Serial: 
+# 
+# [17127] Serial: 0
+# [17577] Serial: 
+# 
+# [31599] Serial: 1
+# [32049] Serial: 
+# 
+# [46071] Serial: 1
+# [46521] Serial: 
+# 
+# [60543] Serial: 2
+# [60993] Serial: 
+# 
+# [75015] Serial: 3
+# [75465] Serial: 
+# 
+# [89487] Serial: 5
+# [89937] Serial: 
+# 
 run
-run
-run
-run
-run
-run
-run
-run
-run
+# [103959] Serial: 8
+# [104409] Serial: 
+# 
+# [130365] Serial: 1
+# [130815] Serial: 3
+# [131265] Serial: 
+# 
+# [157185] Serial: 2
+# [157635] Serial: 1
+# [158085] Serial: 
+# 
+# [184005] Serial: 3
+# [184455] Serial: 4
+# [184905] Serial: 
+# 
+# [185481] Serial: E
+# [185931] Serial: 
+# 

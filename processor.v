@@ -60,6 +60,8 @@ wire Jump_out;
 wire re_in;
 wire we_in;
 wire[1:0] size_in;
+wire[1:0] size_inIDEX;
+wire[1:0] size_inEXMEM;
 wire i_Write_Enable;
 
 wire[31:0] branchAddress;
@@ -156,7 +158,7 @@ assign reg3 = instructionROMOutIFID[15:11];
 //assign mux3Select = 0;
 //assign Func_in = 6'b100000;
 //assign stall = 0;
-assign size_in = 2'b11;
+//assign size_in = 2'b11;
 
 //-------------------------------------------------
 //Fetch
@@ -175,7 +177,15 @@ adder adder(
 );
 
 inst_rom #(
-	.INIT_PROGRAM("C:/Users/Raymond/Documents/GitHub/MIPSCPU/program.txt")
+	//.INIT_PROGRAM("C:/Users/Raymond/Documents/GitHub/MIPSCPU/program.txt"),
+	//.INIT_PROGRAM("C:/Users/Raymond/Documents/GitHub/MIPSCPU/test.hex"),
+	//.INIT_PROGRAM("C:/Users/Raymond/Documents/GitHub/MIPSCPU/helloworldnb.hex")
+	//.INIT_PROGRAM("C:/Users/Raymond/Documents/GitHub/MIPSCPU/141LTests/fib.inst_rom.memh"),
+	//.INIT_PROGRAM("C:/Users/Raymond/Documents/GitHub/MIPSCPU/141LTests/lab3-test.inst_rom.memh"),
+	//.INIT_PROGRAM("C:/Users/Raymond/Documents/GitHub/MIPSCPU/141LTests/hello_world.inst_rom.memh"),
+	.INIT_PROGRAM("C:/Users/Raymond/Documents/GitHub/MIPSCPU/141LTests/test.inst_rom.memh"),
+	//.INIT_PROGRAM("C:/Users/Raymond/Documents/GitHub/MIPSCPU/141LTests/gcd.inst_rom.memh"),
+	.ADDR_WIDTH(10)
 ) myInstructionROM(
 	.clock(clock),
 	.reset(reset),
@@ -188,6 +198,7 @@ wire prediction;
 wire predictionIFID;
 wire predictionIDEX;
 wire branchoutcome;
+wire signExtendEnable;
 
 //NOTE: Branch predictor isn't actually hooked up
 branchPredictor branchPredictor(
@@ -263,7 +274,9 @@ controlunit controlunit(
 	.lhunsigned_out(lhunsigned_out),
 	.lhsigned_out(lhsigned_out),
 	.lbunsigned_out(lbunsigned_out),
-	.lbsigned_out(lbsigned_out)
+	.lbsigned_out(lbsigned_out),
+	.signExtendEnable(signExtendEnable),
+	.size_in(size_in)
 );
 
 regfile regfile(
@@ -280,6 +293,7 @@ regfile regfile(
 );
 
 signextender signextender(
+	.enable(signExtendEnable),
 	.input1(instructionROMOutIFID[15:0]),
 	.output1(signextended)
 );
@@ -349,7 +363,7 @@ IDEXPipe IDEXPipe(
 	.reg2(reg2),
 	.reg3(reg3),
 	.signextended(signextended),
-	.jumpAddress({{6{instructionROMOutIFID[25]}}, instructionROMOutIFID[25:0], 2'b00}),
+	.jumpAddress({{4{instructionROMOutIFID[25]}}, instructionROMOutIFID[25:0], 2'b00}),
 	.branchAddress(branchAddress),
 	.instructionROMOutIFID(instructionROMOutIFID),
 	.muxShiftSelect(muxShiftSelect),
@@ -359,6 +373,7 @@ IDEXPipe IDEXPipe(
 	.lhsigned_out(lhsigned_out),
 	.lbunsigned_out(lbunsigned_out),
 	.lbsigned_out(lbsigned_out),
+	.size_in(size_in),
 
 	.Branch_out(Branch_out),
 	.Jump_out(Jump_out),
@@ -388,7 +403,8 @@ IDEXPipe IDEXPipe(
 	.lhunsigned_outIDEX(lhunsigned_outIDEX),
 	.lhsigned_outIDEX(lhsigned_outIDEX),
 	.lbunsigned_outIDEX(lbunsigned_outIDEX),
-	.lbsigned_outIDEX(lbsigned_outIDEX)
+	.lbsigned_outIDEX(lbsigned_outIDEX),
+	.size_inIDEX(size_inIDEX)
 );
 
 //-------------------------------------------------
@@ -498,6 +514,7 @@ EXMEMPipe EXMEMPipe(
 	.lhsigned_outIDEX(lhsigned_outIDEX),
 	.lbunsigned_outIDEX(lbunsigned_outIDEX),
 	.lbsigned_outIDEX(lbsigned_outIDEX),
+	.size_inIDEX(size_inIDEX),
 	
 	.O_outEXMEM(O_outEXMEM),
 	.o_RT_DataEXMEM(o_RT_DataEXMEM),
@@ -514,17 +531,34 @@ EXMEMPipe EXMEMPipe(
 	.lhunsigned_outEXMEM(lhunsigned_outEXMEM),
 	.lhsigned_outEXMEM(lhsigned_outEXMEM),
 	.lbunsigned_outEXMEM(lbunsigned_outEXMEM),
-	.lbsigned_outEXMEM(lbsigned_outEXMEM)
+	.lbsigned_outEXMEM(lbsigned_outEXMEM),
+	.size_inEXMEM(size_inEXMEM)
 	
 );
 
 //-------------------------------------------------
 //Memory
 data_memory #(
-	.INIT_PROGRAM0("C:/Users/Raymond/Documents/GitHub/MIPSCPU/nbhelloworld.data_ram0.memh"),
-	.INIT_PROGRAM1("C:/Users/Raymond/Documents/GitHub/MIPSCPU/nbhelloworld.data_ram1.memh"),
-	.INIT_PROGRAM2("C:/Users/Raymond/Documents/GitHub/MIPSCPU/nbhelloworld.data_ram2.memh"),
-	.INIT_PROGRAM3("C:/Users/Raymond/Documents/GitHub/MIPSCPU/nbhelloworld.data_ram3.memh")
+	.INIT_PROGRAM0("C:/Users/Raymond/Documents/GitHub/MIPSCPU/141LTests/test.data_ram0.memh"),
+	.INIT_PROGRAM1("C:/Users/Raymond/Documents/GitHub/MIPSCPU/141LTests/test.data_ram1.memh"),
+	.INIT_PROGRAM2("C:/Users/Raymond/Documents/GitHub/MIPSCPU/141LTests/test.data_ram2.memh"),
+	.INIT_PROGRAM3("C:/Users/Raymond/Documents/GitHub/MIPSCPU/141LTests/test.data_ram3.memh")
+	/*.INIT_PROGRAM0("C:/Users/Raymond/Documents/GitHub/MIPSCPU/141LTests/lab3-test.data_ram0.memh"),
+	.INIT_PROGRAM1("C:/Users/Raymond/Documents/GitHub/MIPSCPU/141LTests/lab3-test.data_ram1.memh"),
+	.INIT_PROGRAM2("C:/Users/Raymond/Documents/GitHub/MIPSCPU/141LTests/lab3-test.data_ram2.memh"),
+	.INIT_PROGRAM3("C:/Users/Raymond/Documents/GitHub/MIPSCPU/141LTests/lab3-test.data_ram3.memh")*/
+	/*.INIT_PROGRAM0("C:/Users/Raymond/Documents/GitHub/MIPSCPU/141LTests/hello_world.data_ram0.memh"),
+	.INIT_PROGRAM1("C:/Users/Raymond/Documents/GitHub/MIPSCPU/141LTests/hello_world.data_ram1.memh"),
+	.INIT_PROGRAM2("C:/Users/Raymond/Documents/GitHub/MIPSCPU/141LTests/hello_world.data_ram2.memh"),
+	.INIT_PROGRAM3("C:/Users/Raymond/Documents/GitHub/MIPSCPU/141LTests/hello_world.data_ram3.memh")*/
+	/*.INIT_PROGRAM0("C:/Users/Raymond/Documents/GitHub/MIPSCPU/141LTests/fib.data_ram0.memh"),
+	.INIT_PROGRAM1("C:/Users/Raymond/Documents/GitHub/MIPSCPU/141LTests/fib.data_ram1.memh"),
+	.INIT_PROGRAM2("C:/Users/Raymond/Documents/GitHub/MIPSCPU/141LTests/fib.data_ram2.memh"),
+	.INIT_PROGRAM3("C:/Users/Raymond/Documents/GitHub/MIPSCPU/141LTests/fib.data_ram3.memh")*/
+	/*.INIT_PROGRAM0("C:/Users/Raymond/Documents/GitHub/MIPSCPU/141LTests/gcd.data_ram0.memh"),
+	.INIT_PROGRAM1("C:/Users/Raymond/Documents/GitHub/MIPSCPU/141LTests/gcd.data_ram1.memh"),
+	.INIT_PROGRAM2("C:/Users/Raymond/Documents/GitHub/MIPSCPU/141LTests/gcd.data_ram2.memh"),
+	.INIT_PROGRAM3("C:/Users/Raymond/Documents/GitHub/MIPSCPU/141LTests/gcd.data_ram3.memh")*/
 ) dmem
 (
 	.clock(clock),
@@ -534,7 +568,7 @@ data_memory #(
 	
 	.re_in(re_inEXMEM),
 	.we_in(we_inEXMEM),
-	.size_in(size_in),
+	.size_in(size_inEXMEM),
 	.readdata_out(readdata_out),
 	.lhunsigned_outEXMEM(lhunsigned_outEXMEM),
 	.lhsigned_outEXMEM(lhsigned_outEXMEM),

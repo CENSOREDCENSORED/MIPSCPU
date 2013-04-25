@@ -18,27 +18,39 @@ begin
 	hazardReg2 <= 0;
 	
 	if (opcode == 0) begin
+		//not a shift operation
 		if (func != 0) begin
 			if (func != 8) begin
-				if (reg1 == writeReg3)
+				if (writeReg3 != 0 && reg1 == writeReg3)
 				begin
 					hazardReg1 <= 1;
 				end
-				if (reg2 == writeReg3)
+				if (writeReg3 != 0 && reg2 == writeReg3)
 				begin
 					hazardReg2 <= 1;
 				end
+			end
+		end
+		//is a shift operation
+		else begin
+			if (writeReg3 != 0 && reg1 == writeReg3)
+			begin
+				hazardReg1 <= 1;
+			end
+			if (writeReg3 != 0 && reg2 == writeReg3)
+			begin
+				hazardReg2 <= 1;
 			end
 		end
 	end
 	else begin
 		if (opcode[5:2] != 4'b1010) 
 		begin
-			if (reg1 == writeReg2)
+			if (writeReg2 != 0 && reg1 == writeReg2)
 			begin
 				hazardReg1 <= 1;
 			end
-			if (reg2 == writeReg2)
+			if (writeReg2 != 0 && reg2 == writeReg2)
 			begin
 				hazardReg2 <= 1;
 			end
