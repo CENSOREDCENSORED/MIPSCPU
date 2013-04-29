@@ -1,6 +1,9 @@
 library verilog;
 use verilog.vl_types.all;
 entity IDEXPipe is
+    generic(
+        DELAY_SLOT_ENABLE: integer := 0
+    );
     port(
         clock           : in     vl_logic;
         reset           : in     vl_logic;
@@ -62,4 +65,6 @@ entity IDEXPipe is
         lbsigned_outIDEX: out    vl_logic;
         size_inIDEX     : out    vl_logic_vector(1 downto 0)
     );
+    attribute mti_svvh_generic_type : integer;
+    attribute mti_svvh_generic_type of DELAY_SLOT_ENABLE : constant is 1;
 end IDEXPipe;

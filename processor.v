@@ -20,6 +20,8 @@ output[31:0] outputReg,
 output[31:0] instructionROMOutMEMWBOut
 );
 
+localparam DELAY_SLOT_ENABLE = 1;
+
 wire stall;
 wire EXhazardReg1;
 wire EXhazardReg2;
@@ -343,7 +345,9 @@ hazardDetectionStall hds(
 	.stall(stall)
 );
 
-IDEXPipe IDEXPipe(
+IDEXPipe#(
+	.DELAY_SLOT_ENABLE(DELAY_SLOT_ENABLE)
+) IDEXPipe(
 	.clock(clock),
 	.reset(reset),
 	.stall(stall),
@@ -643,10 +647,24 @@ MUX mux6(
 	.output1(writeRegOr31)
 );
 
+reg [31:0] pcPlus8MEMWB;
+
+always @(*)
+begin
+	if (DELAY_SLOT_ENABLE)
+	begin
+		pcPlus8MEMWB = pcPlus4MEMWB + 4;
+	end
+	else
+	begin
+		pcPlus8MEMWB = pcPlus4MEMWB;
+	end
+end
+
 //Link MUX
 MUX mux7(
 	.input1(writeData),
-	.input2(pcPlus4MEMWB),
+	.input2(pcPlus8MEMWB),
 	.select(linkRegMEMWB),
 	.output1(writeDataOrPC)
 );

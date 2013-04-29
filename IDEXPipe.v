@@ -62,6 +62,8 @@ output reg lbsigned_outIDEX,
 output reg [1:0] size_inIDEX
 );
 
+parameter DELAY_SLOT_ENABLE = 0;
+
 always @(posedge clock or posedge reset)
 begin
 	if (reset)
@@ -127,7 +129,7 @@ begin
 		end
 	
 		else begin
-			if (Branch_out)
+			if (Branch_out && !DELAY_SLOT_ENABLE)
 			begin
 				pcPlus4IDEX <= 0;
 				Func_inIDEX <= 0;
@@ -158,7 +160,7 @@ begin
 				size_inIDEX <= 0;
 			end
 			else begin
-				if (Jump_out)
+				if (Jump_out && !DELAY_SLOT_ENABLE)
 				begin
 					pcPlus4IDEX <= 0;
 					Func_inIDEX <= 0;

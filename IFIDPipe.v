@@ -14,7 +14,6 @@ output reg[31:0] pcPlus4IFID,
 output reg predictionIFID
 );
 
-
 always @(posedge clock or posedge reset)
 begin
 	if (reset == 1)

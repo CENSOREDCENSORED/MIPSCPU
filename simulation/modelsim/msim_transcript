@@ -138,6 +138,138 @@
 # 	branchPredictor
 # 
 #  
+vlog -vlog01compat -work work +incdir+C:/Users/Raymond/Documents/GitHub/MIPSCPU -O0 C:/Users/Raymond/Documents/GitHub/MIPSCPU/adder.v
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module adder
+# 
+# Top level modules:
+# 	adder
+vlog -vlog01compat -work work +incdir+C:/Users/Raymond/Documents/GitHub/MIPSCPU -O0 C:/Users/Raymond/Documents/GitHub/MIPSCPU/alu.v
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	alu
+vlog -vlog01compat -work work +incdir+C:/Users/Raymond/Documents/GitHub/MIPSCPU -O0 C:/Users/Raymond/Documents/GitHub/MIPSCPU/async_memory.v
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module async_memory
+# 
+# Top level modules:
+# 	async_memory
+vlog -vlog01compat -work work +incdir+C:/Users/Raymond/Documents/GitHub/MIPSCPU -O0 C:/Users/Raymond/Documents/GitHub/MIPSCPU/branchPredictor.v
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module branchPredictor
+# 
+# Top level modules:
+# 	branchPredictor
+vlog -vlog01compat -work work +incdir+C:/Users/Raymond/Documents/GitHub/MIPSCPU -O0 C:/Users/Raymond/Documents/GitHub/MIPSCPU/controlunit.v
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module controlunit
+# 
+# Top level modules:
+# 	controlunit
+vlog -vlog01compat -work work +incdir+C:/Users/Raymond/Documents/GitHub/MIPSCPU -O0 C:/Users/Raymond/Documents/GitHub/MIPSCPU/counter.v
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module counter
+# 
+# Top level modules:
+# 	counter
+vlog -vlog01compat -work work +incdir+C:/Users/Raymond/Documents/GitHub/MIPSCPU -O0 C:/Users/Raymond/Documents/GitHub/MIPSCPU/data_memory.v
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module data_memory
+# 
+# Top level modules:
+# 	data_memory
+vlog -vlog01compat -work work +incdir+C:/Users/Raymond/Documents/GitHub/MIPSCPU -O0 C:/Users/Raymond/Documents/GitHub/MIPSCPU/EXMEMPipe.v
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module EXMEMPipe
+# 
+# Top level modules:
+# 	EXMEMPipe
+vlog -vlog01compat -work work +incdir+C:/Users/Raymond/Documents/GitHub/MIPSCPU -O0 C:/Users/Raymond/Documents/GitHub/MIPSCPU/hazardDetectionNoStall.v
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module hazardDetectionNoStall
+# 
+# Top level modules:
+# 	hazardDetectionNoStall
+vlog -vlog01compat -work work +incdir+C:/Users/Raymond/Documents/GitHub/MIPSCPU -O0 C:/Users/Raymond/Documents/GitHub/MIPSCPU/hazardDetectionStall.v
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module hazardDetectionStall
+# 
+# Top level modules:
+# 	hazardDetectionStall
+vlog -vlog01compat -work work +incdir+C:/Users/Raymond/Documents/GitHub/MIPSCPU -O0 C:/Users/Raymond/Documents/GitHub/MIPSCPU/IDEXPipe.v
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module IDEXPipe
+# 
+# Top level modules:
+# 	IDEXPipe
+vlog -vlog01compat -work work +incdir+C:/Users/Raymond/Documents/GitHub/MIPSCPU -O0 C:/Users/Raymond/Documents/GitHub/MIPSCPU/IFIDPipe.v
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module IFIDPipe
+# 
+# Top level modules:
+# 	IFIDPipe
+vlog -vlog01compat -work work +incdir+C:/Users/Raymond/Documents/GitHub/MIPSCPU -O0 C:/Users/Raymond/Documents/GitHub/MIPSCPU/inst_rom.v
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module inst_rom
+# 
+# Top level modules:
+# 	inst_rom
+vlog -vlog01compat -work work +incdir+C:/Users/Raymond/Documents/GitHub/MIPSCPU -O0 C:/Users/Raymond/Documents/GitHub/MIPSCPU/instructioncounter.v
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module instructioncounter
+# 
+# Top level modules:
+# 	instructioncounter
+vlog -vlog01compat -work work +incdir+C:/Users/Raymond/Documents/GitHub/MIPSCPU -O0 C:/Users/Raymond/Documents/GitHub/MIPSCPU/MEMWBPipe.v
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module MEMWBPipe
+# 
+# Top level modules:
+# 	MEMWBPipe
+vlog -vlog01compat -work work +incdir+C:/Users/Raymond/Documents/GitHub/MIPSCPU -O0 C:/Users/Raymond/Documents/GitHub/MIPSCPU/MUX.v
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module MUX
+# 
+# Top level modules:
+# 	MUX
+vlog -vlog01compat -work work +incdir+C:/Users/Raymond/Documents/GitHub/MIPSCPU -O0 C:/Users/Raymond/Documents/GitHub/MIPSCPU/processor.v
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module processor
+# 
+# Top level modules:
+# 	processor
+vlog -vlog01compat -work work +incdir+C:/Users/Raymond/Documents/GitHub/MIPSCPU -O0 C:/Users/Raymond/Documents/GitHub/MIPSCPU/programcounter.v
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module programcounter
+# 
+# Top level modules:
+# 	programcounter
+vlog -vlog01compat -work work +incdir+C:/Users/Raymond/Documents/GitHub/MIPSCPU -O0 C:/Users/Raymond/Documents/GitHub/MIPSCPU/regfile.v
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module regfile
+# 
+# Top level modules:
+# 	regfile
+vlog -vlog01compat -work work +incdir+C:/Users/Raymond/Documents/GitHub/MIPSCPU -O0 C:/Users/Raymond/Documents/GitHub/MIPSCPU/serial_buf.v
+vlog -reportprogress 30 -work work C:/Users/Raymond/Documents/GitHub/MIPSCPU/simulation/modelsim/testbench.v
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module serial_buffer
+# 
+# Top level modules:
+# 	serial_buffer
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+vlog -vlog01compat -work work +incdir+C:/Users/Raymond/Documents/GitHub/MIPSCPU -O0 C:/Users/Raymond/Documents/GitHub/MIPSCPU/signextender.v
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module signextender
+# 
+# Top level modules:
+# 	signextender
 vlog -reportprogress 300 -work work C:/Users/Raymond/Documents/GitHub/MIPSCPU/simulation/modelsim/testbench.v
 # Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
 # -- Compiling module testbench
@@ -168,59 +300,759 @@ vsim -voptargs=+acc work.testbench
 # Loading work.MEMWBPipe
 # Loading work.counter
 # Loading work.instructioncounter
-# ** Warning: (vsim-3015) C:/Users/Raymond/Documents/GitHub/MIPSCPU/processor.v(628): [PCDPC] - Port size (32 or 32) does not match connection size (5) for port 'input1'. The port definition is at: C:/Users/Raymond/Documents/GitHub/MIPSCPU/MUX.v(2).
+# ** Warning: (vsim-3015) C:/Users/Raymond/Documents/GitHub/MIPSCPU/processor.v(632): [PCDPC] - Port size (32 or 32) does not match connection size (5) for port 'input1'. The port definition is at: C:/Users/Raymond/Documents/GitHub/MIPSCPU/MUX.v(2).
 #         Region: /testbench/dut/mux1
-# ** Warning: (vsim-3015) C:/Users/Raymond/Documents/GitHub/MIPSCPU/processor.v(628): [PCDPC] - Port size (32 or 32) does not match connection size (5) for port 'input2'. The port definition is at: C:/Users/Raymond/Documents/GitHub/MIPSCPU/MUX.v(3).
+# ** Warning: (vsim-3015) C:/Users/Raymond/Documents/GitHub/MIPSCPU/processor.v(632): [PCDPC] - Port size (32 or 32) does not match connection size (5) for port 'input2'. The port definition is at: C:/Users/Raymond/Documents/GitHub/MIPSCPU/MUX.v(3).
 #         Region: /testbench/dut/mux1
-# ** Warning: (vsim-3015) C:/Users/Raymond/Documents/GitHub/MIPSCPU/processor.v(628): [PCDPC] - Port size (32 or 32) does not match connection size (5) for port 'output1'. The port definition is at: C:/Users/Raymond/Documents/GitHub/MIPSCPU/MUX.v(6).
+# ** Warning: (vsim-3015) C:/Users/Raymond/Documents/GitHub/MIPSCPU/processor.v(632): [PCDPC] - Port size (32 or 32) does not match connection size (5) for port 'output1'. The port definition is at: C:/Users/Raymond/Documents/GitHub/MIPSCPU/MUX.v(6).
 #         Region: /testbench/dut/mux1
-# ** Warning: (vsim-3015) C:/Users/Raymond/Documents/GitHub/MIPSCPU/processor.v(644): [PCDPC] - Port size (32 or 32) does not match connection size (5) for port 'input1'. The port definition is at: C:/Users/Raymond/Documents/GitHub/MIPSCPU/MUX.v(2).
+# ** Warning: (vsim-3015) C:/Users/Raymond/Documents/GitHub/MIPSCPU/processor.v(648): [PCDPC] - Port size (32 or 32) does not match connection size (5) for port 'input1'. The port definition is at: C:/Users/Raymond/Documents/GitHub/MIPSCPU/MUX.v(2).
 #         Region: /testbench/dut/mux6
-# ** Warning: (vsim-3015) C:/Users/Raymond/Documents/GitHub/MIPSCPU/processor.v(644): [PCDPC] - Port size (32 or 32) does not match connection size (5) for port 'output1'. The port definition is at: C:/Users/Raymond/Documents/GitHub/MIPSCPU/MUX.v(6).
+# ** Warning: (vsim-3015) C:/Users/Raymond/Documents/GitHub/MIPSCPU/processor.v(648): [PCDPC] - Port size (32 or 32) does not match connection size (5) for port 'output1'. The port definition is at: C:/Users/Raymond/Documents/GitHub/MIPSCPU/MUX.v(6).
 #         Region: /testbench/dut/mux6
 do C:/Users/Raymond/Documents/GitHub/MIPSCPU/simulation/modelsim/Nicewave.do
 run
-# [963] Serial: S
-# [1413] Serial: t
-# [1863] Serial: a
-# [2313] Serial: r
-# [2763] Serial: t
-# [3213] Serial: 
+# [1539] Serial: H
+# [2403] Serial: e
+# [3267] Serial: l
+# [4131] Serial: l
+# [4995] Serial: o
+# [5859] Serial:  
+# [6723] Serial: W
+# [7587] Serial: o
+# [8451] Serial: r
+# [9315] Serial: l
+restart
+# ** Warning: (vsim-3015) C:/Users/Raymond/Documents/GitHub/MIPSCPU/processor.v(632): [PCDPC] - Port size (32 or 32) does not match connection size (5) for port 'input1'. The port definition is at: C:/Users/Raymond/Documents/GitHub/MIPSCPU/MUX.v(2).
+#         Region: /testbench/dut/mux1
+# ** Warning: (vsim-3015) C:/Users/Raymond/Documents/GitHub/MIPSCPU/processor.v(632): [PCDPC] - Port size (32 or 32) does not match connection size (5) for port 'input2'. The port definition is at: C:/Users/Raymond/Documents/GitHub/MIPSCPU/MUX.v(3).
+#         Region: /testbench/dut/mux1
+# ** Warning: (vsim-3015) C:/Users/Raymond/Documents/GitHub/MIPSCPU/processor.v(632): [PCDPC] - Port size (32 or 32) does not match connection size (5) for port 'output1'. The port definition is at: C:/Users/Raymond/Documents/GitHub/MIPSCPU/MUX.v(6).
+#         Region: /testbench/dut/mux1
+# ** Warning: (vsim-3015) C:/Users/Raymond/Documents/GitHub/MIPSCPU/processor.v(648): [PCDPC] - Port size (32 or 32) does not match connection size (5) for port 'input1'. The port definition is at: C:/Users/Raymond/Documents/GitHub/MIPSCPU/MUX.v(2).
+#         Region: /testbench/dut/mux6
+# ** Warning: (vsim-3015) C:/Users/Raymond/Documents/GitHub/MIPSCPU/processor.v(648): [PCDPC] - Port size (32 or 32) does not match connection size (5) for port 'output1'. The port definition is at: C:/Users/Raymond/Documents/GitHub/MIPSCPU/MUX.v(6).
+#         Region: /testbench/dut/mux6
+run
+# [1539] Serial: H
+# [2403] Serial: e
+# [3267] Serial: l
+# [4131] Serial: l
+# [4995] Serial: o
+# [5859] Serial:  
+# [6723] Serial: W
+# [7587] Serial: o
+# [8451] Serial: r
+# [9315] Serial: l
+restart
+# ** Warning: (vsim-3015) C:/Users/Raymond/Documents/GitHub/MIPSCPU/processor.v(632): [PCDPC] - Port size (32 or 32) does not match connection size (5) for port 'input1'. The port definition is at: C:/Users/Raymond/Documents/GitHub/MIPSCPU/MUX.v(2).
+#         Region: /testbench/dut/mux1
+# ** Warning: (vsim-3015) C:/Users/Raymond/Documents/GitHub/MIPSCPU/processor.v(632): [PCDPC] - Port size (32 or 32) does not match connection size (5) for port 'input2'. The port definition is at: C:/Users/Raymond/Documents/GitHub/MIPSCPU/MUX.v(3).
+#         Region: /testbench/dut/mux1
+# ** Warning: (vsim-3015) C:/Users/Raymond/Documents/GitHub/MIPSCPU/processor.v(632): [PCDPC] - Port size (32 or 32) does not match connection size (5) for port 'output1'. The port definition is at: C:/Users/Raymond/Documents/GitHub/MIPSCPU/MUX.v(6).
+#         Region: /testbench/dut/mux1
+# ** Warning: (vsim-3015) C:/Users/Raymond/Documents/GitHub/MIPSCPU/processor.v(648): [PCDPC] - Port size (32 or 32) does not match connection size (5) for port 'input1'. The port definition is at: C:/Users/Raymond/Documents/GitHub/MIPSCPU/MUX.v(2).
+#         Region: /testbench/dut/mux6
+# ** Warning: (vsim-3015) C:/Users/Raymond/Documents/GitHub/MIPSCPU/processor.v(648): [PCDPC] - Port size (32 or 32) does not match connection size (5) for port 'output1'. The port definition is at: C:/Users/Raymond/Documents/GitHub/MIPSCPU/MUX.v(6).
+#         Region: /testbench/dut/mux6
+run
+# [855] Serial: H
+restart
+# ** Warning: (vsim-3015) C:/Users/Raymond/Documents/GitHub/MIPSCPU/processor.v(632): [PCDPC] - Port size (32 or 32) does not match connection size (5) for port 'input1'. The port definition is at: C:/Users/Raymond/Documents/GitHub/MIPSCPU/MUX.v(2).
+#         Region: /testbench/dut/mux1
+# ** Warning: (vsim-3015) C:/Users/Raymond/Documents/GitHub/MIPSCPU/processor.v(632): [PCDPC] - Port size (32 or 32) does not match connection size (5) for port 'input2'. The port definition is at: C:/Users/Raymond/Documents/GitHub/MIPSCPU/MUX.v(3).
+#         Region: /testbench/dut/mux1
+# ** Warning: (vsim-3015) C:/Users/Raymond/Documents/GitHub/MIPSCPU/processor.v(632): [PCDPC] - Port size (32 or 32) does not match connection size (5) for port 'output1'. The port definition is at: C:/Users/Raymond/Documents/GitHub/MIPSCPU/MUX.v(6).
+#         Region: /testbench/dut/mux1
+# ** Warning: (vsim-3015) C:/Users/Raymond/Documents/GitHub/MIPSCPU/processor.v(648): [PCDPC] - Port size (32 or 32) does not match connection size (5) for port 'input1'. The port definition is at: C:/Users/Raymond/Documents/GitHub/MIPSCPU/MUX.v(2).
+#         Region: /testbench/dut/mux6
+# ** Warning: (vsim-3015) C:/Users/Raymond/Documents/GitHub/MIPSCPU/processor.v(648): [PCDPC] - Port size (32 or 32) does not match connection size (5) for port 'output1'. The port definition is at: C:/Users/Raymond/Documents/GitHub/MIPSCPU/MUX.v(6).
+#         Region: /testbench/dut/mux6
+add wave -position 10  sim:/testbench/dut/aluInput1
+add wave -position 11  sim:/testbench/dut/aluInput2
+add wave -position 12  sim:/testbench/dut/O_out
+run
+# [855] Serial: H
+vlog -vlog01compat -work work +incdir+C:/Users/Raymond/Documents/GitHub/MIPSCPU -O0 C:/Users/Raymond/Documents/GitHub/MIPSCPU/adder.v
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module adder
 # 
-# [17127] Serial: 0
-# [17577] Serial: 
+# Top level modules:
+# 	adder
+vlog -vlog01compat -work work +incdir+C:/Users/Raymond/Documents/GitHub/MIPSCPU -O0 C:/Users/Raymond/Documents/GitHub/MIPSCPU/alu.v
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module alu
 # 
-# [31599] Serial: 1
-# [32049] Serial: 
+# Top level modules:
+# 	alu
+vlog -vlog01compat -work work +incdir+C:/Users/Raymond/Documents/GitHub/MIPSCPU -O0 C:/Users/Raymond/Documents/GitHub/MIPSCPU/async_memory.v
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module async_memory
 # 
-# [46071] Serial: 1
-# [46521] Serial: 
+# Top level modules:
+# 	async_memory
+vlog -vlog01compat -work work +incdir+C:/Users/Raymond/Documents/GitHub/MIPSCPU -O0 C:/Users/Raymond/Documents/GitHub/MIPSCPU/branchPredictor.v
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module branchPredictor
 # 
-# [60543] Serial: 2
-# [60993] Serial: 
+# Top level modules:
+# 	branchPredictor
+vlog -vlog01compat -work work +incdir+C:/Users/Raymond/Documents/GitHub/MIPSCPU -O0 C:/Users/Raymond/Documents/GitHub/MIPSCPU/controlunit.v
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module controlunit
 # 
-# [75015] Serial: 3
-# [75465] Serial: 
+# Top level modules:
+# 	controlunit
+vlog -vlog01compat -work work +incdir+C:/Users/Raymond/Documents/GitHub/MIPSCPU -O0 C:/Users/Raymond/Documents/GitHub/MIPSCPU/counter.v
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module counter
 # 
-# [89487] Serial: 5
-# [89937] Serial: 
+# Top level modules:
+# 	counter
+vlog -vlog01compat -work work +incdir+C:/Users/Raymond/Documents/GitHub/MIPSCPU -O0 C:/Users/Raymond/Documents/GitHub/MIPSCPU/data_memory.v
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module data_memory
+# 
+# Top level modules:
+# 	data_memory
+vlog -vlog01compat -work work +incdir+C:/Users/Raymond/Documents/GitHub/MIPSCPU -O0 C:/Users/Raymond/Documents/GitHub/MIPSCPU/EXMEMPipe.v
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module EXMEMPipe
+# 
+# Top level modules:
+# 	EXMEMPipe
+vlog -vlog01compat -work work +incdir+C:/Users/Raymond/Documents/GitHub/MIPSCPU -O0 C:/Users/Raymond/Documents/GitHub/MIPSCPU/hazardDetectionNoStall.v
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module hazardDetectionNoStall
+# ** Warning: C:/Users/Raymond/Documents/GitHub/MIPSCPU/hazardDetectionNoStall.v(47): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# Top level modules:
+# 	hazardDetectionNoStall
+vlog -vlog01compat -work work +incdir+C:/Users/Raymond/Documents/GitHub/MIPSCPU -O0 C:/Users/Raymond/Documents/GitHub/MIPSCPU/hazardDetectionStall.v
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module hazardDetectionStall
+# 
+# Top level modules:
+# 	hazardDetectionStall
+vlog -vlog01compat -work work +incdir+C:/Users/Raymond/Documents/GitHub/MIPSCPU -O0 C:/Users/Raymond/Documents/GitHub/MIPSCPU/IDEXPipe.v
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module IDEXPipe
+# 
+# Top level modules:
+# 	IDEXPipe
+vlog -vlog01compat -work work +incdir+C:/Users/Raymond/Documents/GitHub/MIPSCPU -O0 C:/Users/Raymond/Documents/GitHub/MIPSCPU/IFIDPipe.v
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module IFIDPipe
+# 
+# Top level modules:
+# 	IFIDPipe
+vlog -vlog01compat -work work +incdir+C:/Users/Raymond/Documents/GitHub/MIPSCPU -O0 C:/Users/Raymond/Documents/GitHub/MIPSCPU/inst_rom.v
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module inst_rom
+# 
+# Top level modules:
+# 	inst_rom
+vlog -vlog01compat -work work +incdir+C:/Users/Raymond/Documents/GitHub/MIPSCPU -O0 C:/Users/Raymond/Documents/GitHub/MIPSCPU/instructioncounter.v
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module instructioncounter
+# 
+# Top level modules:
+# 	instructioncounter
+vlog -vlog01compat -work work +incdir+C:/Users/Raymond/Documents/GitHub/MIPSCPU -O0 C:/Users/Raymond/Documents/GitHub/MIPSCPU/MEMWBPipe.v
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module MEMWBPipe
+# 
+# Top level modules:
+# 	MEMWBPipe
+vlog -vlog01compat -work work +incdir+C:/Users/Raymond/Documents/GitHub/MIPSCPU -O0 C:/Users/Raymond/Documents/GitHub/MIPSCPU/MUX.v
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module MUX
+# 
+# Top level modules:
+# 	MUX
+vlog -vlog01compat -work work +incdir+C:/Users/Raymond/Documents/GitHub/MIPSCPU -O0 C:/Users/Raymond/Documents/GitHub/MIPSCPU/processor.v
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module processor
+# 
+# Top level modules:
+# 	processor
+vlog -vlog01compat -work work +incdir+C:/Users/Raymond/Documents/GitHub/MIPSCPU -O0 C:/Users/Raymond/Documents/GitHub/MIPSCPU/programcounter.v
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module programcounter
+# 
+# Top level modules:
+# 	programcounter
+vlog -vlog01compat -work work +incdir+C:/Users/Raymond/Documents/GitHub/MIPSCPU -O0 C:/Users/Raymond/Documents/GitHub/MIPSCPU/regfile.v
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module regfile
+# 
+# Top level modules:
+# 	regfile
+vlog -vlog01compat -work work +incdir+C:/Users/Raymond/Documents/GitHub/MIPSCPU -O0 C:/Users/Raymond/Documents/GitHub/MIPSCPU/serial_buf.v
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module serial_buffer
+# 
+# Top level modules:
+# 	serial_buffer
+vlog -vlog01compat -work work +incdir+C:/Users/Raymond/Documents/GitHub/MIPSCPU -O0 C:/Users/Raymond/Documents/GitHub/MIPSCPU/signextender.v
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module signextender
+# 
+# Top level modules:
+# 	signextender
+vlog -work work -O0 C:/Users/Raymond/Documents/GitHub/MIPSCPU/simulation/modelsim/testbench.v
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+vlog -vlog01compat -work work +incdir+C:/Users/Raymond/Documents/GitHub/MIPSCPU -O0 C:/Users/Raymond/Documents/GitHub/MIPSCPU/hazardDetectionNoStall.v
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module hazardDetectionNoStall
+# ** Warning: C:/Users/Raymond/Documents/GitHub/MIPSCPU/hazardDetectionNoStall.v(47): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# Top level modules:
+# 	hazardDetectionNoStall
+vlog -vlog01compat -work work +incdir+C:/Users/Raymond/Documents/GitHub/MIPSCPU -O0 C:/Users/Raymond/Documents/GitHub/MIPSCPU/hazardDetectionNoStall.v
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module hazardDetectionNoStall
+# 
+# Top level modules:
+# 	hazardDetectionNoStall
+restart
+# Loading work.testbench
+# Loading work.processor
+# Loading work.programcounter
+# Loading work.adder
+# Loading work.inst_rom
+# Loading work.branchPredictor
+# Loading work.MUX
+# Loading work.IFIDPipe
+# Loading work.controlunit
+# Loading work.regfile
+# Loading work.signextender
+# Loading work.hazardDetectionNoStall
+# Loading work.hazardDetectionStall
+# Loading work.IDEXPipe
+# Loading work.alu
+# Loading work.EXMEMPipe
+# Loading work.data_memory
+# Loading work.async_memory
+# Loading work.serial_buffer
+# Loading work.MEMWBPipe
+# Loading work.counter
+# Loading work.instructioncounter
+# ** Warning: (vsim-3015) C:/Users/Raymond/Documents/GitHub/MIPSCPU/processor.v(632): [PCDPC] - Port size (32 or 32) does not match connection size (5) for port 'input1'. The port definition is at: C:/Users/Raymond/Documents/GitHub/MIPSCPU/MUX.v(2).
+#         Region: /testbench/dut/mux1
+# ** Warning: (vsim-3015) C:/Users/Raymond/Documents/GitHub/MIPSCPU/processor.v(632): [PCDPC] - Port size (32 or 32) does not match connection size (5) for port 'input2'. The port definition is at: C:/Users/Raymond/Documents/GitHub/MIPSCPU/MUX.v(3).
+#         Region: /testbench/dut/mux1
+# ** Warning: (vsim-3015) C:/Users/Raymond/Documents/GitHub/MIPSCPU/processor.v(632): [PCDPC] - Port size (32 or 32) does not match connection size (5) for port 'output1'. The port definition is at: C:/Users/Raymond/Documents/GitHub/MIPSCPU/MUX.v(6).
+#         Region: /testbench/dut/mux1
+# ** Warning: (vsim-3015) C:/Users/Raymond/Documents/GitHub/MIPSCPU/processor.v(648): [PCDPC] - Port size (32 or 32) does not match connection size (5) for port 'input1'. The port definition is at: C:/Users/Raymond/Documents/GitHub/MIPSCPU/MUX.v(2).
+#         Region: /testbench/dut/mux6
+# ** Warning: (vsim-3015) C:/Users/Raymond/Documents/GitHub/MIPSCPU/processor.v(648): [PCDPC] - Port size (32 or 32) does not match connection size (5) for port 'output1'. The port definition is at: C:/Users/Raymond/Documents/GitHub/MIPSCPU/MUX.v(6).
+#         Region: /testbench/dut/mux6
+run
+# [855] Serial: H
+# [1269] Serial: l
+# [1683] Serial: o
+# [2097] Serial: W
+# [2511] Serial: r
+# [2925] Serial: d
+add wave -position end  sim:/testbench/dut/dmem/data_seg/mem0
+add wave -position end  sim:/testbench/dut/dmem/data_seg/mem1
+add wave -position end  sim:/testbench/dut/dmem/data_seg/mem2
+add wave -position end  sim:/testbench/dut/dmem/data_seg/mem3
+restart
+# ** Warning: (vsim-3015) C:/Users/Raymond/Documents/GitHub/MIPSCPU/processor.v(632): [PCDPC] - Port size (32 or 32) does not match connection size (5) for port 'input1'. The port definition is at: C:/Users/Raymond/Documents/GitHub/MIPSCPU/MUX.v(2).
+#         Region: /testbench/dut/mux1
+# ** Warning: (vsim-3015) C:/Users/Raymond/Documents/GitHub/MIPSCPU/processor.v(632): [PCDPC] - Port size (32 or 32) does not match connection size (5) for port 'input2'. The port definition is at: C:/Users/Raymond/Documents/GitHub/MIPSCPU/MUX.v(3).
+#         Region: /testbench/dut/mux1
+# ** Warning: (vsim-3015) C:/Users/Raymond/Documents/GitHub/MIPSCPU/processor.v(632): [PCDPC] - Port size (32 or 32) does not match connection size (5) for port 'output1'. The port definition is at: C:/Users/Raymond/Documents/GitHub/MIPSCPU/MUX.v(6).
+#         Region: /testbench/dut/mux1
+# ** Warning: (vsim-3015) C:/Users/Raymond/Documents/GitHub/MIPSCPU/processor.v(648): [PCDPC] - Port size (32 or 32) does not match connection size (5) for port 'input1'. The port definition is at: C:/Users/Raymond/Documents/GitHub/MIPSCPU/MUX.v(2).
+#         Region: /testbench/dut/mux6
+# ** Warning: (vsim-3015) C:/Users/Raymond/Documents/GitHub/MIPSCPU/processor.v(648): [PCDPC] - Port size (32 or 32) does not match connection size (5) for port 'output1'. The port definition is at: C:/Users/Raymond/Documents/GitHub/MIPSCPU/MUX.v(6).
+#         Region: /testbench/dut/mux6
+run
+# [855] Serial: H
+# [1269] Serial: l
+# [1683] Serial: o
+# [2097] Serial: W
+# [2511] Serial: r
+# [2925] Serial: d
+vlog -vlog01compat -work work +incdir+C:/Users/Raymond/Documents/GitHub/MIPSCPU -O0 C:/Users/Raymond/Documents/GitHub/MIPSCPU/adder.v
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module adder
+# 
+# Top level modules:
+# 	adder
+vlog -vlog01compat -work work +incdir+C:/Users/Raymond/Documents/GitHub/MIPSCPU -O0 C:/Users/Raymond/Documents/GitHub/MIPSCPU/alu.v
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	alu
+vlog -vlog01compat -work work +incdir+C:/Users/Raymond/Documents/GitHub/MIPSCPU -O0 C:/Users/Raymond/Documents/GitHub/MIPSCPU/async_memory.v
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module async_memory
+# 
+# Top level modules:
+# 	async_memory
+vlog -vlog01compat -work work +incdir+C:/Users/Raymond/Documents/GitHub/MIPSCPU -O0 C:/Users/Raymond/Documents/GitHub/MIPSCPU/branchPredictor.v
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module branchPredictor
+# 
+# Top level modules:
+# 	branchPredictor
+vlog -vlog01compat -work work +incdir+C:/Users/Raymond/Documents/GitHub/MIPSCPU -O0 C:/Users/Raymond/Documents/GitHub/MIPSCPU/controlunit.v
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module controlunit
+# 
+# Top level modules:
+# 	controlunit
+vlog -vlog01compat -work work +incdir+C:/Users/Raymond/Documents/GitHub/MIPSCPU -O0 C:/Users/Raymond/Documents/GitHub/MIPSCPU/counter.v
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module counter
+# 
+# Top level modules:
+# 	counter
+vlog -vlog01compat -work work +incdir+C:/Users/Raymond/Documents/GitHub/MIPSCPU -O0 C:/Users/Raymond/Documents/GitHub/MIPSCPU/data_memory.v
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module data_memory
+# 
+# Top level modules:
+# 	data_memory
+vlog -vlog01compat -work work +incdir+C:/Users/Raymond/Documents/GitHub/MIPSCPU -O0 C:/Users/Raymond/Documents/GitHub/MIPSCPU/EXMEMPipe.v
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module EXMEMPipe
+# 
+# Top level modules:
+# 	EXMEMPipe
+vlog -vlog01compat -work work +incdir+C:/Users/Raymond/Documents/GitHub/MIPSCPU -O0 C:/Users/Raymond/Documents/GitHub/MIPSCPU/hazardDetectionNoStall.v
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module hazardDetectionNoStall
+# 
+# Top level modules:
+# 	hazardDetectionNoStall
+vlog -vlog01compat -work work +incdir+C:/Users/Raymond/Documents/GitHub/MIPSCPU -O0 C:/Users/Raymond/Documents/GitHub/MIPSCPU/hazardDetectionStall.v
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module hazardDetectionStall
+# 
+# Top level modules:
+# 	hazardDetectionStall
+vlog -vlog01compat -work work +incdir+C:/Users/Raymond/Documents/GitHub/MIPSCPU -O0 C:/Users/Raymond/Documents/GitHub/MIPSCPU/IDEXPipe.v
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module IDEXPipe
+# 
+# Top level modules:
+# 	IDEXPipe
+vlog -vlog01compat -work work +incdir+C:/Users/Raymond/Documents/GitHub/MIPSCPU -O0 C:/Users/Raymond/Documents/GitHub/MIPSCPU/IFIDPipe.v
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module IFIDPipe
+# 
+# Top level modules:
+# 	IFIDPipe
+vlog -vlog01compat -work work +incdir+C:/Users/Raymond/Documents/GitHub/MIPSCPU -O0 C:/Users/Raymond/Documents/GitHub/MIPSCPU/inst_rom.v
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module inst_rom
+# 
+# Top level modules:
+# 	inst_rom
+vlog -vlog01compat -work work +incdir+C:/Users/Raymond/Documents/GitHub/MIPSCPU -O0 C:/Users/Raymond/Documents/GitHub/MIPSCPU/instructioncounter.v
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module instructioncounter
+# 
+# Top level modules:
+# 	instructioncounter
+vlog -vlog01compat -work work +incdir+C:/Users/Raymond/Documents/GitHub/MIPSCPU -O0 C:/Users/Raymond/Documents/GitHub/MIPSCPU/MEMWBPipe.v
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module MEMWBPipe
+# 
+# Top level modules:
+# 	MEMWBPipe
+vlog -vlog01compat -work work +incdir+C:/Users/Raymond/Documents/GitHub/MIPSCPU -O0 C:/Users/Raymond/Documents/GitHub/MIPSCPU/MUX.v
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module MUX
+# 
+# Top level modules:
+# 	MUX
+vlog -vlog01compat -work work +incdir+C:/Users/Raymond/Documents/GitHub/MIPSCPU -O0 C:/Users/Raymond/Documents/GitHub/MIPSCPU/processor.v
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module processor
+# ** Error: C:/Users/Raymond/Documents/GitHub/MIPSCPU/processor.v(656): (vlog-2110) Illegal reference to net "pcPlus8MEMWB".
+# c:/altera/12.0/modelsim_ase/win32aloem/vlog failed.
+vlog -vlog01compat -work work +incdir+C:/Users/Raymond/Documents/GitHub/MIPSCPU -O0 C:/Users/Raymond/Documents/GitHub/MIPSCPU/programcounter.v
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module programcounter
+# 
+# Top level modules:
+# 	programcounter
+vlog -vlog01compat -work work +incdir+C:/Users/Raymond/Documents/GitHub/MIPSCPU -O0 C:/Users/Raymond/Documents/GitHub/MIPSCPU/regfile.v
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module regfile
+# 
+# Top level modules:
+# 	regfile
+vlog -vlog01compat -work work +incdir+C:/Users/Raymond/Documents/GitHub/MIPSCPU -O0 C:/Users/Raymond/Documents/GitHub/MIPSCPU/serial_buf.v
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module serial_buffer
+# 
+# Top level modules:
+# 	serial_buffer
+vlog -vlog01compat -work work +incdir+C:/Users/Raymond/Documents/GitHub/MIPSCPU -O0 C:/Users/Raymond/Documents/GitHub/MIPSCPU/signextender.v
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module signextender
+# 
+# Top level modules:
+# 	signextender
+vlog -work work -O0 C:/Users/Raymond/Documents/GitHub/MIPSCPU/simulation/modelsim/testbench.v
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module testbench
+# 
+# Top level modules:
+# 	testbench
+restart
+# Loading work.testbench
+# Loading work.programcounter
+# Loading work.adder
+# Loading work.inst_rom
+# Loading work.branchPredictor
+# Loading work.MUX
+# Loading work.IFIDPipe
+# Loading work.controlunit
+# Loading work.regfile
+# Loading work.signextender
+# Loading work.hazardDetectionNoStall
+# Loading work.hazardDetectionStall
+# Loading work.IDEXPipe
+# Loading work.alu
+# Loading work.EXMEMPipe
+# Loading work.data_memory
+# Loading work.async_memory
+# Loading work.serial_buffer
+# Loading work.MEMWBPipe
+# Loading work.counter
+# Loading work.instructioncounter
+# ** Warning: (vsim-3015) C:/Users/Raymond/Documents/GitHub/MIPSCPU/processor.v(632): [PCDPC] - Port size (32 or 32) does not match connection size (5) for port 'input1'. The port definition is at: C:/Users/Raymond/Documents/GitHub/MIPSCPU/MUX.v(2).
+#         Region: /testbench/dut/mux1
+# ** Warning: (vsim-3015) C:/Users/Raymond/Documents/GitHub/MIPSCPU/processor.v(632): [PCDPC] - Port size (32 or 32) does not match connection size (5) for port 'input2'. The port definition is at: C:/Users/Raymond/Documents/GitHub/MIPSCPU/MUX.v(3).
+#         Region: /testbench/dut/mux1
+# ** Warning: (vsim-3015) C:/Users/Raymond/Documents/GitHub/MIPSCPU/processor.v(632): [PCDPC] - Port size (32 or 32) does not match connection size (5) for port 'output1'. The port definition is at: C:/Users/Raymond/Documents/GitHub/MIPSCPU/MUX.v(6).
+#         Region: /testbench/dut/mux1
+# ** Warning: (vsim-3015) C:/Users/Raymond/Documents/GitHub/MIPSCPU/processor.v(648): [PCDPC] - Port size (32 or 32) does not match connection size (5) for port 'input1'. The port definition is at: C:/Users/Raymond/Documents/GitHub/MIPSCPU/MUX.v(2).
+#         Region: /testbench/dut/mux6
+# ** Warning: (vsim-3015) C:/Users/Raymond/Documents/GitHub/MIPSCPU/processor.v(648): [PCDPC] - Port size (32 or 32) does not match connection size (5) for port 'output1'. The port definition is at: C:/Users/Raymond/Documents/GitHub/MIPSCPU/MUX.v(6).
+#         Region: /testbench/dut/mux6
+run
+# [855] Serial: H
+# [1269] Serial: l
+# [1683] Serial: o
+# [2097] Serial: W
+# [2511] Serial: r
+# [2925] Serial: d
+restart
+# ** Warning: (vsim-3015) C:/Users/Raymond/Documents/GitHub/MIPSCPU/processor.v(632): [PCDPC] - Port size (32 or 32) does not match connection size (5) for port 'input1'. The port definition is at: C:/Users/Raymond/Documents/GitHub/MIPSCPU/MUX.v(2).
+#         Region: /testbench/dut/mux1
+# ** Warning: (vsim-3015) C:/Users/Raymond/Documents/GitHub/MIPSCPU/processor.v(632): [PCDPC] - Port size (32 or 32) does not match connection size (5) for port 'input2'. The port definition is at: C:/Users/Raymond/Documents/GitHub/MIPSCPU/MUX.v(3).
+#         Region: /testbench/dut/mux1
+# ** Warning: (vsim-3015) C:/Users/Raymond/Documents/GitHub/MIPSCPU/processor.v(632): [PCDPC] - Port size (32 or 32) does not match connection size (5) for port 'output1'. The port definition is at: C:/Users/Raymond/Documents/GitHub/MIPSCPU/MUX.v(6).
+#         Region: /testbench/dut/mux1
+# ** Warning: (vsim-3015) C:/Users/Raymond/Documents/GitHub/MIPSCPU/processor.v(648): [PCDPC] - Port size (32 or 32) does not match connection size (5) for port 'input1'. The port definition is at: C:/Users/Raymond/Documents/GitHub/MIPSCPU/MUX.v(2).
+#         Region: /testbench/dut/mux6
+# ** Warning: (vsim-3015) C:/Users/Raymond/Documents/GitHub/MIPSCPU/processor.v(648): [PCDPC] - Port size (32 or 32) does not match connection size (5) for port 'output1'. The port definition is at: C:/Users/Raymond/Documents/GitHub/MIPSCPU/MUX.v(6).
+#         Region: /testbench/dut/mux6
+run
+# [855] Serial: H
+# [1269] Serial: l
+# [1683] Serial: o
+# [2097] Serial: W
+# [2511] Serial: r
+# [2925] Serial: d
+vlog -vlog01compat -work work +incdir+C:/Users/Raymond/Documents/GitHub/MIPSCPU -O0 C:/Users/Raymond/Documents/GitHub/MIPSCPU/processor.v
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module processor
+# ** Error: C:/Users/Raymond/Documents/GitHub/MIPSCPU/processor.v(656): (vlog-2110) Illegal reference to net "pcPlus8MEMWB".
+# c:/altera/12.0/modelsim_ase/win32aloem/vlog failed.
+vlog -vlog01compat -work work +incdir+C:/Users/Raymond/Documents/GitHub/MIPSCPU -O0 C:/Users/Raymond/Documents/GitHub/MIPSCPU/processor.v
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module processor
+# ** Error: C:/Users/Raymond/Documents/GitHub/MIPSCPU/processor.v(654): (vlog-2110) Illegal reference to net "pcPlus8MEMWB".
+# ** Error: C:/Users/Raymond/Documents/GitHub/MIPSCPU/processor.v(657): (vlog-2110) Illegal reference to net "pcPlus8MEMWB".
+# c:/altera/12.0/modelsim_ase/win32aloem/vlog failed.
+vlog -vlog01compat -work work +incdir+C:/Users/Raymond/Documents/GitHub/MIPSCPU -O0 C:/Users/Raymond/Documents/GitHub/MIPSCPU/processor.v
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module processor
+# ** Error: C:/Users/Raymond/Documents/GitHub/MIPSCPU/processor.v(654): (vlog-2110) Illegal reference to net "pcPlus8MEMWB".
+# ** Error: C:/Users/Raymond/Documents/GitHub/MIPSCPU/processor.v(657): (vlog-2110) Illegal reference to net "pcPlus8MEMWB".
+# c:/altera/12.0/modelsim_ase/win32aloem/vlog failed.
+vlog -vlog01compat -work work +incdir+C:/Users/Raymond/Documents/GitHub/MIPSCPU -O0 C:/Users/Raymond/Documents/GitHub/MIPSCPU/processor.v
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module processor
+# 
+# Top level modules:
+# 	processor
+restart
+# Loading work.processor
+# ** Warning: (vsim-3015) C:/Users/Raymond/Documents/GitHub/MIPSCPU/processor.v(632): [PCDPC] - Port size (32 or 32) does not match connection size (5) for port 'input1'. The port definition is at: C:/Users/Raymond/Documents/GitHub/MIPSCPU/MUX.v(2).
+#         Region: /testbench/dut/mux1
+# ** Warning: (vsim-3015) C:/Users/Raymond/Documents/GitHub/MIPSCPU/processor.v(632): [PCDPC] - Port size (32 or 32) does not match connection size (5) for port 'input2'. The port definition is at: C:/Users/Raymond/Documents/GitHub/MIPSCPU/MUX.v(3).
+#         Region: /testbench/dut/mux1
+# ** Warning: (vsim-3015) C:/Users/Raymond/Documents/GitHub/MIPSCPU/processor.v(632): [PCDPC] - Port size (32 or 32) does not match connection size (5) for port 'output1'. The port definition is at: C:/Users/Raymond/Documents/GitHub/MIPSCPU/MUX.v(6).
+#         Region: /testbench/dut/mux1
+# ** Warning: (vsim-3015) C:/Users/Raymond/Documents/GitHub/MIPSCPU/processor.v(648): [PCDPC] - Port size (32 or 32) does not match connection size (5) for port 'input1'. The port definition is at: C:/Users/Raymond/Documents/GitHub/MIPSCPU/MUX.v(2).
+#         Region: /testbench/dut/mux6
+# ** Warning: (vsim-3015) C:/Users/Raymond/Documents/GitHub/MIPSCPU/processor.v(648): [PCDPC] - Port size (32 or 32) does not match connection size (5) for port 'output1'. The port definition is at: C:/Users/Raymond/Documents/GitHub/MIPSCPU/MUX.v(6).
+#         Region: /testbench/dut/mux6
+# ** Warning: (vsim-3015) C:/Users/Raymond/Documents/GitHub/MIPSCPU/processor.v(667): [PCDPC] - Port size (32 or 32) does not match connection size (1) for port 'input2'. The port definition is at: C:/Users/Raymond/Documents/GitHub/MIPSCPU/MUX.v(3).
+#         Region: /testbench/dut/mux7
+run
+# [855] Serial: H
+run
+run
+run
+vlog -vlog01compat -work work +incdir+C:/Users/Raymond/Documents/GitHub/MIPSCPU -O0 C:/Users/Raymond/Documents/GitHub/MIPSCPU/processor.v
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module processor
+# 
+# Top level modules:
+# 	processor
+restart
+# Loading work.processor
+# ** Warning: (vsim-3015) C:/Users/Raymond/Documents/GitHub/MIPSCPU/processor.v(632): [PCDPC] - Port size (32 or 32) does not match connection size (5) for port 'input1'. The port definition is at: C:/Users/Raymond/Documents/GitHub/MIPSCPU/MUX.v(2).
+#         Region: /testbench/dut/mux1
+# ** Warning: (vsim-3015) C:/Users/Raymond/Documents/GitHub/MIPSCPU/processor.v(632): [PCDPC] - Port size (32 or 32) does not match connection size (5) for port 'input2'. The port definition is at: C:/Users/Raymond/Documents/GitHub/MIPSCPU/MUX.v(3).
+#         Region: /testbench/dut/mux1
+# ** Warning: (vsim-3015) C:/Users/Raymond/Documents/GitHub/MIPSCPU/processor.v(632): [PCDPC] - Port size (32 or 32) does not match connection size (5) for port 'output1'. The port definition is at: C:/Users/Raymond/Documents/GitHub/MIPSCPU/MUX.v(6).
+#         Region: /testbench/dut/mux1
+# ** Warning: (vsim-3015) C:/Users/Raymond/Documents/GitHub/MIPSCPU/processor.v(648): [PCDPC] - Port size (32 or 32) does not match connection size (5) for port 'input1'. The port definition is at: C:/Users/Raymond/Documents/GitHub/MIPSCPU/MUX.v(2).
+#         Region: /testbench/dut/mux6
+# ** Warning: (vsim-3015) C:/Users/Raymond/Documents/GitHub/MIPSCPU/processor.v(648): [PCDPC] - Port size (32 or 32) does not match connection size (5) for port 'output1'. The port definition is at: C:/Users/Raymond/Documents/GitHub/MIPSCPU/MUX.v(6).
+#         Region: /testbench/dut/mux6
+# ** Warning: (vsim-3015) C:/Users/Raymond/Documents/GitHub/MIPSCPU/processor.v(670): [PCDPC] - Port size (32 or 32) does not match connection size (1) for port 'input2'. The port definition is at: C:/Users/Raymond/Documents/GitHub/MIPSCPU/MUX.v(3).
+#         Region: /testbench/dut/mux7
+run
+# [855] Serial: H
+vlog -vlog01compat -work work +incdir+C:/Users/Raymond/Documents/GitHub/MIPSCPU -O0 C:/Users/Raymond/Documents/GitHub/MIPSCPU/processor.v
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module processor
+# 
+# Top level modules:
+# 	processor
+restart
+# Loading work.processor
+# ** Warning: (vsim-3015) C:/Users/Raymond/Documents/GitHub/MIPSCPU/processor.v(632): [PCDPC] - Port size (32 or 32) does not match connection size (5) for port 'input1'. The port definition is at: C:/Users/Raymond/Documents/GitHub/MIPSCPU/MUX.v(2).
+#         Region: /testbench/dut/mux1
+# ** Warning: (vsim-3015) C:/Users/Raymond/Documents/GitHub/MIPSCPU/processor.v(632): [PCDPC] - Port size (32 or 32) does not match connection size (5) for port 'input2'. The port definition is at: C:/Users/Raymond/Documents/GitHub/MIPSCPU/MUX.v(3).
+#         Region: /testbench/dut/mux1
+# ** Warning: (vsim-3015) C:/Users/Raymond/Documents/GitHub/MIPSCPU/processor.v(632): [PCDPC] - Port size (32 or 32) does not match connection size (5) for port 'output1'. The port definition is at: C:/Users/Raymond/Documents/GitHub/MIPSCPU/MUX.v(6).
+#         Region: /testbench/dut/mux1
+# ** Warning: (vsim-3015) C:/Users/Raymond/Documents/GitHub/MIPSCPU/processor.v(648): [PCDPC] - Port size (32 or 32) does not match connection size (5) for port 'input1'. The port definition is at: C:/Users/Raymond/Documents/GitHub/MIPSCPU/MUX.v(2).
+#         Region: /testbench/dut/mux6
+# ** Warning: (vsim-3015) C:/Users/Raymond/Documents/GitHub/MIPSCPU/processor.v(648): [PCDPC] - Port size (32 or 32) does not match connection size (5) for port 'output1'. The port definition is at: C:/Users/Raymond/Documents/GitHub/MIPSCPU/MUX.v(6).
+#         Region: /testbench/dut/mux6
+run
+# [855] Serial: H
+# [1251] Serial: e
+# [1647] Serial: l
+# [2043] Serial: l
+# [2439] Serial: o
+# [2835] Serial:  
+# [3231] Serial: W
+# [3627] Serial: o
+# [4023] Serial: r
+# [4419] Serial: l
+# [4815] Serial: d
+# [5211] Serial: 
+# 
+restart
+# ** Warning: (vsim-3015) C:/Users/Raymond/Documents/GitHub/MIPSCPU/processor.v(632): [PCDPC] - Port size (32 or 32) does not match connection size (5) for port 'input1'. The port definition is at: C:/Users/Raymond/Documents/GitHub/MIPSCPU/MUX.v(2).
+#         Region: /testbench/dut/mux1
+# ** Warning: (vsim-3015) C:/Users/Raymond/Documents/GitHub/MIPSCPU/processor.v(632): [PCDPC] - Port size (32 or 32) does not match connection size (5) for port 'input2'. The port definition is at: C:/Users/Raymond/Documents/GitHub/MIPSCPU/MUX.v(3).
+#         Region: /testbench/dut/mux1
+# ** Warning: (vsim-3015) C:/Users/Raymond/Documents/GitHub/MIPSCPU/processor.v(632): [PCDPC] - Port size (32 or 32) does not match connection size (5) for port 'output1'. The port definition is at: C:/Users/Raymond/Documents/GitHub/MIPSCPU/MUX.v(6).
+#         Region: /testbench/dut/mux1
+# ** Warning: (vsim-3015) C:/Users/Raymond/Documents/GitHub/MIPSCPU/processor.v(648): [PCDPC] - Port size (32 or 32) does not match connection size (5) for port 'input1'. The port definition is at: C:/Users/Raymond/Documents/GitHub/MIPSCPU/MUX.v(2).
+#         Region: /testbench/dut/mux6
+# ** Warning: (vsim-3015) C:/Users/Raymond/Documents/GitHub/MIPSCPU/processor.v(648): [PCDPC] - Port size (32 or 32) does not match connection size (5) for port 'output1'. The port definition is at: C:/Users/Raymond/Documents/GitHub/MIPSCPU/MUX.v(6).
+#         Region: /testbench/dut/mux6
+run
+# [855] Serial: H
+# [1251] Serial: e
+# [1647] Serial: l
+# [2043] Serial: l
+# [2439] Serial: o
+# [2835] Serial:  
+# [3231] Serial: W
+# [3627] Serial: o
+# [4023] Serial: r
+# [4419] Serial: l
+# [4815] Serial: d
+# [5211] Serial: 
+# 
+vlog -vlog01compat -work work +incdir+C:/Users/Raymond/Documents/GitHub/MIPSCPU -O0 C:/Users/Raymond/Documents/GitHub/MIPSCPU/processor.v
+# Model Technology ModelSim ALTERA vlog 10.0d Compiler 2012.01 Jan 18 2012
+# -- Compiling module processor
+# 
+# Top level modules:
+# 	processor
+restart
+# Loading work.processor
+# ** Warning: (vsim-3015) C:/Users/Raymond/Documents/GitHub/MIPSCPU/processor.v(632): [PCDPC] - Port size (32 or 32) does not match connection size (5) for port 'input1'. The port definition is at: C:/Users/Raymond/Documents/GitHub/MIPSCPU/MUX.v(2).
+#         Region: /testbench/dut/mux1
+# ** Warning: (vsim-3015) C:/Users/Raymond/Documents/GitHub/MIPSCPU/processor.v(632): [PCDPC] - Port size (32 or 32) does not match connection size (5) for port 'input2'. The port definition is at: C:/Users/Raymond/Documents/GitHub/MIPSCPU/MUX.v(3).
+#         Region: /testbench/dut/mux1
+# ** Warning: (vsim-3015) C:/Users/Raymond/Documents/GitHub/MIPSCPU/processor.v(632): [PCDPC] - Port size (32 or 32) does not match connection size (5) for port 'output1'. The port definition is at: C:/Users/Raymond/Documents/GitHub/MIPSCPU/MUX.v(6).
+#         Region: /testbench/dut/mux1
+# ** Warning: (vsim-3015) C:/Users/Raymond/Documents/GitHub/MIPSCPU/processor.v(648): [PCDPC] - Port size (32 or 32) does not match connection size (5) for port 'input1'. The port definition is at: C:/Users/Raymond/Documents/GitHub/MIPSCPU/MUX.v(2).
+#         Region: /testbench/dut/mux6
+# ** Warning: (vsim-3015) C:/Users/Raymond/Documents/GitHub/MIPSCPU/processor.v(648): [PCDPC] - Port size (32 or 32) does not match connection size (5) for port 'output1'. The port definition is at: C:/Users/Raymond/Documents/GitHub/MIPSCPU/MUX.v(6).
+#         Region: /testbench/dut/mux6
+run
+# [927] Serial: S
+# [1323] Serial: t
+# [1719] Serial: a
+# [2115] Serial: r
+# [2511] Serial: t
+# [2907] Serial: 
 # 
 run
-# [103959] Serial: 8
-# [104409] Serial: 
+run
+# [14913] Serial: 0
+# [15309] Serial: 
 # 
-# [130365] Serial: 1
-# [130815] Serial: 3
-# [131265] Serial: 
+run
+run
+# [27405] Serial: 1
+# [27801] Serial: 
 # 
-# [157185] Serial: 2
-# [157635] Serial: 1
-# [158085] Serial: 
+run
+run
+# [39897] Serial: 1
+# [40293] Serial: 
 # 
-# [184005] Serial: 3
-# [184455] Serial: 4
-# [184905] Serial: 
+run
+# [52389] Serial: 2
+# [52785] Serial: 
 # 
-# [185481] Serial: E
-# [185931] Serial: 
+run
+run
+# [64881] Serial: 3
+# [65277] Serial: 
 # 
+run
+run
+# [77373] Serial: 5
+# [77769] Serial: 
+# 
+run
+run
+# [89865] Serial: 8
+# [90261] Serial: 
+# 
+run
+run
+run
+run
+# [112527] Serial: 1
+# [112923] Serial: 3
+# [113319] Serial: 
+# 
+run
+run
+run
+# [135567] Serial: 2
+# [135963] Serial: 1
+# [136359] Serial: 
+# 
+run
+run
+run
+run
+# [158607] Serial: 3
+# [159003] Serial: 4
+# [159399] Serial: 
+# 
+# [159921] Serial: E
+# [160317] Serial: 
+# 
+run
+restart
+# ** Warning: (vsim-3015) C:/Users/Raymond/Documents/GitHub/MIPSCPU/processor.v(632): [PCDPC] - Port size (32 or 32) does not match connection size (5) for port 'input1'. The port definition is at: C:/Users/Raymond/Documents/GitHub/MIPSCPU/MUX.v(2).
+#         Region: /testbench/dut/mux1
+# ** Warning: (vsim-3015) C:/Users/Raymond/Documents/GitHub/MIPSCPU/processor.v(632): [PCDPC] - Port size (32 or 32) does not match connection size (5) for port 'input2'. The port definition is at: C:/Users/Raymond/Documents/GitHub/MIPSCPU/MUX.v(3).
+#         Region: /testbench/dut/mux1
+# ** Warning: (vsim-3015) C:/Users/Raymond/Documents/GitHub/MIPSCPU/processor.v(632): [PCDPC] - Port size (32 or 32) does not match connection size (5) for port 'output1'. The port definition is at: C:/Users/Raymond/Documents/GitHub/MIPSCPU/MUX.v(6).
+#         Region: /testbench/dut/mux1
+# ** Warning: (vsim-3015) C:/Users/Raymond/Documents/GitHub/MIPSCPU/processor.v(648): [PCDPC] - Port size (32 or 32) does not match connection size (5) for port 'input1'. The port definition is at: C:/Users/Raymond/Documents/GitHub/MIPSCPU/MUX.v(2).
+#         Region: /testbench/dut/mux6
+# ** Warning: (vsim-3015) C:/Users/Raymond/Documents/GitHub/MIPSCPU/processor.v(648): [PCDPC] - Port size (32 or 32) does not match connection size (5) for port 'output1'. The port definition is at: C:/Users/Raymond/Documents/GitHub/MIPSCPU/MUX.v(6).
+#         Region: /testbench/dut/mux6
+run
+# [963] Serial: S
+# [1395] Serial: t
+# [1827] Serial: a
+# [2259] Serial: r
+# [2691] Serial: t
+# [3123] Serial: 
+# 
+run
+run
+# [17001] Serial: 0
+# [17433] Serial: 
+# 
+run
+run
+# [31419] Serial: 1
+# [31851] Serial: 
+# 
+run
+run
+# [45837] Serial: 1
+run
+# [46269] Serial: 
+# 
+run
+run
+# [60255] Serial: 2
+# [60687] Serial: 
+# 
+run
+run
+# [74673] Serial: 3
+# [75105] Serial: 
+# 
+run
+run
+# [89091] Serial: 5
+# [89523] Serial: 
+# 
+run
+run
+# [103509] Serial: 8
+# [103941] Serial: 
+# 
+run
+run
+# [129861] Serial: 1
+# [130293] Serial: 3
+# [130725] Serial: 
+# 
+run
+run
+run
+# [156609] Serial: 2
+# [157041] Serial: 1
+# [157473] Serial: 
+# 
+run
+run
+run
+# [183357] Serial: 3
+# [183789] Serial: 4
+# [184221] Serial: 
+# 
+# [184779] Serial: E
+# [185211] Serial: 
+# 
+run
