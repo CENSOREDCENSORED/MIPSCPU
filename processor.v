@@ -20,7 +20,7 @@ output[31:0] outputReg,
 output[31:0] instructionROMOutMEMWBOut
 );
 
-localparam DELAY_SLOT_ENABLE = 1;
+localparam DELAY_SLOT_ENABLE = 0;
 
 wire stall;
 wire EXhazardReg1;
@@ -643,7 +643,7 @@ MUX mux3(
 MUX mux6(
 	.input1(writeReg),
 	.input2(31),
-	.select(linkRegMEMWB),
+	.select(linkRegMEMWB && (instructionROMOutMEMWB[31:26] != 0)),
 	.output1(writeRegOr31)
 );
 

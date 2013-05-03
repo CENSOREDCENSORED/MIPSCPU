@@ -24,7 +24,6 @@
 	#that means this file (boot.o) needs to be listed first when linking your app
 
 	__start:
-	la	$gp, _gp
 	lui	$sp, 0x7fff
 	ori	$sp, $sp, 0xfffc
 	add	$26, $0, $0		# set kernel reg to 0 for ugly bltz hack
@@ -39,7 +38,6 @@
 	nop
 	
 	.text
-	.align	2
 nonRestoringDivision:
 	.frame	$fp,16,$31		# vars= 8, regs= 1/0, args= 0, gp= 0
 	.mask	0x40000000,-4
@@ -787,7 +785,7 @@ $L6:
 	.rdata
 	.align	2
 $LC0:
-	.ascii	"S\012\000"
+	.ascii	"Start\012\000"
 	.align	2
 $LC1:
 	.ascii	"E\012\000"

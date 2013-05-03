@@ -193,6 +193,9 @@ begin
 				
 				6'h09: 
 				begin  //jalr
+					mux1Select <= 1;
+					mux2Select <= 0;
+					mux3Select <= 0;
 					jumpReg <= 1;
 					Func_in <= 6'b111010;
 					linkReg <= 1;

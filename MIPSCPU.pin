@@ -70,21 +70,21 @@ Pin Name/Usage               : Location  : Dir.   : I/O Standard      : Voltage 
 -------------------------------------------------------------------------------------------------------------
 GND                          : A1        : gnd    :                   :         :           :                
 VCCIO3                       : A2        : power  :                   : 3.3V    : 3         :                
-instructioncounter[25]       : A3        : output : 3.3-V LVTTL       :         : 3         : N              
-instructioncounter[28]       : A4        : output : 3.3-V LVTTL       :         : 3         : N              
-instructioncounter[12]       : A5        : output : 3.3-V LVTTL       :         : 3         : N              
-instructioncounter[14]       : A6        : output : 3.3-V LVTTL       :         : 3         : N              
-instructionROMOutMEMWBOut[24] : A7        : output : 3.3-V LVTTL       :         : 3         : N              
-instructionROMOutMEMWBOut[21] : A8        : output : 3.3-V LVTTL       :         : 3         : N              
-outputwriteDataOrPC[29]      : A9        : output : 3.3-V LVTTL       :         : 3         : N              
-instructionROMOutMEMWBOut[12] : A10       : output : 3.3-V LVTTL       :         : 3         : N              
-outputReg[7]                 : A11       : output : 3.3-V LVTTL       :         : 3         : N              
+counter[6]                   : A3        : output : 3.3-V LVTTL       :         : 3         : N              
+counter[2]                   : A4        : output : 3.3-V LVTTL       :         : 3         : N              
+counter[28]                  : A5        : output : 3.3-V LVTTL       :         : 3         : N              
+counter[5]                   : A6        : output : 3.3-V LVTTL       :         : 3         : N              
+outputPC[14]                 : A7        : output : 3.3-V LVTTL       :         : 3         : N              
+outputwriteDataOrPC[10]      : A8        : output : 3.3-V LVTTL       :         : 3         : N              
+outputwriteDataOrPC[25]      : A9        : output : 3.3-V LVTTL       :         : 3         : N              
+outputPC[22]                 : A10       : output : 3.3-V LVTTL       :         : 3         : N              
+outputwriteDataOrPC[28]      : A11       : output : 3.3-V LVTTL       :         : 3         : N              
 GND+                         : A12       :        :                   :         : 4         :                
-serial_in[2]                 : A13       : input  : 3.3-V LVTTL       :         : 4         : N              
-serial_in[4]                 : A14       : input  : 3.3-V LVTTL       :         : 4         : N              
-instructionROMOutMEMWBOut[11] : A15       : output : 3.3-V LVTTL       :         : 4         : N              
-serial_out[7]                : A16       : output : 3.3-V LVTTL       :         : 4         : N              
-serial_wren_out              : A17       : output : 3.3-V LVTTL       :         : 4         : N              
+outputwriteDataOrPC[20]      : A13       : output : 3.3-V LVTTL       :         : 4         : N              
+outputwriteDataOrPC[9]       : A14       : output : 3.3-V LVTTL       :         : 4         : N              
+instructionROMOutMEMWBOut[13] : A15       : output : 3.3-V LVTTL       :         : 4         : N              
+instructionROMOutMEMWBOut[8] : A16       : output : 3.3-V LVTTL       :         : 4         : N              
+serial_ready_in              : A17       : input  : 3.3-V LVTTL       :         : 4         : N              
 GND*                         : A18       :        :                   :         : 4         :                
 GND*                         : A19       :        :                   :         : 4         :                
 GND*                         : A20       :        :                   :         : 4         :                
@@ -92,106 +92,106 @@ VCCIO4                       : A21       : power  :                   : 3.3V    
 GND                          : A22       : gnd    :                   :         :           :                
 VCCIO1                       : AA1       : power  :                   : 3.3V    : 1         :                
 GND                          : AA2       : gnd    :                   :         :           :                
-counter[14]                  : AA3       : output : 3.3-V LVTTL       :         : 8         : N              
-counter[31]                  : AA4       : output : 3.3-V LVTTL       :         : 8         : N              
-counter[28]                  : AA5       : output : 3.3-V LVTTL       :         : 8         : N              
+GND*                         : AA3       :        :                   :         : 8         :                
+GND*                         : AA4       :        :                   :         : 8         :                
+GND*                         : AA5       :        :                   :         : 8         :                
 GND*                         : AA6       :        :                   :         : 8         :                
-outputReg[25]                : AA7       : output : 3.3-V LVTTL       :         : 8         : N              
-outputwriteDataOrPC[16]      : AA8       : output : 3.3-V LVTTL       :         : 8         : N              
-outputwriteDataOrPC[17]      : AA9       : output : 3.3-V LVTTL       :         : 8         : N              
-outputwriteDataOrPC[1]       : AA10      : output : 3.3-V LVTTL       :         : 8         : N              
-outputwriteDataOrPC[21]      : AA11      : output : 3.3-V LVTTL       :         : 8         : N              
-instructionROMOutMEMWBOut[29] : AA12      : output : 3.3-V LVTTL       :         : 7         : N              
-outputReg[1]                 : AA13      : output : 3.3-V LVTTL       :         : 7         : N              
-outputPC[30]                 : AA14      : output : 3.3-V LVTTL       :         : 7         : N              
-outputReg[4]                 : AA15      : output : 3.3-V LVTTL       :         : 7         : N              
-outputPC[15]                 : AA16      : output : 3.3-V LVTTL       :         : 7         : N              
-outputPC[14]                 : AA17      : output : 3.3-V LVTTL       :         : 7         : N              
-GND*                         : AA18      :        :                   :         : 7         :                
-GND*                         : AA19      :        :                   :         : 7         :                
-GND*                         : AA20      :        :                   :         : 7         :                
+outputReg[11]                : AA7       : output : 3.3-V LVTTL       :         : 8         : N              
+outputwriteDataOrPC[3]       : AA8       : output : 3.3-V LVTTL       :         : 8         : N              
+outputPC[4]                  : AA9       : output : 3.3-V LVTTL       :         : 8         : N              
+outputPC[6]                  : AA10      : output : 3.3-V LVTTL       :         : 8         : N              
+instructionROMOutMEMWBOut[25] : AA11      : output : 3.3-V LVTTL       :         : 8         : N              
+outputReg[25]                : AA12      : output : 3.3-V LVTTL       :         : 7         : N              
+instructionROMOutMEMWBOut[31] : AA13      : output : 3.3-V LVTTL       :         : 7         : N              
+serial_out[3]                : AA14      : output : 3.3-V LVTTL       :         : 7         : N              
+serial_out[4]                : AA15      : output : 3.3-V LVTTL       :         : 7         : N              
+serial_in[4]                 : AA16      : input  : 3.3-V LVTTL       :         : 7         : N              
+GND*                         : AA17      :        :                   :         : 7         :                
+instructioncounter[29]       : AA18      : output : 3.3-V LVTTL       :         : 7         : N              
+instructioncounter[22]       : AA19      : output : 3.3-V LVTTL       :         : 7         : N              
+instructioncounter[1]        : AA20      : output : 3.3-V LVTTL       :         : 7         : N              
 GND                          : AA21      : gnd    :                   :         :           :                
 VCCIO6                       : AA22      : power  :                   : 3.3V    : 6         :                
 GND                          : AB1       : gnd    :                   :         :           :                
 VCCIO8                       : AB2       : power  :                   : 3.3V    : 8         :                
-counter[3]                   : AB3       : output : 3.3-V LVTTL       :         : 8         : N              
-counter[12]                  : AB4       : output : 3.3-V LVTTL       :         : 8         : N              
-counter[26]                  : AB5       : output : 3.3-V LVTTL       :         : 8         : N              
-GND*                         : AB6       :        :                   :         : 8         :                
-outputReg[13]                : AB7       : output : 3.3-V LVTTL       :         : 8         : N              
-outputwriteDataOrPC[6]       : AB8       : output : 3.3-V LVTTL       :         : 8         : N              
-outputwriteDataOrPC[5]       : AB9       : output : 3.3-V LVTTL       :         : 8         : N              
-outputwriteDataOrPC[3]       : AB10      : output : 3.3-V LVTTL       :         : 8         : N              
-outputwriteDataOrPC[2]       : AB11      : output : 3.3-V LVTTL       :         : 8         : N              
-outputReg[14]                : AB12      : output : 3.3-V LVTTL       :         : 7         : N              
-instructionROMOutMEMWBOut[2] : AB13      : output : 3.3-V LVTTL       :         : 7         : N              
-outputReg[5]                 : AB14      : output : 3.3-V LVTTL       :         : 7         : N              
-outputPC[20]                 : AB15      : output : 3.3-V LVTTL       :         : 7         : N              
-serial_out[4]                : AB16      : output : 3.3-V LVTTL       :         : 7         : N              
-outputPC[23]                 : AB17      : output : 3.3-V LVTTL       :         : 7         : N              
+GND*                         : AB3       :        :                   :         : 8         :                
+GND*                         : AB4       :        :                   :         : 8         :                
+GND*                         : AB5       :        :                   :         : 8         :                
+outputReg[4]                 : AB6       : output : 3.3-V LVTTL       :         : 8         : N              
+outputReg[10]                : AB7       : output : 3.3-V LVTTL       :         : 8         : N              
+outputwriteDataOrPC[2]       : AB8       : output : 3.3-V LVTTL       :         : 8         : N              
+outputReg[2]                 : AB9       : output : 3.3-V LVTTL       :         : 8         : N              
+outputPC[2]                  : AB10      : output : 3.3-V LVTTL       :         : 8         : N              
+outputPC[5]                  : AB11      : output : 3.3-V LVTTL       :         : 8         : N              
+outputReg[23]                : AB12      : output : 3.3-V LVTTL       :         : 7         : N              
+instructionROMOutMEMWBOut[26] : AB13      : output : 3.3-V LVTTL       :         : 7         : N              
+serial_out[7]                : AB14      : output : 3.3-V LVTTL       :         : 7         : N              
+serial_out[6]                : AB15      : output : 3.3-V LVTTL       :         : 7         : N              
+serial_wren_out              : AB16      : output : 3.3-V LVTTL       :         : 7         : N              
+GND*                         : AB17      :        :                   :         : 7         :                
 GND*                         : AB18      :        :                   :         : 7         :                
-instructionROMOutMEMWBOut[30] : AB19      : output : 3.3-V LVTTL       :         : 7         : N              
-GND*                         : AB20      :        :                   :         : 7         :                
+instructioncounter[2]        : AB19      : output : 3.3-V LVTTL       :         : 7         : N              
+instructioncounter[11]       : AB20      : output : 3.3-V LVTTL       :         : 7         : N              
 VCCIO7                       : AB21      : power  :                   : 3.3V    : 7         :                
 GND                          : AB22      : gnd    :                   :         :           :                
 VCCIO2                       : B1        : power  :                   : 3.3V    : 2         :                
 GND                          : B2        : gnd    :                   :         :           :                
-instructioncounter[13]       : B3        : output : 3.3-V LVTTL       :         : 3         : N              
-instructioncounter[0]        : B4        : output : 3.3-V LVTTL       :         : 3         : N              
-instructioncounter[7]        : B5        : output : 3.3-V LVTTL       :         : 3         : N              
-instructioncounter[3]        : B6        : output : 3.3-V LVTTL       :         : 3         : N              
-instructionROMOutMEMWBOut[1] : B7        : output : 3.3-V LVTTL       :         : 3         : N              
-outputReg[26]                : B8        : output : 3.3-V LVTTL       :         : 3         : N              
-instructionROMOutMEMWBOut[0] : B9        : output : 3.3-V LVTTL       :         : 3         : N              
-instructionROMOutMEMWBOut[13] : B10       : output : 3.3-V LVTTL       :         : 3         : N              
-instructionROMOutMEMWBOut[18] : B11       : output : 3.3-V LVTTL       :         : 3         : N              
+counter[16]                  : B3        : output : 3.3-V LVTTL       :         : 3         : N              
+counter[1]                   : B4        : output : 3.3-V LVTTL       :         : 3         : N              
+counter[7]                   : B5        : output : 3.3-V LVTTL       :         : 3         : N              
+counter[3]                   : B6        : output : 3.3-V LVTTL       :         : 3         : N              
+outputReg[21]                : B7        : output : 3.3-V LVTTL       :         : 3         : N              
+outputwriteDataOrPC[26]      : B8        : output : 3.3-V LVTTL       :         : 3         : N              
+outputwriteDataOrPC[0]       : B9        : output : 3.3-V LVTTL       :         : 3         : N              
+outputwriteDataOrPC[5]       : B10       : output : 3.3-V LVTTL       :         : 3         : N              
+outputwriteDataOrPC[29]      : B11       : output : 3.3-V LVTTL       :         : 3         : N              
 GND+                         : B12       :        :                   :         : 4         :                
-instructionROMOutMEMWBOut[9] : B13       : output : 3.3-V LVTTL       :         : 4         : N              
-serial_in[1]                 : B14       : input  : 3.3-V LVTTL       :         : 4         : N              
-outputPC[13]                 : B15       : output : 3.3-V LVTTL       :         : 4         : N              
-serial_out[3]                : B16       : output : 3.3-V LVTTL       :         : 4         : N              
-serial_out[0]                : B17       : output : 3.3-V LVTTL       :         : 4         : N              
+outputwriteDataOrPC[31]      : B13       : output : 3.3-V LVTTL       :         : 4         : N              
+outputwriteDataOrPC[21]      : B14       : output : 3.3-V LVTTL       :         : 4         : N              
+instructionROMOutMEMWBOut[12] : B15       : output : 3.3-V LVTTL       :         : 4         : N              
+outputReg[20]                : B16       : output : 3.3-V LVTTL       :         : 4         : N              
+serial_valid_in              : B17       : input  : 3.3-V LVTTL       :         : 4         : N              
 GND*                         : B18       :        :                   :         : 4         :                
 GND*                         : B19       :        :                   :         : 4         :                
 GND*                         : B20       :        :                   :         : 4         :                
 GND                          : B21       : gnd    :                   :         :           :                
 VCCIO5                       : B22       : power  :                   : 3.3V    : 5         :                
-instructioncounter[30]       : C1        : output : 3.3-V LVTTL       :         : 2         : N              
-instructioncounter[16]       : C2        : output : 3.3-V LVTTL       :         : 2         : N              
+counter[31]                  : C1        : output : 3.3-V LVTTL       :         : 2         : N              
+counter[20]                  : C2        : output : 3.3-V LVTTL       :         : 2         : N              
 ~nCSO~ / RESERVED_INPUT_WITH_WEAK_PULLUP : C3        : input  : 3.3-V LVTTL       :         : 2         : N              
 ~ASDO~ / RESERVED_INPUT_WITH_WEAK_PULLUP : C4        : input  : 3.3-V LVTTL       :         : 2         : N              
 GND                          : C5        : gnd    :                   :         :           :                
 VCCIO3                       : C6        : power  :                   : 3.3V    : 3         :                
-GND*                         : C7        :        :                   :         : 3         :                
+outputReg[7]                 : C7        : output : 3.3-V LVTTL       :         : 3         : N              
 GND                          : C8        : gnd    :                   :         :           :                
-GND*                         : C9        :        :                   :         : 3         :                
-outputwriteDataOrPC[31]      : C10       : output : 3.3-V LVTTL       :         : 3         : N              
+outputReg[12]                : C9        : output : 3.3-V LVTTL       :         : 3         : N              
+outputwriteDataOrPC[8]       : C10       : output : 3.3-V LVTTL       :         : 3         : N              
 VCCIO3                       : C11       : power  :                   : 3.3V    : 3         :                
 VCCIO4                       : C12       : power  :                   : 3.3V    : 4         :                
-outputPC[17]                 : C13       : output : 3.3-V LVTTL       :         : 4         : N              
-outputPC[4]                  : C14       : output : 3.3-V LVTTL       :         : 4         : N              
+instructionROMOutMEMWBOut[2] : C13       : output : 3.3-V LVTTL       :         : 4         : N              
+serial_in[2]                 : C14       : input  : 3.3-V LVTTL       :         : 4         : N              
 GND                          : C15       : gnd    :                   :         :           :                
 GND*                         : C16       :        :                   :         : 4         :                
 GND*                         : C17       :        :                   :         : 4         :                
 GND*                         : C18       :        :                   :         : 4         :                
-instructioncounter[8]        : C19       : output : 3.3-V LVTTL       :         : 5         : N              
+GND*                         : C19       :        :                   :         : 5         :                
 GND*                         : C20       :        :                   :         : 5         :                
 GND*                         : C21       :        :                   :         : 5         :                
 GND*                         : C22       :        :                   :         : 5         :                
-instructioncounter[20]       : D1        : output : 3.3-V LVTTL       :         : 2         : N              
-instructioncounter[24]       : D2        : output : 3.3-V LVTTL       :         : 2         : N              
-instructioncounter[11]       : D3        : output : 3.3-V LVTTL       :         : 2         : N              
-instructioncounter[2]        : D4        : output : 3.3-V LVTTL       :         : 2         : N              
-instructioncounter[1]        : D5        : output : 3.3-V LVTTL       :         : 2         : N              
-instructioncounter[10]       : D6        : output : 3.3-V LVTTL       :         : 2         : N              
-GND*                         : D7        :        :                   :         : 3         :                
-outputReg[31]                : D8        : output : 3.3-V LVTTL       :         : 3         : N              
-outputReg[19]                : D9        : output : 3.3-V LVTTL       :         : 3         : N              
+counter[22]                  : D1        : output : 3.3-V LVTTL       :         : 2         : N              
+counter[18]                  : D2        : output : 3.3-V LVTTL       :         : 2         : N              
+counter[12]                  : D3        : output : 3.3-V LVTTL       :         : 2         : N              
+counter[4]                   : D4        : output : 3.3-V LVTTL       :         : 2         : N              
+counter[11]                  : D5        : output : 3.3-V LVTTL       :         : 2         : N              
+counter[14]                  : D6        : output : 3.3-V LVTTL       :         : 2         : N              
+outputReg[30]                : D7        : output : 3.3-V LVTTL       :         : 3         : N              
+outputReg[15]                : D8        : output : 3.3-V LVTTL       :         : 3         : N              
+outputwriteDataOrPC[30]      : D9        : output : 3.3-V LVTTL       :         : 3         : N              
 GND                          : D10       : gnd    :                   :         :           :                
-instructionROMOutMEMWBOut[17] : D11       : output : 3.3-V LVTTL       :         : 3         : N              
+outputwriteDataOrPC[7]       : D11       : output : 3.3-V LVTTL       :         : 3         : N              
 GND+                         : D12       :        :                   :         : 3         :                
 GND                          : D13       : gnd    :                   :         :           :                
-serial_ready_in              : D14       : input  : 3.3-V LVTTL       :         : 4         : N              
+serial_in[7]                 : D14       : input  : 3.3-V LVTTL       :         : 4         : N              
 GND*                         : D15       :        :                   :         : 4         :                
 GND*                         : D16       :        :                   :         : 4         :                
 VCCIO4                       : D17       : power  :                   : 3.3V    : 4         :                
@@ -200,98 +200,98 @@ GND*                         : D19       :        :                   :         
 GND*                         : D20       :        :                   :         : 5         :                
 GND*                         : D21       :        :                   :         : 5         :                
 GND*                         : D22       :        :                   :         : 5         :                
-instructioncounter[17]       : E1        : output : 3.3-V LVTTL       :         : 2         : N              
-GND*                         : E2        :        :                   :         : 2         :                
-instructioncounter[15]       : E3        : output : 3.3-V LVTTL       :         : 2         : N              
-instructioncounter[5]        : E4        : output : 3.3-V LVTTL       :         : 2         : N              
+counter[24]                  : E1        : output : 3.3-V LVTTL       :         : 2         : N              
+counter[30]                  : E2        : output : 3.3-V LVTTL       :         : 2         : N              
+counter[0]                   : E3        : output : 3.3-V LVTTL       :         : 2         : N              
+counter[15]                  : E4        : output : 3.3-V LVTTL       :         : 2         : N              
 VCCD_PLL3                    : E5        : power  :                   : 1.2V    :           :                
 VCCA_PLL3                    : E6        : power  :                   : 1.2V    :           :                
-instructioncounter[6]        : E7        : output : 3.3-V LVTTL       :         : 3         : N              
-instructionROMOutMEMWBOut[25] : E8        : output : 3.3-V LVTTL       :         : 3         : N              
-instructionROMOutMEMWBOut[31] : E9        : output : 3.3-V LVTTL       :         : 3         : N              
+counter[13]                  : E7        : output : 3.3-V LVTTL       :         : 3         : N              
+outputReg[13]                : E8        : output : 3.3-V LVTTL       :         : 3         : N              
+outputwriteDataOrPC[19]      : E9        : output : 3.3-V LVTTL       :         : 3         : N              
 VCCIO3                       : E10       : power  :                   : 3.3V    : 3         :                
-outputwriteDataOrPC[22]      : E11       : output : 3.3-V LVTTL       :         : 3         : N              
+instructionROMOutMEMWBOut[3] : E11       : output : 3.3-V LVTTL       :         : 3         : N              
 GND+                         : E12       :        :                   :         : 3         :                
 VCCIO4                       : E13       : power  :                   : 3.3V    : 4         :                
-serial_valid_in              : E14       : input  : 3.3-V LVTTL       :         : 4         : N              
+outputReg[27]                : E14       : output : 3.3-V LVTTL       :         : 4         : N              
 GND*                         : E15       :        :                   :         : 4         :                
 GNDA_PLL2                    : E16       : gnd    :                   :         :           :                
 GND_PLL2                     : E17       : gnd    :                   :         :           :                
 GND*                         : E18       :        :                   :         : 5         :                
 GND*                         : E19       :        :                   :         : 5         :                
 GND*                         : E20       :        :                   :         : 5         :                
-GND*                         : E21       :        :                   :         : 5         :                
-GND*                         : E22       :        :                   :         : 5         :                
-instructioncounter[31]       : F1        : output : 3.3-V LVTTL       :         : 2         : N              
-instructioncounter[18]       : F2        : output : 3.3-V LVTTL       :         : 2         : N              
-instructioncounter[26]       : F3        : output : 3.3-V LVTTL       :         : 2         : N              
-instructioncounter[27]       : F4        : output : 3.3-V LVTTL       :         : 2         : N              
+outputwriteDataOrPC[18]      : E21       : output : 3.3-V LVTTL       :         : 5         : N              
+serial_rden_out              : E22       : output : 3.3-V LVTTL       :         : 5         : N              
+outputReg[1]                 : F1        : output : 3.3-V LVTTL       :         : 2         : N              
+counter[17]                  : F2        : output : 3.3-V LVTTL       :         : 2         : N              
+counter[25]                  : F3        : output : 3.3-V LVTTL       :         : 2         : N              
+counter[26]                  : F4        : output : 3.3-V LVTTL       :         : 2         : N              
 GND_PLL3                     : F5        : gnd    :                   :         :           :                
 GND_PLL3                     : F6        : gnd    :                   :         :           :                
 GNDA_PLL3                    : F7        : gnd    :                   :         :           :                
-GND*                         : F8        :        :                   :         : 3         :                
-outputReg[3]                 : F9        : output : 3.3-V LVTTL       :         : 3         : N              
-instructionROMOutMEMWBOut[8] : F10       : output : 3.3-V LVTTL       :         : 3         : N              
-instructionROMOutMEMWBOut[6] : F11       : output : 3.3-V LVTTL       :         : 3         : N              
-outputPC[22]                 : F12       : output : 3.3-V LVTTL       :         : 4         : N              
-serial_out[5]                : F13       : output : 3.3-V LVTTL       :         : 4         : N              
-serial_in[0]                 : F14       : input  : 3.3-V LVTTL       :         : 4         : N              
-GND*                         : F15       :        :                   :         : 4         :                
+outputPC[15]                 : F8        : output : 3.3-V LVTTL       :         : 3         : N              
+outputReg[8]                 : F9        : output : 3.3-V LVTTL       :         : 3         : N              
+outputwriteDataOrPC[4]       : F10       : output : 3.3-V LVTTL       :         : 3         : N              
+outputwriteDataOrPC[1]       : F11       : output : 3.3-V LVTTL       :         : 3         : N              
+instructionROMOutMEMWBOut[1] : F12       : output : 3.3-V LVTTL       :         : 4         : N              
+outputReg[0]                 : F13       : output : 3.3-V LVTTL       :         : 4         : N              
+serial_out[5]                : F14       : output : 3.3-V LVTTL       :         : 4         : N              
+instructionROMOutMEMWBOut[7] : F15       : output : 3.3-V LVTTL       :         : 4         : N              
 VCCA_PLL2                    : F16       : power  :                   : 1.2V    :           :                
 VCCD_PLL2                    : F17       : power  :                   : 1.2V    :           :                
 GND_PLL2                     : F18       : gnd    :                   :         :           :                
 GND                          : F19       : gnd    :                   :         :           :                
 GND*                         : F20       :        :                   :         : 5         :                
-GND*                         : F21       :        :                   :         : 5         :                
-GND*                         : F22       :        :                   :         : 5         :                
+instructionROMOutMEMWBOut[5] : F21       : output : 3.3-V LVTTL       :         : 5         : N              
+instructionROMOutMEMWBOut[28] : F22       : output : 3.3-V LVTTL       :         : 5         : N              
 NC                           : G1        :        :                   :         :           :                
 NC                           : G2        :        :                   :         :           :                
-instructioncounter[9]        : G3        : output : 3.3-V LVTTL       :         : 2         : N              
+counter[9]                   : G3        : output : 3.3-V LVTTL       :         : 2         : N              
 GND                          : G4        : gnd    :                   :         :           :                
-instructioncounter[22]       : G5        : output : 3.3-V LVTTL       :         : 2         : N              
-instructioncounter[23]       : G6        : output : 3.3-V LVTTL       :         : 2         : N              
-serial_rden_out              : G7        : output : 3.3-V LVTTL       :         : 3         : N              
-GND*                         : G8        :        :                   :         : 3         :                
+counter[21]                  : G5        : output : 3.3-V LVTTL       :         : 2         : N              
+counter[27]                  : G6        : output : 3.3-V LVTTL       :         : 2         : N              
+outputReg[3]                 : G7        : output : 3.3-V LVTTL       :         : 3         : N              
+outputPC[16]                 : G8        : output : 3.3-V LVTTL       :         : 3         : N              
 VCCIO3                       : G9        : power  :                   : 3.3V    : 3         :                
 GND                          : G10       : gnd    :                   :         :           :                
-instructionROMOutMEMWBOut[19] : G11       : output : 3.3-V LVTTL       :         : 3         : N              
-outputReg[28]                : G12       : output : 3.3-V LVTTL       :         : 4         : N              
+instructionROMOutMEMWBOut[14] : G11       : output : 3.3-V LVTTL       :         : 3         : N              
+outputPC[18]                 : G12       : output : 3.3-V LVTTL       :         : 4         : N              
 GND                          : G13       : gnd    :                   :         :           :                
 VCCIO4                       : G14       : power  :                   : 3.3V    : 4         :                
-outputPC[10]                 : G15       : output : 3.3-V LVTTL       :         : 4         : N              
+serial_in[5]                 : G15       : input  : 3.3-V LVTTL       :         : 4         : N              
 GND*                         : G16       :        :                   :         : 4         :                
 GND*                         : G17       :        :                   :         : 5         :                
 GND*                         : G18       :        :                   :         : 5         :                
 VCCIO5                       : G19       : power  :                   : 3.3V    : 5         :                
 GND*                         : G20       :        :                   :         : 5         :                
-GND*                         : G21       :        :                   :         : 5         :                
-GND*                         : G22       :        :                   :         : 5         :                
-instructionROMOutMEMWBOut[28] : H1        : output : 3.3-V LVTTL       :         : 2         : N              
-instructionROMOutMEMWBOut[26] : H2        : output : 3.3-V LVTTL       :         : 2         : N              
-GND*                         : H3        :        :                   :         : 2         :                
-instructioncounter[4]        : H4        : output : 3.3-V LVTTL       :         : 2         : N              
-instructioncounter[19]       : H5        : output : 3.3-V LVTTL       :         : 2         : N              
-instructioncounter[21]       : H6        : output : 3.3-V LVTTL       :         : 2         : N              
-instructioncounter[29]       : H7        : output : 3.3-V LVTTL       :         : 3         : N              
-GND*                         : H8        :        :                   :         : 3         :                
-outputReg[27]                : H9        : output : 3.3-V LVTTL       :         : 3         : N              
-outputwriteDataOrPC[28]      : H10       : output : 3.3-V LVTTL       :         : 3         : N              
-instructionROMOutMEMWBOut[15] : H11       : output : 3.3-V LVTTL       :         : 3         : N              
-serial_in[6]                 : H12       : input  : 3.3-V LVTTL       :         : 4         : N              
-serial_out[2]                : H13       : output : 3.3-V LVTTL       :         : 4         : N              
+outputwriteDataOrPC[11]      : G21       : output : 3.3-V LVTTL       :         : 5         : N              
+outputwriteDataOrPC[22]      : G22       : output : 3.3-V LVTTL       :         : 5         : N              
+outputwriteDataOrPC[6]       : H1        : output : 3.3-V LVTTL       :         : 2         : N              
+outputReg[31]                : H2        : output : 3.3-V LVTTL       :         : 2         : N              
+outputwriteDataOrPC[23]      : H3        : output : 3.3-V LVTTL       :         : 2         : N              
+counter[19]                  : H4        : output : 3.3-V LVTTL       :         : 2         : N              
+counter[10]                  : H5        : output : 3.3-V LVTTL       :         : 2         : N              
+counter[8]                   : H6        : output : 3.3-V LVTTL       :         : 2         : N              
+counter[23]                  : H7        : output : 3.3-V LVTTL       :         : 3         : N              
+outputPC[21]                 : H8        : output : 3.3-V LVTTL       :         : 3         : N              
+outputwriteDataOrPC[12]      : H9        : output : 3.3-V LVTTL       :         : 3         : N              
+outputwriteDataOrPC[16]      : H10       : output : 3.3-V LVTTL       :         : 3         : N              
+outputwriteDataOrPC[13]      : H11       : output : 3.3-V LVTTL       :         : 3         : N              
+instructionROMOutMEMWBOut[4] : H12       : output : 3.3-V LVTTL       :         : 4         : N              
+serial_in[0]                 : H13       : input  : 3.3-V LVTTL       :         : 4         : N              
 GND*                         : H14       :        :                   :         : 4         :                
 GND*                         : H15       :        :                   :         : 4         :                
-instructionROMOutMEMWBOut[22] : H16       : output : 3.3-V LVTTL       :         : 5         : N              
+instructionROMOutMEMWBOut[29] : H16       : output : 3.3-V LVTTL       :         : 5         : N              
 GND*                         : H17       :        :                   :         : 5         :                
-GND*                         : H18       :        :                   :         : 5         :                
-serial_in[3]                 : H19       : input  : 3.3-V LVTTL       :         : 5         : N              
+instructionROMOutMEMWBOut[15] : H18       : output : 3.3-V LVTTL       :         : 5         : N              
+outputReg[29]                : H19       : output : 3.3-V LVTTL       :         : 5         : N              
 GND                          : H20       : gnd    :                   :         :           :                
 NC                           : H21       :        :                   :         :           :                
 NC                           : H22       :        :                   :         :           :                
-outputwriteDataOrPC[0]       : J1        : output : 3.3-V LVTTL       :         : 2         : N              
-outputwriteDataOrPC[11]      : J2        : output : 3.3-V LVTTL       :         : 2         : N              
+outputReg[9]                 : J1        : output : 3.3-V LVTTL       :         : 2         : N              
+outputReg[28]                : J2        : output : 3.3-V LVTTL       :         : 2         : N              
 NC                           : J3        :        :                   :         :           :                
-outputReg[2]                 : J4        : output : 3.3-V LVTTL       :         : 2         : N              
+outputwriteDataOrPC[14]      : J4        : output : 3.3-V LVTTL       :         : 2         : N              
 NC                           : J5        :        :                   :         :           :                
 NC                           : J6        :        :                   :         :           :                
 VCCIO2                       : J7        : power  :                   : 3.3V    : 2         :                
@@ -302,14 +302,14 @@ VCCINT                       : J11       : power  :                   : 1.2V    
 VCCINT                       : J12       : power  :                   : 1.2V    :           :                
 VCCINT                       : J13       : power  :                   : 1.2V    :           :                
 GND*                         : J14       :        :                   :         : 4         :                
-instructionROMOutMEMWBOut[27] : J15       : output : 3.3-V LVTTL       :         : 5         : N              
+outputPC[27]                 : J15       : output : 3.3-V LVTTL       :         : 5         : N              
 VCCIO5                       : J16       : power  :                   : 3.3V    : 5         :                
-GND*                         : J17       :        :                   :         : 5         :                
-serial_in[7]                 : J18       : input  : 3.3-V LVTTL       :         : 5         : N              
-outputReg[24]                : J19       : output : 3.3-V LVTTL       :         : 5         : N              
-serial_out[1]                : J20       : output : 3.3-V LVTTL       :         : 5         : N              
-serial_in[5]                 : J21       : input  : 3.3-V LVTTL       :         : 5         : N              
-serial_out[6]                : J22       : output : 3.3-V LVTTL       :         : 5         : N              
+outputReg[6]                 : J17       : output : 3.3-V LVTTL       :         : 5         : N              
+instructionROMOutMEMWBOut[18] : J18       : output : 3.3-V LVTTL       :         : 5         : N              
+instructionROMOutMEMWBOut[27] : J19       : output : 3.3-V LVTTL       :         : 5         : N              
+outputwriteDataOrPC[27]      : J20       : output : 3.3-V LVTTL       :         : 5         : N              
+instructionROMOutMEMWBOut[17] : J21       : output : 3.3-V LVTTL       :         : 5         : N              
+instructionROMOutMEMWBOut[20] : J22       : output : 3.3-V LVTTL       :         : 5         : N              
 nCE                          : K1        :        :                   :         : 2         :                
 TCK                          : K2        : input  :                   :         : 2         :                
 GND                          : K3        : gnd    :                   :         :           :                
@@ -329,9 +329,9 @@ GND                          : K16       : gnd    :                   :         
 NC                           : K17       :        :                   :         :           :                
 NC                           : K18       :        :                   :         :           :                
 GND                          : K19       : gnd    :                   :         :           :                
-outputReg[9]                 : K20       : output : 3.3-V LVTTL       :         : 5         : N              
-outputPC[1]                  : K21       : output : 3.3-V LVTTL       :         : 5         : N              
-outputPC[9]                  : K22       : output : 3.3-V LVTTL       :         : 5         : N              
+serial_in[3]                 : K20       : input  : 3.3-V LVTTL       :         : 5         : N              
+serial_in[6]                 : K21       : input  : 3.3-V LVTTL       :         : 5         : N              
+instructionROMOutMEMWBOut[24] : K22       : output : 3.3-V LVTTL       :         : 5         : N              
 GND+                         : L1        :        :                   :         : 2         :                
 GND+                         : L2        :        :                   :         : 2         :                
 VCCIO2                       : L3        : power  :                   : 3.3V    : 2         :                
@@ -339,7 +339,7 @@ nCONFIG                      : L4        :        :                   :         
 TDO                          : L5        : output :                   :         : 2         :                
 DCLK                         : L6        :        :                   :         : 2         :                
 NC                           : L7        :        :                   :         :           :                
-instructionROMOutMEMWBOut[10] : L8        : output : 3.3-V LVTTL       :         : 2         : N              
+counter[29]                  : L8        : output : 3.3-V LVTTL       :         : 2         : N              
 VCCINT                       : L9        : power  :                   : 1.2V    :           :                
 GND                          : L10       : gnd    :                   :         :           :                
 GND                          : L11       : gnd    :                   :         :           :                
@@ -349,8 +349,8 @@ VCCINT                       : L14       : power  :                   : 1.2V    
 NC                           : L15       :        :                   :         :           :                
 NC                           : L16       :        :                   :         :           :                
 NC                           : L17       :        :                   :         :           :                
-outputPC[25]                 : L18       : output : 3.3-V LVTTL       :         : 5         : N              
-instructionROMOutMEMWBOut[4] : L19       : output : 3.3-V LVTTL       :         : 5         : N              
+outputPC[26]                 : L18       : output : 3.3-V LVTTL       :         : 5         : N              
+outputPC[23]                 : L19       : output : 3.3-V LVTTL       :         : 5         : N              
 VCCIO5                       : L20       : power  :                   : 3.3V    : 5         :                
 GND+                         : L21       :        :                   :         : 5         :                
 GND+                         : L22       :        :                   :         : 5         :                
@@ -358,8 +358,8 @@ clock                        : M1        : input  : 3.3-V LVTTL       :         
 reset                        : M2        : input  : 3.3-V LVTTL       :         : 1         : N              
 VCCIO1                       : M3        : power  :                   : 3.3V    : 1         :                
 GND                          : M4        : gnd    :                   :         :           :                
-instructionROMOutMEMWBOut[14] : M5        : output : 3.3-V LVTTL       :         : 1         : N              
-instructionROMOutMEMWBOut[20] : M6        : output : 3.3-V LVTTL       :         : 1         : N              
+outputReg[26]                : M5        : output : 3.3-V LVTTL       :         : 1         : N              
+outputwriteDataOrPC[24]      : M6        : output : 3.3-V LVTTL       :         : 1         : N              
 NC                           : M7        :        :                   :         :           :                
 NC                           : M8        :        :                   :         :           :                
 VCCINT                       : M9        : power  :                   : 1.2V    :           :                
@@ -371,17 +371,17 @@ VCCINT                       : M14       : power  :                   : 1.2V    
 NC                           : M15       :        :                   :         :           :                
 NC                           : M16       :        :                   :         :           :                
 MSEL0                        : M17       :        :                   :         : 6         :                
-outputPC[12]                 : M18       : output : 3.3-V LVTTL       :         : 6         : N              
-outputPC[0]                  : M19       : output : 3.3-V LVTTL       :         : 6         : N              
+serial_in[1]                 : M18       : input  : 3.3-V LVTTL       :         : 6         : N              
+serial_out[0]                : M19       : output : 3.3-V LVTTL       :         : 6         : N              
 VCCIO6                       : M20       : power  :                   : 3.3V    : 6         :                
 GND+                         : M21       :        :                   :         : 6         :                
 GND+                         : M22       :        :                   :         : 6         :                
-instructionROMOutMEMWBOut[3] : N1        : output : 3.3-V LVTTL       :         : 1         : N              
-instructionROMOutMEMWBOut[7] : N2        : output : 3.3-V LVTTL       :         : 1         : N              
-outputReg[21]                : N3        : output : 3.3-V LVTTL       :         : 1         : N              
-outputReg[18]                : N4        : output : 3.3-V LVTTL       :         : 1         : N              
+outputwriteDataOrPC[15]      : N1        : output : 3.3-V LVTTL       :         : 1         : N              
+outputwriteDataOrPC[17]      : N2        : output : 3.3-V LVTTL       :         : 1         : N              
+outputPC[17]                 : N3        : output : 3.3-V LVTTL       :         : 1         : N              
+outputPC[19]                 : N4        : output : 3.3-V LVTTL       :         : 1         : N              
 NC                           : N5        :        :                   :         :           :                
-outputwriteDataOrPC[30]      : N6        : output : 3.3-V LVTTL       :         : 1         : N              
+outputPC[30]                 : N6        : output : 3.3-V LVTTL       :         : 1         : N              
 GND                          : N7        : gnd    :                   :         :           :                
 NC                           : N8        :        :                   :         :           :                
 VCCINT                       : N9        : power  :                   : 1.2V    :           :                
@@ -390,165 +390,165 @@ GND                          : N11       : gnd    :                   :         
 GND                          : N12       : gnd    :                   :         :           :                
 GND                          : N13       : gnd    :                   :         :           :                
 VCCINT                       : N14       : power  :                   : 1.2V    :           :                
-outputPC[2]                  : N15       : output : 3.3-V LVTTL       :         : 6         : N              
+GND*                         : N15       :        :                   :         : 6         :                
 GND                          : N16       : gnd    :                   :         :           :                
 MSEL1                        : N17       :        :                   :         : 6         :                
 CONF_DONE                    : N18       :        :                   :         : 6         :                
 GND                          : N19       : gnd    :                   :         :           :                
 nSTATUS                      : N20       :        :                   :         : 6         :                
-outputPC[11]                 : N21       : output : 3.3-V LVTTL       :         : 6         : N              
-outputPC[6]                  : N22       : output : 3.3-V LVTTL       :         : 6         : N              
-outputwriteDataOrPC[27]      : P1        : output : 3.3-V LVTTL       :         : 1         : N              
-outputwriteDataOrPC[12]      : P2        : output : 3.3-V LVTTL       :         : 1         : N              
-outputwriteDataOrPC[15]      : P3        : output : 3.3-V LVTTL       :         : 1         : N              
+GND*                         : N21       :        :                   :         : 6         :                
+outputPC[7]                  : N22       : output : 3.3-V LVTTL       :         : 6         : N              
+outputPC[29]                 : P1        : output : 3.3-V LVTTL       :         : 1         : N              
+outputPC[31]                 : P2        : output : 3.3-V LVTTL       :         : 1         : N              
+outputPC[13]                 : P3        : output : 3.3-V LVTTL       :         : 1         : N              
 NC                           : P4        :        :                   :         :           :                
-outputReg[30]                : P5        : output : 3.3-V LVTTL       :         : 1         : N              
-outputwriteDataOrPC[4]       : P6        : output : 3.3-V LVTTL       :         : 1         : N              
+instructionROMOutMEMWBOut[21] : P5        : output : 3.3-V LVTTL       :         : 1         : N              
+outputReg[22]                : P6        : output : 3.3-V LVTTL       :         : 1         : N              
 VCCIO1                       : P7        : power  :                   : 3.3V    : 1         :                
-GND*                         : P8        :        :                   :         : 8         :                
-counter[10]                  : P9        : output : 3.3-V LVTTL       :         : 8         : N              
+instructionROMOutMEMWBOut[30] : P8        : output : 3.3-V LVTTL       :         : 8         : N              
+outputReg[19]                : P9        : output : 3.3-V LVTTL       :         : 8         : N              
 VCCINT                       : P10       : power  :                   : 1.2V    :           :                
 VCCINT                       : P11       : power  :                   : 1.2V    :           :                
 VCCINT                       : P12       : power  :                   : 1.2V    :           :                
 VCCINT                       : P13       : power  :                   : 1.2V    :           :                
 NC                           : P14       :        :                   :         :           :                
-instructionROMOutMEMWBOut[5] : P15       : output : 3.3-V LVTTL       :         : 6         : N              
+instructionROMOutMEMWBOut[0] : P15       : output : 3.3-V LVTTL       :         : 6         : N              
 VCCIO6                       : P16       : power  :                   : 3.3V    : 6         :                
-outputReg[6]                 : P17       : output : 3.3-V LVTTL       :         : 6         : N              
-outputReg[15]                : P18       : output : 3.3-V LVTTL       :         : 6         : N              
+instructioncounter[10]       : P17       : output : 3.3-V LVTTL       :         : 6         : N              
+GND*                         : P18       :        :                   :         : 6         :                
 NC                           : P19       :        :                   :         :           :                
 NC                           : P20       :        :                   :         :           :                
 NC                           : P21       :        :                   :         :           :                
 NC                           : P22       :        :                   :         :           :                
-outputwriteDataOrPC[14]      : R1        : output : 3.3-V LVTTL       :         : 1         : N              
-GND*                         : R2        :        :                   :         : 1         :                
+outputPC[20]                 : R1        : output : 3.3-V LVTTL       :         : 1         : N              
+instructionROMOutMEMWBOut[22] : R2        : output : 3.3-V LVTTL       :         : 1         : N              
 GND                          : R3        : gnd    :                   :         :           :                
 NC                           : R4        :        :                   :         :           :                
-GND*                         : R5        :        :                   :         : 1         :                
-counter[5]                   : R6        : output : 3.3-V LVTTL       :         : 1         : N              
-outputReg[11]                : R7        : output : 3.3-V LVTTL       :         : 1         : N              
-outputwriteDataOrPC[18]      : R8        : output : 3.3-V LVTTL       :         : 1         : N              
-outputReg[23]                : R9        : output : 3.3-V LVTTL       :         : 8         : N              
-outputwriteDataOrPC[23]      : R10       : output : 3.3-V LVTTL       :         : 8         : N              
-outputwriteDataOrPC[13]      : R11       : output : 3.3-V LVTTL       :         : 8         : N              
-outputPC[16]                 : R12       : output : 3.3-V LVTTL       :         : 7         : N              
-outputPC[24]                 : R13       : output : 3.3-V LVTTL       :         : 7         : N              
+outputPC[10]                 : R5        : output : 3.3-V LVTTL       :         : 1         : N              
+GND*                         : R6        :        :                   :         : 1         :                
+instructionROMOutMEMWBOut[11] : R7        : output : 3.3-V LVTTL       :         : 1         : N              
+outputReg[16]                : R8        : output : 3.3-V LVTTL       :         : 1         : N              
+instructionROMOutMEMWBOut[6] : R9        : output : 3.3-V LVTTL       :         : 8         : N              
+outputReg[5]                 : R10       : output : 3.3-V LVTTL       :         : 8         : N              
+outputPC[3]                  : R11       : output : 3.3-V LVTTL       :         : 8         : N              
+serial_out[2]                : R12       : output : 3.3-V LVTTL       :         : 7         : N              
+GND*                         : R13       :        :                   :         : 7         :                
 GND*                         : R14       :        :                   :         : 7         :                
 GND*                         : R15       :        :                   :         : 7         :                
-GND*                         : R16       :        :                   :         : 7         :                
-GND*                         : R17       :        :                   :         : 6         :                
-outputReg[16]                : R18       : output : 3.3-V LVTTL       :         : 6         : N              
-outputReg[20]                : R19       : output : 3.3-V LVTTL       :         : 6         : N              
-outputPC[19]                 : R20       : output : 3.3-V LVTTL       :         : 6         : N              
-outputPC[31]                 : R21       : output : 3.3-V LVTTL       :         : 6         : N              
-outputPC[27]                 : R22       : output : 3.3-V LVTTL       :         : 6         : N              
-outputwriteDataOrPC[7]       : T1        : output : 3.3-V LVTTL       :         : 1         : N              
-outputwriteDataOrPC[20]      : T2        : output : 3.3-V LVTTL       :         : 1         : N              
-counter[4]                   : T3        : output : 3.3-V LVTTL       :         : 1         : N              
+instructioncounter[14]       : R16       : output : 3.3-V LVTTL       :         : 7         : N              
+instructioncounter[7]        : R17       : output : 3.3-V LVTTL       :         : 6         : N              
+GND*                         : R18       :        :                   :         : 6         :                
+GND*                         : R19       :        :                   :         : 6         :                
+GND*                         : R20       :        :                   :         : 6         :                
+GND*                         : R21       :        :                   :         : 6         :                
+instructioncounter[0]        : R22       : output : 3.3-V LVTTL       :         : 6         : N              
+outputReg[17]                : T1        : output : 3.3-V LVTTL       :         : 1         : N              
+outputPC[24]                 : T2        : output : 3.3-V LVTTL       :         : 1         : N              
+GND*                         : T3        :        :                   :         : 1         :                
 VCCIO1                       : T4        : power  :                   : 3.3V    : 1         :                
-counter[11]                  : T5        : output : 3.3-V LVTTL       :         : 1         : N              
-counter[2]                   : T6        : output : 3.3-V LVTTL       :         : 1         : N              
-counter[29]                  : T7        : output : 3.3-V LVTTL       :         : 8         : N              
-counter[17]                  : T8        : output : 3.3-V LVTTL       :         : 8         : N              
+GND*                         : T5        :        :                   :         : 1         :                
+GND*                         : T6        :        :                   :         : 1         :                
+GND*                         : T7        :        :                   :         : 8         :                
+GND*                         : T8        :        :                   :         : 8         :                
 VCCIO8                       : T9        : power  :                   : 3.3V    : 8         :                
 GND                          : T10       : gnd    :                   :         :           :                
-outputwriteDataOrPC[8]       : T11       : output : 3.3-V LVTTL       :         : 8         : N              
-outputReg[29]                : T12       : output : 3.3-V LVTTL       :         : 7         : N              
+outputPC[25]                 : T11       : output : 3.3-V LVTTL       :         : 8         : N              
+outputPC[9]                  : T12       : output : 3.3-V LVTTL       :         : 7         : N              
 GND                          : T13       : gnd    :                   :         :           :                
 VCCIO7                       : T14       : power  :                   : 3.3V    : 7         :                
-outputPC[3]                  : T15       : output : 3.3-V LVTTL       :         : 7         : N              
-GND*                         : T16       :        :                   :         : 7         :                
+GND*                         : T15       :        :                   :         : 7         :                
+instructioncounter[24]       : T16       : output : 3.3-V LVTTL       :         : 7         : N              
 GND_PLL4                     : T17       : gnd    :                   :         :           :                
-GND*                         : T18       :        :                   :         : 6         :                
+instructioncounter[19]       : T18       : output : 3.3-V LVTTL       :         : 6         : N              
 VCCIO6                       : T19       : power  :                   : 3.3V    : 6         :                
 GND                          : T20       : gnd    :                   :         :           :                
-outputReg[22]                : T21       : output : 3.3-V LVTTL       :         : 6         : N              
-outputReg[0]                 : T22       : output : 3.3-V LVTTL       :         : 6         : N              
-GND*                         : U1        :        :                   :         : 1         :                
-counter[15]                  : U2        : output : 3.3-V LVTTL       :         : 1         : N              
-counter[7]                   : U3        : output : 3.3-V LVTTL       :         : 1         : N              
-counter[18]                  : U4        : output : 3.3-V LVTTL       :         : 1         : N              
+GND*                         : T21       :        :                   :         : 6         :                
+GND*                         : T22       :        :                   :         : 6         :                
+instructionROMOutMEMWBOut[10] : U1        : output : 3.3-V LVTTL       :         : 1         : N              
+instructionROMOutMEMWBOut[9] : U2        : output : 3.3-V LVTTL       :         : 1         : N              
+GND*                         : U3        :        :                   :         : 1         :                
+GND*                         : U4        :        :                   :         : 1         :                
 GND_PLL1                     : U5        : gnd    :                   :         :           :                
 VCCD_PLL1                    : U6        : power  :                   : 1.2V    :           :                
 VCCA_PLL1                    : U7        : power  :                   : 1.2V    :           :                
-counter[19]                  : U8        : output : 3.3-V LVTTL       :         : 8         : N              
-outputwriteDataOrPC[26]      : U9        : output : 3.3-V LVTTL       :         : 8         : N              
-outputwriteDataOrPC[24]      : U10       : output : 3.3-V LVTTL       :         : 8         : N              
+GND*                         : U8        :        :                   :         : 8         :                
+outputPC[1]                  : U9        : output : 3.3-V LVTTL       :         : 8         : N              
+instructionROMOutMEMWBOut[19] : U10       : output : 3.3-V LVTTL       :         : 8         : N              
 GND+                         : U11       :        :                   :         : 8         :                
 GND+                         : U12       :        :                   :         : 8         :                
-outputReg[12]                : U13       : output : 3.3-V LVTTL       :         : 7         : N              
-outputPC[7]                  : U14       : output : 3.3-V LVTTL       :         : 7         : N              
-GND*                         : U15       :        :                   :         : 7         :                
+instructionROMOutMEMWBOut[23] : U13       : output : 3.3-V LVTTL       :         : 7         : N              
+GND*                         : U14       :        :                   :         : 7         :                
+instructioncounter[30]       : U15       : output : 3.3-V LVTTL       :         : 7         : N              
 VCCA_PLL4                    : U16       : power  :                   : 1.2V    :           :                
 VCCD_PLL4                    : U17       : power  :                   : 1.2V    :           :                
-GND*                         : U18       :        :                   :         : 6         :                
-GND*                         : U19       :        :                   :         : 6         :                
-GND*                         : U20       :        :                   :         : 6         :                
-outputPC[26]                 : U21       : output : 3.3-V LVTTL       :         : 6         : N              
-outputPC[29]                 : U22       : output : 3.3-V LVTTL       :         : 6         : N              
-counter[30]                  : V1        : output : 3.3-V LVTTL       :         : 1         : N              
-counter[22]                  : V2        : output : 3.3-V LVTTL       :         : 1         : N              
+instructioncounter[20]       : U18       : output : 3.3-V LVTTL       :         : 6         : N              
+instructioncounter[9]        : U19       : output : 3.3-V LVTTL       :         : 6         : N              
+instructioncounter[13]       : U20       : output : 3.3-V LVTTL       :         : 6         : N              
+instructioncounter[15]       : U21       : output : 3.3-V LVTTL       :         : 6         : N              
+instructioncounter[3]        : U22       : output : 3.3-V LVTTL       :         : 6         : N              
+GND*                         : V1        :        :                   :         : 1         :                
+GND*                         : V2        :        :                   :         : 1         :                
 GND                          : V3        : gnd    :                   :         :           :                
-counter[20]                  : V4        : output : 3.3-V LVTTL       :         : 1         : N              
+GND*                         : V4        :        :                   :         : 1         :                
 GND_PLL1                     : V5        : gnd    :                   :         :           :                
 GND                          : V6        : gnd    :                   :         :           :                
 GNDA_PLL1                    : V7        : gnd    :                   :         :           :                
-outputReg[17]                : V8        : output : 3.3-V LVTTL       :         : 8         : N              
-outputReg[10]                : V9        : output : 3.3-V LVTTL       :         : 8         : N              
+outputReg[14]                : V8        : output : 3.3-V LVTTL       :         : 8         : N              
+outputReg[24]                : V9        : output : 3.3-V LVTTL       :         : 8         : N              
 VCCIO8                       : V10       : power  :                   : 3.3V    : 8         :                
-instructionROMOutMEMWBOut[16] : V11       : output : 3.3-V LVTTL       :         : 8         : N              
+outputPC[11]                 : V11       : output : 3.3-V LVTTL       :         : 8         : N              
 GND+                         : V12       :        :                   :         : 7         :                
 VCCIO7                       : V13       : power  :                   : 3.3V    : 7         :                
-outputPC[21]                 : V14       : output : 3.3-V LVTTL       :         : 7         : N              
-GND*                         : V15       :        :                   :         : 7         :                
+GND*                         : V14       :        :                   :         : 7         :                
+instructioncounter[17]       : V15       : output : 3.3-V LVTTL       :         : 7         : N              
 GNDA_PLL4                    : V16       : gnd    :                   :         :           :                
 GND                          : V17       : gnd    :                   :         :           :                
 GND_PLL4                     : V18       : gnd    :                   :         :           :                
-GND*                         : V19       :        :                   :         : 6         :                
-GND*                         : V20       :        :                   :         : 6         :                
-GND*                         : V21       :        :                   :         : 6         :                
-outputPC[28]                 : V22       : output : 3.3-V LVTTL       :         : 6         : N              
-counter[6]                   : W1        : output : 3.3-V LVTTL       :         : 1         : N              
-counter[0]                   : W2        : output : 3.3-V LVTTL       :         : 1         : N              
-counter[24]                  : W3        : output : 3.3-V LVTTL       :         : 1         : N              
-counter[23]                  : W4        : output : 3.3-V LVTTL       :         : 1         : N              
-counter[27]                  : W5        : output : 3.3-V LVTTL       :         : 1         : N              
+instructioncounter[27]       : V19       : output : 3.3-V LVTTL       :         : 6         : N              
+instructioncounter[4]        : V20       : output : 3.3-V LVTTL       :         : 6         : N              
+instructioncounter[28]       : V21       : output : 3.3-V LVTTL       :         : 6         : N              
+instructioncounter[12]       : V22       : output : 3.3-V LVTTL       :         : 6         : N              
+GND*                         : W1        :        :                   :         : 1         :                
+GND*                         : W2        :        :                   :         : 1         :                
+GND*                         : W3        :        :                   :         : 1         :                
+GND*                         : W4        :        :                   :         : 1         :                
+GND*                         : W5        :        :                   :         : 1         :                
 VCCIO8                       : W6        : power  :                   : 3.3V    : 8         :                
-outputReg[8]                 : W7        : output : 3.3-V LVTTL       :         : 8         : N              
-GND*                         : W8        :        :                   :         : 8         :                
-outputwriteDataOrPC[25]      : W9        : output : 3.3-V LVTTL       :         : 8         : N              
+outputPC[0]                  : W7        : output : 3.3-V LVTTL       :         : 8         : N              
+outputReg[18]                : W8        : output : 3.3-V LVTTL       :         : 8         : N              
+outputPC[28]                 : W9        : output : 3.3-V LVTTL       :         : 8         : N              
 GND                          : W10       : gnd    :                   :         :           :                
-outputwriteDataOrPC[10]      : W11       : output : 3.3-V LVTTL       :         : 8         : N              
+instructionROMOutMEMWBOut[16] : W11       : output : 3.3-V LVTTL       :         : 8         : N              
 GND+                         : W12       :        :                   :         : 7         :                
 GND                          : W13       : gnd    :                   :         :           :                
-outputPC[18]                 : W14       : output : 3.3-V LVTTL       :         : 7         : N              
-outputPC[5]                  : W15       : output : 3.3-V LVTTL       :         : 7         : N              
-GND*                         : W16       :        :                   :         : 7         :                
+GND*                         : W14       :        :                   :         : 7         :                
+GND*                         : W15       :        :                   :         : 7         :                
+instructioncounter[6]        : W16       : output : 3.3-V LVTTL       :         : 7         : N              
 VCCIO7                       : W17       : power  :                   : 3.3V    : 7         :                
 NC                           : W18       :        :                   :         :           :                
 GND                          : W19       : gnd    :                   :         :           :                
 ~LVDS91p/nCEO~               : W20       : output : 3.3-V LVTTL       :         : 6         : N              
-GND*                         : W21       :        :                   :         : 6         :                
-GND*                         : W22       :        :                   :         : 6         :                
-counter[13]                  : Y1        : output : 3.3-V LVTTL       :         : 1         : N              
-counter[8]                   : Y2        : output : 3.3-V LVTTL       :         : 1         : N              
-counter[16]                  : Y3        : output : 3.3-V LVTTL       :         : 1         : N              
-counter[21]                  : Y4        : output : 3.3-V LVTTL       :         : 1         : N              
-counter[9]                   : Y5        : output : 3.3-V LVTTL       :         : 8         : N              
-counter[1]                   : Y6        : output : 3.3-V LVTTL       :         : 8         : N              
-counter[25]                  : Y7        : output : 3.3-V LVTTL       :         : 8         : N              
+instructioncounter[8]        : W21       : output : 3.3-V LVTTL       :         : 6         : N              
+instructioncounter[5]        : W22       : output : 3.3-V LVTTL       :         : 6         : N              
+GND*                         : Y1        :        :                   :         : 1         :                
+GND*                         : Y2        :        :                   :         : 1         :                
+GND*                         : Y3        :        :                   :         : 1         :                
+GND*                         : Y4        :        :                   :         : 1         :                
+GND*                         : Y5        :        :                   :         : 8         :                
+GND*                         : Y6        :        :                   :         : 8         :                
+GND*                         : Y7        :        :                   :         : 8         :                
 GND                          : Y8        : gnd    :                   :         :           :                
-outputwriteDataOrPC[9]       : Y9        : output : 3.3-V LVTTL       :         : 8         : N              
-outputwriteDataOrPC[19]      : Y10       : output : 3.3-V LVTTL       :         : 8         : N              
+outputPC[12]                 : Y9        : output : 3.3-V LVTTL       :         : 8         : N              
+outputPC[8]                  : Y10       : output : 3.3-V LVTTL       :         : 8         : N              
 VCCIO8                       : Y11       : power  :                   : 3.3V    : 8         :                
 VCCIO7                       : Y12       : power  :                   : 3.3V    : 7         :                
-instructionROMOutMEMWBOut[23] : Y13       : output : 3.3-V LVTTL       :         : 7         : N              
-outputPC[8]                  : Y14       : output : 3.3-V LVTTL       :         : 7         : N              
+serial_out[1]                : Y13       : output : 3.3-V LVTTL       :         : 7         : N              
+GND*                         : Y14       :        :                   :         : 7         :                
 GND                          : Y15       : gnd    :                   :         :           :                
-GND*                         : Y16       :        :                   :         : 7         :                
-GND*                         : Y17       :        :                   :         : 7         :                
-GND*                         : Y18       :        :                   :         : 6         :                
-GND*                         : Y19       :        :                   :         : 6         :                
-GND*                         : Y20       :        :                   :         : 6         :                
-GND*                         : Y21       :        :                   :         : 6         :                
-GND*                         : Y22       :        :                   :         : 6         :                
+instructioncounter[23]       : Y16       : output : 3.3-V LVTTL       :         : 7         : N              
+instructioncounter[31]       : Y17       : output : 3.3-V LVTTL       :         : 7         : N              
+instructioncounter[26]       : Y18       : output : 3.3-V LVTTL       :         : 6         : N              
+instructioncounter[25]       : Y19       : output : 3.3-V LVTTL       :         : 6         : N              
+instructioncounter[21]       : Y20       : output : 3.3-V LVTTL       :         : 6         : N              
+instructioncounter[18]       : Y21       : output : 3.3-V LVTTL       :         : 6         : N              
+instructioncounter[16]       : Y22       : output : 3.3-V LVTTL       :         : 6         : N              

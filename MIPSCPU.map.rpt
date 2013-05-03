@@ -1,5 +1,5 @@
 Analysis & Synthesis report for MIPSCPU
-Wed Apr 24 00:59:05 2013
+Wed May 01 15:32:25 2013
 Quartus II 32-bit Version 12.0 Build 263 08/02/2012 Service Pack 2 SJ Web Edition
 
 
@@ -39,37 +39,38 @@ Quartus II 32-bit Version 12.0 Build 263 08/02/2012 Service Pack 2 SJ Web Editio
  31. Parameter Settings for User Entity Instance: inst_rom:myInstructionROM
  32. Parameter Settings for User Entity Instance: branchPredictor:branchPredictor
  33. Parameter Settings for User Entity Instance: regfile:regfile
- 34. Parameter Settings for User Entity Instance: data_memory:dmem
- 35. Parameter Settings for User Entity Instance: data_memory:dmem|async_memory:data_seg
- 36. Parameter Settings for User Entity Instance: data_memory:dmem|async_memory:heap_seg
- 37. Parameter Settings for User Entity Instance: data_memory:dmem|async_memory:stack_seg
- 38. Parameter Settings for User Entity Instance: data_memory:dmem|serial_buffer:ser
- 39. Parameter Settings for Inferred Entity Instance: regfile:regfile|altsyncram:Register_rtl_0
- 40. Parameter Settings for Inferred Entity Instance: regfile:regfile|altsyncram:Register_rtl_1
- 41. Parameter Settings for Inferred Entity Instance: data_memory:dmem|async_memory:data_seg|altsyncram:mem3_rtl_0
- 42. Parameter Settings for Inferred Entity Instance: data_memory:dmem|async_memory:stack_seg|altsyncram:mem3_rtl_0
- 43. Parameter Settings for Inferred Entity Instance: data_memory:dmem|async_memory:heap_seg|altsyncram:mem3_rtl_0
- 44. Parameter Settings for Inferred Entity Instance: data_memory:dmem|async_memory:data_seg|altsyncram:mem2_rtl_0
- 45. Parameter Settings for Inferred Entity Instance: data_memory:dmem|async_memory:stack_seg|altsyncram:mem2_rtl_0
- 46. Parameter Settings for Inferred Entity Instance: data_memory:dmem|async_memory:heap_seg|altsyncram:mem2_rtl_0
- 47. Parameter Settings for Inferred Entity Instance: data_memory:dmem|async_memory:data_seg|altsyncram:mem1_rtl_0
- 48. Parameter Settings for Inferred Entity Instance: data_memory:dmem|async_memory:stack_seg|altsyncram:mem1_rtl_0
- 49. Parameter Settings for Inferred Entity Instance: data_memory:dmem|async_memory:heap_seg|altsyncram:mem1_rtl_0
- 50. Parameter Settings for Inferred Entity Instance: data_memory:dmem|async_memory:data_seg|altsyncram:mem0_rtl_0
- 51. Parameter Settings for Inferred Entity Instance: data_memory:dmem|async_memory:stack_seg|altsyncram:mem0_rtl_0
- 52. Parameter Settings for Inferred Entity Instance: data_memory:dmem|async_memory:heap_seg|altsyncram:mem0_rtl_0
- 53. Parameter Settings for Inferred Entity Instance: IDEXPipe:IDEXPipe|altshift_taps:mux3SelectIDEX_rtl_0
- 54. altsyncram Parameter Settings by Entity Instance
- 55. altshift_taps Parameter Settings by Entity Instance
- 56. Port Connectivity Checks: "MUX:mux6"
- 57. Port Connectivity Checks: "MUX:mux1"
- 58. Port Connectivity Checks: "MEMWBPipe:MEMWBPipe"
- 59. Port Connectivity Checks: "MUX:muxShift1"
- 60. Port Connectivity Checks: "IDEXPipe:IDEXPipe"
- 61. Port Connectivity Checks: "adder:adder2"
- 62. Port Connectivity Checks: "adder:adder"
- 63. Elapsed Time Per Partition
- 64. Analysis & Synthesis Messages
+ 34. Parameter Settings for User Entity Instance: IDEXPipe:IDEXPipe
+ 35. Parameter Settings for User Entity Instance: data_memory:dmem
+ 36. Parameter Settings for User Entity Instance: data_memory:dmem|async_memory:data_seg
+ 37. Parameter Settings for User Entity Instance: data_memory:dmem|async_memory:heap_seg
+ 38. Parameter Settings for User Entity Instance: data_memory:dmem|async_memory:stack_seg
+ 39. Parameter Settings for User Entity Instance: data_memory:dmem|serial_buffer:ser
+ 40. Parameter Settings for Inferred Entity Instance: regfile:regfile|altsyncram:Register_rtl_0
+ 41. Parameter Settings for Inferred Entity Instance: regfile:regfile|altsyncram:Register_rtl_1
+ 42. Parameter Settings for Inferred Entity Instance: data_memory:dmem|async_memory:data_seg|altsyncram:mem3_rtl_0
+ 43. Parameter Settings for Inferred Entity Instance: data_memory:dmem|async_memory:stack_seg|altsyncram:mem3_rtl_0
+ 44. Parameter Settings for Inferred Entity Instance: data_memory:dmem|async_memory:heap_seg|altsyncram:mem3_rtl_0
+ 45. Parameter Settings for Inferred Entity Instance: data_memory:dmem|async_memory:data_seg|altsyncram:mem2_rtl_0
+ 46. Parameter Settings for Inferred Entity Instance: data_memory:dmem|async_memory:stack_seg|altsyncram:mem2_rtl_0
+ 47. Parameter Settings for Inferred Entity Instance: data_memory:dmem|async_memory:heap_seg|altsyncram:mem2_rtl_0
+ 48. Parameter Settings for Inferred Entity Instance: data_memory:dmem|async_memory:data_seg|altsyncram:mem1_rtl_0
+ 49. Parameter Settings for Inferred Entity Instance: data_memory:dmem|async_memory:stack_seg|altsyncram:mem1_rtl_0
+ 50. Parameter Settings for Inferred Entity Instance: data_memory:dmem|async_memory:heap_seg|altsyncram:mem1_rtl_0
+ 51. Parameter Settings for Inferred Entity Instance: data_memory:dmem|async_memory:data_seg|altsyncram:mem0_rtl_0
+ 52. Parameter Settings for Inferred Entity Instance: data_memory:dmem|async_memory:stack_seg|altsyncram:mem0_rtl_0
+ 53. Parameter Settings for Inferred Entity Instance: data_memory:dmem|async_memory:heap_seg|altsyncram:mem0_rtl_0
+ 54. Parameter Settings for Inferred Entity Instance: IDEXPipe:IDEXPipe|altshift_taps:mux3SelectIDEX_rtl_0
+ 55. altsyncram Parameter Settings by Entity Instance
+ 56. altshift_taps Parameter Settings by Entity Instance
+ 57. Port Connectivity Checks: "MUX:mux6"
+ 58. Port Connectivity Checks: "MUX:mux1"
+ 59. Port Connectivity Checks: "MEMWBPipe:MEMWBPipe"
+ 60. Port Connectivity Checks: "MUX:muxShift1"
+ 61. Port Connectivity Checks: "IDEXPipe:IDEXPipe"
+ 62. Port Connectivity Checks: "adder:adder2"
+ 63. Port Connectivity Checks: "adder:adder"
+ 64. Elapsed Time Per Partition
+ 65. Analysis & Synthesis Messages
 
 
 
@@ -95,15 +96,15 @@ applicable agreement for further details.
 +------------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                       ;
 +------------------------------------+-----------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Wed Apr 24 00:59:05 2013         ;
+; Analysis & Synthesis Status        ; Successful - Wed May 01 15:32:25 2013         ;
 ; Quartus II 32-bit Version          ; 12.0 Build 263 08/02/2012 SP 2 SJ Web Edition ;
 ; Revision Name                      ; MIPSCPU                                       ;
 ; Top-level Entity Name              ; processor                                     ;
 ; Family                             ; Cyclone II                                    ;
-; Total logic elements               ; 3,545                                         ;
-;     Total combinational functions  ; 3,340                                         ;
-;     Dedicated logic registers      ; 883                                           ;
-; Total registers                    ; 883                                           ;
+; Total logic elements               ; 3,571                                         ;
+;     Total combinational functions  ; 3,375                                         ;
+;     Dedicated logic registers      ; 887                                           ;
+; Total registers                    ; 887                                           ;
 ; Total pins                         ; 214                                           ;
 ; Total virtual pins                 ; 0                                             ;
 ; Total memory bits                  ; 100,454                                       ;
@@ -250,19 +251,19 @@ Parallel compilation was disabled, but you have multiple processors available. E
 ; db/altsyncram_17m1.tdf                        ; yes             ; Auto-Generated Megafunction                           ; C:/Users/Raymond/Documents/GitHub/MIPSCPU/db/altsyncram_17m1.tdf                        ;         ;
 ; db/mipscpu.ram3_async_memory_bba87b9e.hdl.mif ; yes             ; Auto-Generated Auto-Found Memory Initialization File  ; C:/Users/Raymond/Documents/GitHub/MIPSCPU/db/mipscpu.ram3_async_memory_bba87b9e.hdl.mif ;         ;
 ; db/altsyncram_k5m1.tdf                        ; yes             ; Auto-Generated Megafunction                           ; C:/Users/Raymond/Documents/GitHub/MIPSCPU/db/altsyncram_k5m1.tdf                        ;         ;
-; db/MIPSCPU.ram2_async_memory_e84d4cf6.hdl.mif ; yes             ; Auto-Generated Auto-Found Memory Initialization File  ; C:/Users/Raymond/Documents/GitHub/MIPSCPU/db/MIPSCPU.ram2_async_memory_e84d4cf6.hdl.mif ;         ;
+; db/mipscpu.ram2_async_memory_e84d4cf6.hdl.mif ; yes             ; Auto-Generated Auto-Found Memory Initialization File  ; C:/Users/Raymond/Documents/GitHub/MIPSCPU/db/mipscpu.ram2_async_memory_e84d4cf6.hdl.mif ;         ;
 ; db/altsyncram_a8m1.tdf                        ; yes             ; Auto-Generated Megafunction                           ; C:/Users/Raymond/Documents/GitHub/MIPSCPU/db/altsyncram_a8m1.tdf                        ;         ;
 ; db/mipscpu.ram2_async_memory_ea4acf6d.hdl.mif ; yes             ; Auto-Generated Auto-Found Memory Initialization File  ; C:/Users/Raymond/Documents/GitHub/MIPSCPU/db/mipscpu.ram2_async_memory_ea4acf6d.hdl.mif ;         ;
 ; db/altsyncram_07m1.tdf                        ; yes             ; Auto-Generated Megafunction                           ; C:/Users/Raymond/Documents/GitHub/MIPSCPU/db/altsyncram_07m1.tdf                        ;         ;
 ; db/mipscpu.ram2_async_memory_bba87b9e.hdl.mif ; yes             ; Auto-Generated Auto-Found Memory Initialization File  ; C:/Users/Raymond/Documents/GitHub/MIPSCPU/db/mipscpu.ram2_async_memory_bba87b9e.hdl.mif ;         ;
 ; db/altsyncram_j5m1.tdf                        ; yes             ; Auto-Generated Megafunction                           ; C:/Users/Raymond/Documents/GitHub/MIPSCPU/db/altsyncram_j5m1.tdf                        ;         ;
-; db/MIPSCPU.ram1_async_memory_e84d4cf6.hdl.mif ; yes             ; Auto-Generated Auto-Found Memory Initialization File  ; C:/Users/Raymond/Documents/GitHub/MIPSCPU/db/MIPSCPU.ram1_async_memory_e84d4cf6.hdl.mif ;         ;
+; db/mipscpu.ram1_async_memory_e84d4cf6.hdl.mif ; yes             ; Auto-Generated Auto-Found Memory Initialization File  ; C:/Users/Raymond/Documents/GitHub/MIPSCPU/db/mipscpu.ram1_async_memory_e84d4cf6.hdl.mif ;         ;
 ; db/altsyncram_98m1.tdf                        ; yes             ; Auto-Generated Megafunction                           ; C:/Users/Raymond/Documents/GitHub/MIPSCPU/db/altsyncram_98m1.tdf                        ;         ;
 ; db/mipscpu.ram1_async_memory_ea4acf6d.hdl.mif ; yes             ; Auto-Generated Auto-Found Memory Initialization File  ; C:/Users/Raymond/Documents/GitHub/MIPSCPU/db/mipscpu.ram1_async_memory_ea4acf6d.hdl.mif ;         ;
 ; db/altsyncram_v6m1.tdf                        ; yes             ; Auto-Generated Megafunction                           ; C:/Users/Raymond/Documents/GitHub/MIPSCPU/db/altsyncram_v6m1.tdf                        ;         ;
 ; db/mipscpu.ram1_async_memory_bba87b9e.hdl.mif ; yes             ; Auto-Generated Auto-Found Memory Initialization File  ; C:/Users/Raymond/Documents/GitHub/MIPSCPU/db/mipscpu.ram1_async_memory_bba87b9e.hdl.mif ;         ;
 ; db/altsyncram_i5m1.tdf                        ; yes             ; Auto-Generated Megafunction                           ; C:/Users/Raymond/Documents/GitHub/MIPSCPU/db/altsyncram_i5m1.tdf                        ;         ;
-; db/MIPSCPU.ram0_async_memory_e84d4cf6.hdl.mif ; yes             ; Auto-Generated Auto-Found Memory Initialization File  ; C:/Users/Raymond/Documents/GitHub/MIPSCPU/db/MIPSCPU.ram0_async_memory_e84d4cf6.hdl.mif ;         ;
+; db/mipscpu.ram0_async_memory_e84d4cf6.hdl.mif ; yes             ; Auto-Generated Auto-Found Memory Initialization File  ; C:/Users/Raymond/Documents/GitHub/MIPSCPU/db/mipscpu.ram0_async_memory_e84d4cf6.hdl.mif ;         ;
 ; db/altsyncram_88m1.tdf                        ; yes             ; Auto-Generated Megafunction                           ; C:/Users/Raymond/Documents/GitHub/MIPSCPU/db/altsyncram_88m1.tdf                        ;         ;
 ; db/mipscpu.ram0_async_memory_ea4acf6d.hdl.mif ; yes             ; Auto-Generated Auto-Found Memory Initialization File  ; C:/Users/Raymond/Documents/GitHub/MIPSCPU/db/mipscpu.ram0_async_memory_ea4acf6d.hdl.mif ;         ;
 ; db/altsyncram_u6m1.tdf                        ; yes             ; Auto-Generated Megafunction                           ; C:/Users/Raymond/Documents/GitHub/MIPSCPU/db/altsyncram_u6m1.tdf                        ;         ;
@@ -285,28 +286,28 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +---------------------------------------------+--------+
 ; Resource                                    ; Usage  ;
 +---------------------------------------------+--------+
-; Estimated Total logic elements              ; 3,545  ;
+; Estimated Total logic elements              ; 3,571  ;
 ;                                             ;        ;
-; Total combinational functions               ; 3340   ;
+; Total combinational functions               ; 3375   ;
 ; Logic element usage by number of LUT inputs ;        ;
-;     -- 4 input functions                    ; 2244   ;
-;     -- 3 input functions                    ; 695    ;
-;     -- <=2 input functions                  ; 401    ;
+;     -- 4 input functions                    ; 2218   ;
+;     -- 3 input functions                    ; 649    ;
+;     -- <=2 input functions                  ; 508    ;
 ;                                             ;        ;
 ; Logic elements by mode                      ;        ;
-;     -- normal mode                          ; 3116   ;
-;     -- arithmetic mode                      ; 224    ;
+;     -- normal mode                          ; 3122   ;
+;     -- arithmetic mode                      ; 253    ;
 ;                                             ;        ;
-; Total registers                             ; 883    ;
-;     -- Dedicated logic registers            ; 883    ;
+; Total registers                             ; 887    ;
+;     -- Dedicated logic registers            ; 887    ;
 ;     -- I/O registers                        ; 0      ;
 ;                                             ;        ;
 ; I/O pins                                    ; 214    ;
 ; Total memory bits                           ; 100454 ;
 ; Maximum fan-out node                        ; clock  ;
-; Maximum fan-out                             ; 1077   ;
-; Total fan-out                               ; 18009  ;
-; Average fan-out                             ; 3.89   ;
+; Maximum fan-out                             ; 1081   ;
+; Total fan-out                               ; 18007  ;
+; Average fan-out                             ; 3.86   ;
 +---------------------------------------------+--------+
 
 
@@ -315,9 +316,9 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +----------------------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+---------------------------------------------------------------------------------------------------------------------------+--------------+
 ; Compilation Hierarchy Node                   ; LC Combinationals ; LC Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name                                                                                                       ; Library Name ;
 +----------------------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+---------------------------------------------------------------------------------------------------------------------------+--------------+
-; |processor                                   ; 3340 (0)          ; 883 (0)      ; 100454      ; 0            ; 0       ; 0         ; 214  ; 0            ; |processor                                                                                                                ;              ;
-;    |EXMEMPipe:EXMEMPipe|                     ; 22 (22)           ; 103 (103)    ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|EXMEMPipe:EXMEMPipe                                                                                            ;              ;
-;    |IDEXPipe:IDEXPipe|                       ; 283 (274)         ; 150 (144)    ; 102         ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|IDEXPipe:IDEXPipe                                                                                              ;              ;
+; |processor                                   ; 3375 (91)         ; 887 (0)      ; 100454      ; 0            ; 0       ; 0         ; 214  ; 0            ; |processor                                                                                                                ;              ;
+;    |EXMEMPipe:EXMEMPipe|                     ; 18 (18)           ; 103 (103)    ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|EXMEMPipe:EXMEMPipe                                                                                            ;              ;
+;    |IDEXPipe:IDEXPipe|                       ; 265 (256)         ; 150 (144)    ; 102         ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|IDEXPipe:IDEXPipe                                                                                              ;              ;
 ;       |altshift_taps:mux3SelectIDEX_rtl_0|   ; 9 (0)             ; 6 (0)        ; 102         ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|IDEXPipe:IDEXPipe|altshift_taps:mux3SelectIDEX_rtl_0                                                           ;              ;
 ;          |shift_taps_sfm:auto_generated|     ; 9 (2)             ; 6 (3)        ; 102         ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|IDEXPipe:IDEXPipe|altshift_taps:mux3SelectIDEX_rtl_0|shift_taps_sfm:auto_generated                             ;              ;
 ;             |altsyncram_f461:altsyncram4|    ; 0 (0)             ; 0 (0)        ; 102         ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|IDEXPipe:IDEXPipe|altshift_taps:mux3SelectIDEX_rtl_0|shift_taps_sfm:auto_generated|altsyncram_f461:altsyncram4 ;              ;
@@ -325,18 +326,18 @@ Parallel compilation was disabled, but you have multiple processors available. E
 ;             |cntr_kkf:cntr1|                 ; 5 (5)             ; 2 (2)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|IDEXPipe:IDEXPipe|altshift_taps:mux3SelectIDEX_rtl_0|shift_taps_sfm:auto_generated|cntr_kkf:cntr1              ;              ;
 ;    |IFIDPipe:IFIDPipe|                       ; 64 (64)           ; 62 (62)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|IFIDPipe:IFIDPipe                                                                                              ;              ;
 ;    |MEMWBPipe:MEMWBPipe|                     ; 17 (17)           ; 96 (96)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|MEMWBPipe:MEMWBPipe                                                                                            ;              ;
-;    |MUX:mux101|                              ; 92 (92)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|MUX:mux101                                                                                                     ;              ;
-;    |MUX:mux2|                                ; 29 (29)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|MUX:mux2                                                                                                       ;              ;
-;    |MUX:mux5|                                ; 66 (66)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|MUX:mux5                                                                                                       ;              ;
-;    |MUX:mux6|                                ; 5 (5)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|MUX:mux6                                                                                                       ;              ;
-;    |MUX:mux7|                                ; 64 (64)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|MUX:mux7                                                                                                       ;              ;
-;    |MUX:muxShift1|                           ; 69 (69)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|MUX:muxShift1                                                                                                  ;              ;
+;    |MUX:mux101|                              ; 94 (94)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|MUX:mux101                                                                                                     ;              ;
+;    |MUX:mux2|                                ; 30 (30)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|MUX:mux2                                                                                                       ;              ;
+;    |MUX:mux5|                                ; 70 (70)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|MUX:mux5                                                                                                       ;              ;
+;    |MUX:mux6|                                ; 10 (10)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|MUX:mux6                                                                                                       ;              ;
+;    |MUX:mux7|                                ; 4 (4)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|MUX:mux7                                                                                                       ;              ;
+;    |MUX:muxShift1|                           ; 90 (90)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|MUX:muxShift1                                                                                                  ;              ;
 ;    |adder:adder|                             ; 30 (30)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|adder:adder                                                                                                    ;              ;
-;    |alu:alu|                                 ; 673 (673)         ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|alu:alu                                                                                                        ;              ;
-;    |controlunit:controlunit|                 ; 23 (23)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|controlunit:controlunit                                                                                        ;              ;
+;    |alu:alu|                                 ; 668 (668)         ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|alu:alu                                                                                                        ;              ;
+;    |controlunit:controlunit|                 ; 41 (41)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|controlunit:controlunit                                                                                        ;              ;
 ;    |counter:clockcounter|                    ; 32 (32)           ; 32 (32)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|counter:clockcounter                                                                                           ;              ;
-;    |data_memory:dmem|                        ; 479 (199)         ; 275 (0)      ; 98304       ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|data_memory:dmem                                                                                               ;              ;
-;       |async_memory:data_seg|                ; 101 (101)         ; 104 (104)    ; 32768       ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|data_memory:dmem|async_memory:data_seg                                                                         ;              ;
+;    |data_memory:dmem|                        ; 501 (198)         ; 279 (0)      ; 98304       ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|data_memory:dmem                                                                                               ;              ;
+;       |async_memory:data_seg|                ; 130 (130)         ; 108 (108)    ; 32768       ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|data_memory:dmem|async_memory:data_seg                                                                         ;              ;
 ;          |altsyncram:mem0_rtl_0|             ; 0 (0)             ; 0 (0)        ; 8192        ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|data_memory:dmem|async_memory:data_seg|altsyncram:mem0_rtl_0                                                   ;              ;
 ;             |altsyncram_i5m1:auto_generated| ; 0 (0)             ; 0 (0)        ; 8192        ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|data_memory:dmem|async_memory:data_seg|altsyncram:mem0_rtl_0|altsyncram_i5m1:auto_generated                    ;              ;
 ;          |altsyncram:mem1_rtl_0|             ; 0 (0)             ; 0 (0)        ; 8192        ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|data_memory:dmem|async_memory:data_seg|altsyncram:mem1_rtl_0                                                   ;              ;
@@ -345,7 +346,7 @@ Parallel compilation was disabled, but you have multiple processors available. E
 ;             |altsyncram_k5m1:auto_generated| ; 0 (0)             ; 0 (0)        ; 8192        ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|data_memory:dmem|async_memory:data_seg|altsyncram:mem2_rtl_0|altsyncram_k5m1:auto_generated                    ;              ;
 ;          |altsyncram:mem3_rtl_0|             ; 0 (0)             ; 0 (0)        ; 8192        ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|data_memory:dmem|async_memory:data_seg|altsyncram:mem3_rtl_0                                                   ;              ;
 ;             |altsyncram_l5m1:auto_generated| ; 0 (0)             ; 0 (0)        ; 8192        ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|data_memory:dmem|async_memory:data_seg|altsyncram:mem3_rtl_0|altsyncram_l5m1:auto_generated                    ;              ;
-;       |async_memory:heap_seg|                ; 92 (92)           ; 85 (85)      ; 32768       ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|data_memory:dmem|async_memory:heap_seg                                                                         ;              ;
+;       |async_memory:heap_seg|                ; 88 (88)           ; 86 (86)      ; 32768       ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|data_memory:dmem|async_memory:heap_seg                                                                         ;              ;
 ;          |altsyncram:mem0_rtl_0|             ; 0 (0)             ; 0 (0)        ; 8192        ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|data_memory:dmem|async_memory:heap_seg|altsyncram:mem0_rtl_0                                                   ;              ;
 ;             |altsyncram_u6m1:auto_generated| ; 0 (0)             ; 0 (0)        ; 8192        ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|data_memory:dmem|async_memory:heap_seg|altsyncram:mem0_rtl_0|altsyncram_u6m1:auto_generated                    ;              ;
 ;          |altsyncram:mem1_rtl_0|             ; 0 (0)             ; 0 (0)        ; 8192        ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|data_memory:dmem|async_memory:heap_seg|altsyncram:mem1_rtl_0                                                   ;              ;
@@ -354,7 +355,7 @@ Parallel compilation was disabled, but you have multiple processors available. E
 ;             |altsyncram_07m1:auto_generated| ; 0 (0)             ; 0 (0)        ; 8192        ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|data_memory:dmem|async_memory:heap_seg|altsyncram:mem2_rtl_0|altsyncram_07m1:auto_generated                    ;              ;
 ;          |altsyncram:mem3_rtl_0|             ; 0 (0)             ; 0 (0)        ; 8192        ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|data_memory:dmem|async_memory:heap_seg|altsyncram:mem3_rtl_0                                                   ;              ;
 ;             |altsyncram_17m1:auto_generated| ; 0 (0)             ; 0 (0)        ; 8192        ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|data_memory:dmem|async_memory:heap_seg|altsyncram:mem3_rtl_0|altsyncram_17m1:auto_generated                    ;              ;
-;       |async_memory:stack_seg|               ; 76 (76)           ; 77 (77)      ; 32768       ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|data_memory:dmem|async_memory:stack_seg                                                                        ;              ;
+;       |async_memory:stack_seg|               ; 74 (74)           ; 76 (76)      ; 32768       ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|data_memory:dmem|async_memory:stack_seg                                                                        ;              ;
 ;          |altsyncram:mem0_rtl_0|             ; 0 (0)             ; 0 (0)        ; 8192        ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|data_memory:dmem|async_memory:stack_seg|altsyncram:mem0_rtl_0                                                  ;              ;
 ;             |altsyncram_88m1:auto_generated| ; 0 (0)             ; 0 (0)        ; 8192        ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|data_memory:dmem|async_memory:stack_seg|altsyncram:mem0_rtl_0|altsyncram_88m1:auto_generated                   ;              ;
 ;          |altsyncram:mem1_rtl_0|             ; 0 (0)             ; 0 (0)        ; 8192        ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|data_memory:dmem|async_memory:stack_seg|altsyncram:mem1_rtl_0                                                  ;              ;
@@ -364,14 +365,14 @@ Parallel compilation was disabled, but you have multiple processors available. E
 ;          |altsyncram:mem3_rtl_0|             ; 0 (0)             ; 0 (0)        ; 8192        ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|data_memory:dmem|async_memory:stack_seg|altsyncram:mem3_rtl_0                                                  ;              ;
 ;             |altsyncram_b8m1:auto_generated| ; 0 (0)             ; 0 (0)        ; 8192        ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|data_memory:dmem|async_memory:stack_seg|altsyncram:mem3_rtl_0|altsyncram_b8m1:auto_generated                   ;              ;
 ;       |serial_buffer:ser|                    ; 11 (11)           ; 9 (9)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|data_memory:dmem|serial_buffer:ser                                                                             ;              ;
-;    |hazardDetectionNoStall:hdnsMEM|          ; 25 (25)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|hazardDetectionNoStall:hdnsMEM                                                                                 ;              ;
-;    |hazardDetectionNoStall:hdnsWB|           ; 9 (9)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|hazardDetectionNoStall:hdnsWB                                                                                  ;              ;
+;    |hazardDetectionNoStall:hdnsMEM|          ; 23 (23)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|hazardDetectionNoStall:hdnsMEM                                                                                 ;              ;
+;    |hazardDetectionNoStall:hdnsWB|           ; 10 (10)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|hazardDetectionNoStall:hdnsWB                                                                                  ;              ;
 ;    |hazardDetectionNoStall:hdns|             ; 10 (10)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|hazardDetectionNoStall:hdns                                                                                    ;              ;
 ;    |hazardDetectionStall:hds|                ; 12 (12)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|hazardDetectionStall:hds                                                                                       ;              ;
-;    |inst_rom:myInstructionROM|               ; 1262 (1262)       ; 30 (30)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|inst_rom:myInstructionROM                                                                                      ;              ;
-;    |instructioncounter:instructioncounter2|  ; 43 (43)           ; 32 (32)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|instructioncounter:instructioncounter2                                                                         ;              ;
+;    |inst_rom:myInstructionROM|               ; 1222 (1222)       ; 30 (30)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|inst_rom:myInstructionROM                                                                                      ;              ;
+;    |instructioncounter:instructioncounter2|  ; 41 (41)           ; 32 (32)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|instructioncounter:instructioncounter2                                                                         ;              ;
 ;    |programcounter:pc|                       ; 20 (20)           ; 32 (32)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|programcounter:pc                                                                                              ;              ;
-;    |regfile:regfile|                         ; 10 (10)           ; 71 (71)      ; 2048        ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|regfile:regfile                                                                                                ;              ;
+;    |regfile:regfile|                         ; 11 (11)           ; 71 (71)      ; 2048        ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|regfile:regfile                                                                                                ;              ;
 ;       |altsyncram:Register_rtl_0|            ; 0 (0)             ; 0 (0)        ; 1024        ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|regfile:regfile|altsyncram:Register_rtl_0                                                                      ;              ;
 ;          |altsyncram_sng1:auto_generated|    ; 0 (0)             ; 0 (0)        ; 1024        ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|regfile:regfile|altsyncram:Register_rtl_0|altsyncram_sng1:auto_generated                                       ;              ;
 ;       |altsyncram:Register_rtl_1|            ; 0 (0)             ; 0 (0)        ; 1024        ; 0            ; 0       ; 0         ; 0    ; 0            ; |processor|regfile:regfile|altsyncram:Register_rtl_1                                                                      ;              ;
@@ -432,6 +433,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; EXMEMPipe:EXMEMPipe|reg3EXMEM[1]                              ; Merged with EXMEMPipe:EXMEMPipe|instructionROMOutEXMEM[12]                ;
 ; EXMEMPipe:EXMEMPipe|reg3EXMEM[0]                              ; Merged with EXMEMPipe:EXMEMPipe|instructionROMOutEXMEM[11]                ;
 ; IDEXPipe:IDEXPipe|pcPlus4IDEX[1]                              ; Merged with IDEXPipe:IDEXPipe|branchAddressIDEX[1]                        ;
+; IDEXPipe:IDEXPipe|pcPlus4IDEX[0]                              ; Merged with IDEXPipe:IDEXPipe|branchAddressIDEX[0]                        ;
 ; IDEXPipe:IDEXPipe|jumpAddressIDEX[27..31]                     ; Merged with IDEXPipe:IDEXPipe|instructionROMOutIDEX[25]                   ;
 ; IDEXPipe:IDEXPipe|reg1IDEX[4]                                 ; Merged with IDEXPipe:IDEXPipe|instructionROMOutIDEX[25]                   ;
 ; IDEXPipe:IDEXPipe|jumpAddressIDEX[26]                         ; Merged with IDEXPipe:IDEXPipe|instructionROMOutIDEX[24]                   ;
@@ -490,7 +492,6 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; IDEXPipe:IDEXPipe|signextendedIDEX[1]                         ; Merged with IDEXPipe:IDEXPipe|instructionROMOutIDEX[1]                    ;
 ; IDEXPipe:IDEXPipe|jumpAddressIDEX[2]                          ; Merged with IDEXPipe:IDEXPipe|instructionROMOutIDEX[0]                    ;
 ; IDEXPipe:IDEXPipe|signextendedIDEX[0]                         ; Merged with IDEXPipe:IDEXPipe|instructionROMOutIDEX[0]                    ;
-; IDEXPipe:IDEXPipe|pcPlus4IDEX[0]                              ; Merged with IDEXPipe:IDEXPipe|branchAddressIDEX[0]                        ;
 ; inst_rom:myInstructionROM|out[6]                              ; Stuck at GND due to stuck port data_in                                    ;
 ; IFIDPipe:IFIDPipe|instructionROMOutIFID[30]                   ; Stuck at GND due to stuck port data_in                                    ;
 ; IDEXPipe:IDEXPipe|instructionROMOutIDEX[30]                   ; Stuck at GND due to stuck port data_in                                    ;
@@ -798,7 +799,6 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; regfile:regfile|Register_rtl_1_bypass[6]                      ; Merged with IFIDPipe:IFIDPipe|instructionROMOutIFID[18]                   ;
 ; regfile:regfile|Register_rtl_1_bypass[4]                      ; Merged with IFIDPipe:IFIDPipe|instructionROMOutIFID[17]                   ;
 ; regfile:regfile|Register_rtl_1_bypass[2]                      ; Merged with IFIDPipe:IFIDPipe|instructionROMOutIFID[16]                   ;
-; inst_rom:myInstructionROM|out[1]                              ; Merged with inst_rom:myInstructionROM|out[0]                              ;
 ; regfile:regfile|Register_rtl_1_bypass[0]                      ; Merged with regfile:regfile|Register_rtl_0_bypass[0]                      ;
 ; regfile:regfile|Register_rtl_1_bypass[1]                      ; Merged with regfile:regfile|Register_rtl_0_bypass[1]                      ;
 ; regfile:regfile|Register_rtl_1_bypass[3]                      ; Merged with regfile:regfile|Register_rtl_0_bypass[3]                      ;
@@ -837,6 +837,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; regfile:regfile|Register_rtl_1_bypass[40]                     ; Merged with regfile:regfile|Register_rtl_0_bypass[40]                     ;
 ; regfile:regfile|Register_rtl_1_bypass[41]                     ; Merged with regfile:regfile|Register_rtl_0_bypass[41]                     ;
 ; regfile:regfile|Register_rtl_1_bypass[42]                     ; Merged with regfile:regfile|Register_rtl_0_bypass[42]                     ;
+; inst_rom:myInstructionROM|out[17]                             ; Merged with inst_rom:myInstructionROM|out[18]                             ;
 ; data_memory:dmem|async_memory:stack_seg|mem3_rtl_0_bypass[1]  ; Merged with data_memory:dmem|async_memory:data_seg|mem3_rtl_0_bypass[1]   ;
 ; data_memory:dmem|async_memory:heap_seg|mem3_rtl_0_bypass[1]   ; Merged with data_memory:dmem|async_memory:data_seg|mem3_rtl_0_bypass[1]   ;
 ; data_memory:dmem|async_memory:data_seg|mem2_rtl_0_bypass[1]   ; Merged with data_memory:dmem|async_memory:data_seg|mem3_rtl_0_bypass[1]   ;
@@ -951,86 +952,82 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; data_memory:dmem|async_memory:heap_seg|mem1_rtl_0_bypass[35]  ; Merged with data_memory:dmem|async_memory:stack_seg|mem1_rtl_0_bypass[35] ;
 ; data_memory:dmem|async_memory:heap_seg|mem0_rtl_0_bypass[35]  ; Merged with data_memory:dmem|async_memory:stack_seg|mem0_rtl_0_bypass[35] ;
 ; data_memory:dmem|async_memory:stack_seg|mem2_rtl_0_bypass[35] ; Merged with data_memory:dmem|async_memory:heap_seg|mem2_rtl_0_bypass[35]  ;
-; data_memory:dmem|async_memory:heap_seg|mem3_rtl_0_bypass[33]  ; Merged with data_memory:dmem|async_memory:data_seg|mem3_rtl_0_bypass[33]  ;
-; data_memory:dmem|async_memory:stack_seg|mem3_rtl_0_bypass[33] ; Merged with data_memory:dmem|async_memory:data_seg|mem3_rtl_0_bypass[33]  ;
-; data_memory:dmem|async_memory:stack_seg|mem3_rtl_0_bypass[31] ; Merged with data_memory:dmem|async_memory:heap_seg|mem3_rtl_0_bypass[31]  ;
-; data_memory:dmem|async_memory:heap_seg|mem3_rtl_0_bypass[29]  ; Merged with data_memory:dmem|async_memory:data_seg|mem3_rtl_0_bypass[29]  ;
-; data_memory:dmem|async_memory:stack_seg|mem3_rtl_0_bypass[29] ; Merged with data_memory:dmem|async_memory:data_seg|mem3_rtl_0_bypass[29]  ;
+; data_memory:dmem|async_memory:stack_seg|mem3_rtl_0_bypass[33] ; Merged with data_memory:dmem|async_memory:heap_seg|mem3_rtl_0_bypass[33]  ;
+; data_memory:dmem|async_memory:heap_seg|mem3_rtl_0_bypass[31]  ; Merged with data_memory:dmem|async_memory:data_seg|mem3_rtl_0_bypass[31]  ;
+; data_memory:dmem|async_memory:stack_seg|mem3_rtl_0_bypass[31] ; Merged with data_memory:dmem|async_memory:data_seg|mem3_rtl_0_bypass[31]  ;
+; data_memory:dmem|async_memory:stack_seg|mem3_rtl_0_bypass[29] ; Merged with data_memory:dmem|async_memory:heap_seg|mem3_rtl_0_bypass[29]  ;
 ; data_memory:dmem|async_memory:stack_seg|mem3_rtl_0_bypass[27] ; Merged with data_memory:dmem|async_memory:heap_seg|mem3_rtl_0_bypass[27]  ;
 ; data_memory:dmem|async_memory:stack_seg|mem3_rtl_0_bypass[25] ; Merged with data_memory:dmem|async_memory:heap_seg|mem3_rtl_0_bypass[25]  ;
-; data_memory:dmem|async_memory:heap_seg|mem3_rtl_0_bypass[23]  ; Merged with data_memory:dmem|async_memory:data_seg|mem3_rtl_0_bypass[23]  ;
-; data_memory:dmem|async_memory:stack_seg|mem3_rtl_0_bypass[23] ; Merged with data_memory:dmem|async_memory:data_seg|mem3_rtl_0_bypass[23]  ;
+; data_memory:dmem|async_memory:stack_seg|mem3_rtl_0_bypass[23] ; Merged with data_memory:dmem|async_memory:heap_seg|mem3_rtl_0_bypass[23]  ;
 ; data_memory:dmem|async_memory:stack_seg|mem3_rtl_0_bypass[21] ; Merged with data_memory:dmem|async_memory:heap_seg|mem3_rtl_0_bypass[21]  ;
-; data_memory:dmem|async_memory:heap_seg|mem2_rtl_0_bypass[33]  ; Merged with data_memory:dmem|async_memory:data_seg|mem2_rtl_0_bypass[33]  ;
-; data_memory:dmem|async_memory:stack_seg|mem2_rtl_0_bypass[33] ; Merged with data_memory:dmem|async_memory:data_seg|mem2_rtl_0_bypass[33]  ;
-; data_memory:dmem|async_memory:stack_seg|mem2_rtl_0_bypass[31] ; Merged with data_memory:dmem|async_memory:heap_seg|mem2_rtl_0_bypass[31]  ;
+; data_memory:dmem|async_memory:stack_seg|mem2_rtl_0_bypass[33] ; Merged with data_memory:dmem|async_memory:heap_seg|mem2_rtl_0_bypass[33]  ;
+; data_memory:dmem|async_memory:heap_seg|mem2_rtl_0_bypass[31]  ; Merged with data_memory:dmem|async_memory:data_seg|mem2_rtl_0_bypass[31]  ;
+; data_memory:dmem|async_memory:stack_seg|mem2_rtl_0_bypass[31] ; Merged with data_memory:dmem|async_memory:data_seg|mem2_rtl_0_bypass[31]  ;
 ; data_memory:dmem|async_memory:heap_seg|mem2_rtl_0_bypass[29]  ; Merged with data_memory:dmem|async_memory:data_seg|mem2_rtl_0_bypass[29]  ;
 ; data_memory:dmem|async_memory:stack_seg|mem2_rtl_0_bypass[29] ; Merged with data_memory:dmem|async_memory:data_seg|mem2_rtl_0_bypass[29]  ;
-; data_memory:dmem|async_memory:heap_seg|mem2_rtl_0_bypass[27]  ; Merged with data_memory:dmem|async_memory:data_seg|mem2_rtl_0_bypass[27]  ;
-; data_memory:dmem|async_memory:stack_seg|mem2_rtl_0_bypass[27] ; Merged with data_memory:dmem|async_memory:data_seg|mem2_rtl_0_bypass[27]  ;
+; data_memory:dmem|async_memory:stack_seg|mem2_rtl_0_bypass[27] ; Merged with data_memory:dmem|async_memory:heap_seg|mem2_rtl_0_bypass[27]  ;
 ; data_memory:dmem|async_memory:stack_seg|mem2_rtl_0_bypass[25] ; Merged with data_memory:dmem|async_memory:heap_seg|mem2_rtl_0_bypass[25]  ;
-; data_memory:dmem|async_memory:stack_seg|mem2_rtl_0_bypass[23] ; Merged with data_memory:dmem|async_memory:heap_seg|mem2_rtl_0_bypass[23]  ;
-; data_memory:dmem|async_memory:stack_seg|mem2_rtl_0_bypass[21] ; Merged with data_memory:dmem|async_memory:heap_seg|mem2_rtl_0_bypass[21]  ;
-; data_memory:dmem|async_memory:data_seg|mem1_rtl_0_bypass[33]  ; Merged with data_memory:dmem|async_memory:heap_seg|mem1_rtl_0_bypass[33]  ;
+; data_memory:dmem|async_memory:heap_seg|mem2_rtl_0_bypass[23]  ; Merged with data_memory:dmem|async_memory:data_seg|mem2_rtl_0_bypass[23]  ;
+; data_memory:dmem|async_memory:stack_seg|mem2_rtl_0_bypass[23] ; Merged with data_memory:dmem|async_memory:data_seg|mem2_rtl_0_bypass[23]  ;
+; data_memory:dmem|async_memory:heap_seg|mem2_rtl_0_bypass[21]  ; Merged with data_memory:dmem|async_memory:data_seg|mem2_rtl_0_bypass[21]  ;
+; data_memory:dmem|async_memory:stack_seg|mem2_rtl_0_bypass[21] ; Merged with data_memory:dmem|async_memory:data_seg|mem2_rtl_0_bypass[21]  ;
 ; data_memory:dmem|async_memory:stack_seg|mem1_rtl_0_bypass[33] ; Merged with data_memory:dmem|async_memory:heap_seg|mem1_rtl_0_bypass[33]  ;
+; data_memory:dmem|async_memory:data_seg|mem1_rtl_0_bypass[31]  ; Merged with data_memory:dmem|async_memory:heap_seg|mem1_rtl_0_bypass[31]  ;
 ; data_memory:dmem|async_memory:stack_seg|mem1_rtl_0_bypass[31] ; Merged with data_memory:dmem|async_memory:heap_seg|mem1_rtl_0_bypass[31]  ;
-; data_memory:dmem|async_memory:data_seg|mem1_rtl_0_bypass[29]  ; Merged with data_memory:dmem|async_memory:heap_seg|mem1_rtl_0_bypass[29]  ;
 ; data_memory:dmem|async_memory:stack_seg|mem1_rtl_0_bypass[29] ; Merged with data_memory:dmem|async_memory:heap_seg|mem1_rtl_0_bypass[29]  ;
 ; data_memory:dmem|async_memory:stack_seg|mem1_rtl_0_bypass[27] ; Merged with data_memory:dmem|async_memory:heap_seg|mem1_rtl_0_bypass[27]  ;
+; data_memory:dmem|async_memory:data_seg|mem1_rtl_0_bypass[25]  ; Merged with data_memory:dmem|async_memory:heap_seg|mem1_rtl_0_bypass[25]  ;
 ; data_memory:dmem|async_memory:stack_seg|mem1_rtl_0_bypass[25] ; Merged with data_memory:dmem|async_memory:heap_seg|mem1_rtl_0_bypass[25]  ;
 ; data_memory:dmem|async_memory:data_seg|mem1_rtl_0_bypass[23]  ; Merged with data_memory:dmem|async_memory:heap_seg|mem1_rtl_0_bypass[23]  ;
 ; data_memory:dmem|async_memory:stack_seg|mem1_rtl_0_bypass[23] ; Merged with data_memory:dmem|async_memory:heap_seg|mem1_rtl_0_bypass[23]  ;
 ; data_memory:dmem|async_memory:stack_seg|mem1_rtl_0_bypass[21] ; Merged with data_memory:dmem|async_memory:heap_seg|mem1_rtl_0_bypass[21]  ;
 ; data_memory:dmem|async_memory:heap_seg|mem0_rtl_0_bypass[33]  ; Merged with data_memory:dmem|async_memory:stack_seg|mem0_rtl_0_bypass[33] ;
-; data_memory:dmem|async_memory:data_seg|mem0_rtl_0_bypass[31]  ; Merged with data_memory:dmem|async_memory:stack_seg|mem0_rtl_0_bypass[31] ;
 ; data_memory:dmem|async_memory:heap_seg|mem0_rtl_0_bypass[31]  ; Merged with data_memory:dmem|async_memory:stack_seg|mem0_rtl_0_bypass[31] ;
-; data_memory:dmem|async_memory:data_seg|mem0_rtl_0_bypass[29]  ; Merged with data_memory:dmem|async_memory:stack_seg|mem0_rtl_0_bypass[29] ;
 ; data_memory:dmem|async_memory:heap_seg|mem0_rtl_0_bypass[29]  ; Merged with data_memory:dmem|async_memory:stack_seg|mem0_rtl_0_bypass[29] ;
 ; data_memory:dmem|async_memory:heap_seg|mem0_rtl_0_bypass[27]  ; Merged with data_memory:dmem|async_memory:stack_seg|mem0_rtl_0_bypass[27] ;
-; data_memory:dmem|async_memory:data_seg|mem0_rtl_0_bypass[25]  ; Merged with data_memory:dmem|async_memory:stack_seg|mem0_rtl_0_bypass[25] ;
 ; data_memory:dmem|async_memory:heap_seg|mem0_rtl_0_bypass[25]  ; Merged with data_memory:dmem|async_memory:stack_seg|mem0_rtl_0_bypass[25] ;
-; data_memory:dmem|async_memory:data_seg|mem0_rtl_0_bypass[23]  ; Merged with data_memory:dmem|async_memory:stack_seg|mem0_rtl_0_bypass[23] ;
 ; data_memory:dmem|async_memory:heap_seg|mem0_rtl_0_bypass[23]  ; Merged with data_memory:dmem|async_memory:stack_seg|mem0_rtl_0_bypass[23] ;
-; data_memory:dmem|async_memory:heap_seg|mem0_rtl_0_bypass[21]  ; Merged with data_memory:dmem|async_memory:stack_seg|mem0_rtl_0_bypass[21] ;
-; IFIDPipe:IFIDPipe|instructionROMOutIFID[24]                   ; Merged with IFIDPipe:IFIDPipe|instructionROMOutIFID[25]                   ;
-; IDEXPipe:IDEXPipe|instructionROMOutIDEX[24]                   ; Merged with IDEXPipe:IDEXPipe|instructionROMOutIDEX[25]                   ;
-; EXMEMPipe:EXMEMPipe|instructionROMOutEXMEM[25]                ; Merged with EXMEMPipe:EXMEMPipe|instructionROMOutEXMEM[24]                ;
-; MEMWBPipe:MEMWBPipe|instructionROMOutMEMWB[25]                ; Merged with MEMWBPipe:MEMWBPipe|instructionROMOutMEMWB[24]                ;
-; Total Number of Removed Registers = 606                       ;                                                                           ;
+; data_memory:dmem|async_memory:stack_seg|mem0_rtl_0_bypass[21] ; Merged with data_memory:dmem|async_memory:data_seg|mem0_rtl_0_bypass[21]  ;
+; data_memory:dmem|async_memory:heap_seg|mem0_rtl_0_bypass[21]  ; Merged with data_memory:dmem|async_memory:data_seg|mem0_rtl_0_bypass[21]  ;
+; IFIDPipe:IFIDPipe|instructionROMOutIFID[9]                    ; Merged with IFIDPipe:IFIDPipe|instructionROMOutIFID[10]                   ;
+; IDEXPipe:IDEXPipe|instructionROMOutIDEX[9]                    ; Merged with IDEXPipe:IDEXPipe|instructionROMOutIDEX[10]                   ;
+; EXMEMPipe:EXMEMPipe|instructionROMOutEXMEM[10]                ; Merged with EXMEMPipe:EXMEMPipe|instructionROMOutEXMEM[9]                 ;
+; MEMWBPipe:MEMWBPipe|instructionROMOutMEMWB[10]                ; Merged with MEMWBPipe:MEMWBPipe|instructionROMOutMEMWB[9]                 ;
+; Total Number of Removed Registers = 602                       ;                                                                           ;
 +---------------------------------------------------------------+---------------------------------------------------------------------------+
 
 
-+----------------------------------------------------------------------------------------------------------------------------------------------+
-; Removed Registers Triggering Further Register Optimizations                                                                                  ;
-+----------------------------------+---------------------------+-------------------------------------------------------------------------------+
-; Register name                    ; Reason for Removal        ; Registers Removed due to This Register                                        ;
-+----------------------------------+---------------------------+-------------------------------------------------------------------------------+
-; inst_rom:myInstructionROM|out[6] ; Stuck at GND              ; IFIDPipe:IFIDPipe|instructionROMOutIFID[30],                                  ;
-;                                  ; due to stuck port data_in ; IDEXPipe:IDEXPipe|instructionROMOutIDEX[30],                                  ;
-;                                  ;                           ; EXMEMPipe:EXMEMPipe|instructionROMOutEXMEM[30],                               ;
-;                                  ;                           ; MEMWBPipe:MEMWBPipe|instructionROMOutMEMWB[30], regfile:regfile|Mux0~1,       ;
-;                                  ;                           ; regfile:regfile|Mux0~2, regfile:regfile|Mux0~3, regfile:regfile|Mux0~4,       ;
-;                                  ;                           ; regfile:regfile|Mux0~5, regfile:regfile|Mux0~6, regfile:regfile|Mux0~7,       ;
-;                                  ;                           ; regfile:regfile|Mux0~8, regfile:regfile|Mux0~9, regfile:regfile|Mux0~10,      ;
-;                                  ;                           ; regfile:regfile|Mux0~11, regfile:regfile|Mux0~12, regfile:regfile|Mux0~13,    ;
-;                                  ;                           ; regfile:regfile|Mux0~14, regfile:regfile|Mux0~15, regfile:regfile|Mux0~16,    ;
-;                                  ;                           ; regfile:regfile|Mux0~17, regfile:regfile|Mux0~18, regfile:regfile|Mux0~19,    ;
-;                                  ;                           ; regfile:regfile|Mux0~20, regfile:regfile|Mux0~21, regfile:regfile|Mux0~22,    ;
-;                                  ;                           ; regfile:regfile|Mux0~23, regfile:regfile|Mux0~24, regfile:regfile|Mux0~25,    ;
-;                                  ;                           ; regfile:regfile|Mux0~26, regfile:regfile|Mux0~27, regfile:regfile|Mux0~28,    ;
-;                                  ;                           ; regfile:regfile|Mux0~29, regfile:regfile|Mux0~30, regfile:regfile|Mux0~31,    ;
-;                                  ;                           ; regfile:regfile|Mux0~32, regfile:regfile|Mux32~1, regfile:regfile|Mux32~2,    ;
-;                                  ;                           ; regfile:regfile|Mux32~3, regfile:regfile|Mux32~4, regfile:regfile|Mux32~5,    ;
-;                                  ;                           ; regfile:regfile|Mux32~6, regfile:regfile|Mux32~7, regfile:regfile|Mux32~8,    ;
-;                                  ;                           ; regfile:regfile|Mux32~9, regfile:regfile|Mux32~10, regfile:regfile|Mux32~11,  ;
-;                                  ;                           ; regfile:regfile|Mux32~12, regfile:regfile|Mux32~13, regfile:regfile|Mux32~14, ;
-;                                  ;                           ; regfile:regfile|Mux32~15, regfile:regfile|Mux32~16, regfile:regfile|Mux32~17, ;
-;                                  ;                           ; regfile:regfile|Mux32~18, regfile:regfile|Mux32~19, regfile:regfile|Mux32~20, ;
-;                                  ;                           ; regfile:regfile|Mux32~21, regfile:regfile|Mux32~22, regfile:regfile|Mux32~23, ;
-;                                  ;                           ; regfile:regfile|Mux32~24, regfile:regfile|Mux32~25, regfile:regfile|Mux32~26, ;
-;                                  ;                           ; regfile:regfile|Mux32~27, regfile:regfile|Mux32~28, regfile:regfile|Mux32~29, ;
-;                                  ;                           ; regfile:regfile|Mux32~30, regfile:regfile|Mux32~31, regfile:regfile|Mux32~32  ;
-+----------------------------------+---------------------------+-------------------------------------------------------------------------------+
++---------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Removed Registers Triggering Further Register Optimizations                                                                                             ;
++---------------------------------------------+---------------------------+-------------------------------------------------------------------------------+
+; Register name                               ; Reason for Removal        ; Registers Removed due to This Register                                        ;
++---------------------------------------------+---------------------------+-------------------------------------------------------------------------------+
+; IDEXPipe:IDEXPipe|instructionROMOutIDEX[30] ; Stuck at GND              ; EXMEMPipe:EXMEMPipe|instructionROMOutEXMEM[30],                               ;
+;                                             ; due to stuck port data_in ; MEMWBPipe:MEMWBPipe|instructionROMOutMEMWB[30], regfile:regfile|Mux0~1,       ;
+;                                             ;                           ; regfile:regfile|Mux0~2, regfile:regfile|Mux0~3, regfile:regfile|Mux0~4,       ;
+;                                             ;                           ; regfile:regfile|Mux0~5, regfile:regfile|Mux0~6, regfile:regfile|Mux0~7,       ;
+;                                             ;                           ; regfile:regfile|Mux0~8, regfile:regfile|Mux0~9, regfile:regfile|Mux0~10,      ;
+;                                             ;                           ; regfile:regfile|Mux0~11, regfile:regfile|Mux0~12, regfile:regfile|Mux0~13,    ;
+;                                             ;                           ; regfile:regfile|Mux0~14, regfile:regfile|Mux0~15, regfile:regfile|Mux0~16,    ;
+;                                             ;                           ; regfile:regfile|Mux0~17, regfile:regfile|Mux0~18, regfile:regfile|Mux0~19,    ;
+;                                             ;                           ; regfile:regfile|Mux0~20, regfile:regfile|Mux0~21, regfile:regfile|Mux0~22,    ;
+;                                             ;                           ; regfile:regfile|Mux0~23, regfile:regfile|Mux0~24, regfile:regfile|Mux0~25,    ;
+;                                             ;                           ; regfile:regfile|Mux0~26, regfile:regfile|Mux0~27, regfile:regfile|Mux0~28,    ;
+;                                             ;                           ; regfile:regfile|Mux0~29, regfile:regfile|Mux0~30, regfile:regfile|Mux0~31,    ;
+;                                             ;                           ; regfile:regfile|Mux0~32, regfile:regfile|Mux32~1, regfile:regfile|Mux32~2,    ;
+;                                             ;                           ; regfile:regfile|Mux32~3, regfile:regfile|Mux32~4, regfile:regfile|Mux32~5,    ;
+;                                             ;                           ; regfile:regfile|Mux32~6, regfile:regfile|Mux32~7, regfile:regfile|Mux32~8,    ;
+;                                             ;                           ; regfile:regfile|Mux32~9, regfile:regfile|Mux32~10, regfile:regfile|Mux32~11,  ;
+;                                             ;                           ; regfile:regfile|Mux32~12, regfile:regfile|Mux32~13, regfile:regfile|Mux32~14, ;
+;                                             ;                           ; regfile:regfile|Mux32~15, regfile:regfile|Mux32~16, regfile:regfile|Mux32~17, ;
+;                                             ;                           ; regfile:regfile|Mux32~18, regfile:regfile|Mux32~19, regfile:regfile|Mux32~20, ;
+;                                             ;                           ; regfile:regfile|Mux32~21, regfile:regfile|Mux32~22, regfile:regfile|Mux32~23, ;
+;                                             ;                           ; regfile:regfile|Mux32~24, regfile:regfile|Mux32~25, regfile:regfile|Mux32~26, ;
+;                                             ;                           ; regfile:regfile|Mux32~27, regfile:regfile|Mux32~28, regfile:regfile|Mux32~29, ;
+;                                             ;                           ; regfile:regfile|Mux32~30, regfile:regfile|Mux32~31, regfile:regfile|Mux32~32  ;
+; inst_rom:myInstructionROM|out[6]            ; Stuck at GND              ; IFIDPipe:IFIDPipe|instructionROMOutIFID[30]                                   ;
+;                                             ; due to stuck port data_in ;                                                                               ;
++---------------------------------------------+---------------------------+-------------------------------------------------------------------------------+
 
 
 +------------------------------------------------------+
@@ -1038,12 +1035,12 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +----------------------------------------------+-------+
 ; Statistic                                    ; Value ;
 +----------------------------------------------+-------+
-; Total registers                              ; 883   ;
-; Number of registers using Synchronous Clear  ; 74    ;
+; Total registers                              ; 887   ;
+; Number of registers using Synchronous Clear  ; 86    ;
 ; Number of registers using Synchronous Load   ; 112   ;
 ; Number of registers using Asynchronous Clear ; 504   ;
 ; Number of registers using Asynchronous Load  ; 0     ;
-; Number of registers using Clock Enable       ; 253   ;
+; Number of registers using Clock Enable       ; 252   ;
 ; Number of registers using Preset             ; 0     ;
 +----------------------------------------------+-------+
 
@@ -1074,76 +1071,88 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; programcounter:pc|output1[20]                                                            ; 1       ;
 ; programcounter:pc|output1[21]                                                            ; 1       ;
 ; IDEXPipe:IDEXPipe|altshift_taps:mux3SelectIDEX_rtl_0|shift_taps_sfm:auto_generated|dffe6 ; 34      ;
+; data_memory:dmem|async_memory:heap_seg|mem3~1                                            ; 1       ;
+; data_memory:dmem|async_memory:heap_seg|mem3_rtl_0_bypass[21]                             ; 1       ;
+; data_memory:dmem|async_memory:data_seg|mem3_rtl_0_bypass[36]                             ; 12      ;
+; data_memory:dmem|async_memory:stack_seg|mem3~1                                           ; 1       ;
+; data_memory:dmem|async_memory:heap_seg|mem1~1                                            ; 1       ;
+; data_memory:dmem|async_memory:heap_seg|mem1_rtl_0_bypass[21]                             ; 1       ;
+; data_memory:dmem|async_memory:stack_seg|mem1~1                                           ; 1       ;
 ; data_memory:dmem|async_memory:stack_seg|mem3~8                                           ; 1       ;
 ; data_memory:dmem|async_memory:heap_seg|mem3_rtl_0_bypass[35]                             ; 1       ;
-; data_memory:dmem|async_memory:data_seg|mem3_rtl_0_bypass[36]                             ; 12      ;
 ; data_memory:dmem|async_memory:heap_seg|mem3~8                                            ; 1       ;
 ; data_memory:dmem|async_memory:heap_seg|mem1~8                                            ; 1       ;
 ; data_memory:dmem|async_memory:stack_seg|mem1_rtl_0_bypass[35]                            ; 1       ;
 ; data_memory:dmem|async_memory:stack_seg|mem1~8                                           ; 1       ;
+; data_memory:dmem|async_memory:heap_seg|mem2~1                                            ; 1       ;
+; data_memory:dmem|async_memory:data_seg|mem2_rtl_0_bypass[21]                             ; 1       ;
+; data_memory:dmem|async_memory:data_seg|mem2~1                                            ; 1       ;
+; data_memory:dmem|async_memory:stack_seg|mem2~1                                           ; 1       ;
+; data_memory:dmem|async_memory:stack_seg|mem0~1                                           ; 1       ;
+; data_memory:dmem|async_memory:data_seg|mem0_rtl_0_bypass[21]                             ; 1       ;
+; data_memory:dmem|async_memory:heap_seg|mem0~1                                            ; 1       ;
+; data_memory:dmem|async_memory:data_seg|mem0~1                                            ; 1       ;
+; data_memory:dmem|async_memory:data_seg|mem3~5                                            ; 1       ;
+; data_memory:dmem|async_memory:data_seg|mem3_rtl_0_bypass[29]                             ; 1       ;
+; data_memory:dmem|async_memory:data_seg|mem1~5                                            ; 1       ;
+; data_memory:dmem|async_memory:data_seg|mem1_rtl_0_bypass[29]                             ; 1       ;
 ; data_memory:dmem|async_memory:stack_seg|mem2~8                                           ; 1       ;
 ; data_memory:dmem|async_memory:heap_seg|mem2_rtl_0_bypass[35]                             ; 1       ;
 ; data_memory:dmem|async_memory:heap_seg|mem2~8                                            ; 1       ;
 ; data_memory:dmem|async_memory:heap_seg|mem0~8                                            ; 1       ;
 ; data_memory:dmem|async_memory:stack_seg|mem0_rtl_0_bypass[35]                            ; 1       ;
 ; data_memory:dmem|async_memory:stack_seg|mem0~8                                           ; 1       ;
-; data_memory:dmem|async_memory:heap_seg|mem3~1                                            ; 1       ;
-; data_memory:dmem|async_memory:heap_seg|mem3_rtl_0_bypass[21]                             ; 1       ;
-; data_memory:dmem|async_memory:stack_seg|mem3~1                                           ; 1       ;
-; data_memory:dmem|async_memory:heap_seg|mem1~1                                            ; 1       ;
-; data_memory:dmem|async_memory:heap_seg|mem1_rtl_0_bypass[21]                             ; 1       ;
-; data_memory:dmem|async_memory:stack_seg|mem1~1                                           ; 1       ;
+; data_memory:dmem|async_memory:data_seg|mem3~2                                            ; 1       ;
+; data_memory:dmem|async_memory:data_seg|mem3_rtl_0_bypass[23]                             ; 1       ;
+; data_memory:dmem|async_memory:data_seg|mem0~2                                            ; 1       ;
+; data_memory:dmem|async_memory:data_seg|mem0_rtl_0_bypass[23]                             ; 1       ;
+; data_memory:dmem|async_memory:heap_seg|mem3~6                                            ; 1       ;
+; data_memory:dmem|async_memory:data_seg|mem3_rtl_0_bypass[31]                             ; 1       ;
+; data_memory:dmem|async_memory:data_seg|mem3~6                                            ; 1       ;
+; data_memory:dmem|async_memory:stack_seg|mem3~6                                           ; 1       ;
+; data_memory:dmem|async_memory:heap_seg|mem1~6                                            ; 1       ;
+; data_memory:dmem|async_memory:heap_seg|mem1_rtl_0_bypass[31]                             ; 1       ;
+; data_memory:dmem|async_memory:data_seg|mem1~6                                            ; 1       ;
+; data_memory:dmem|async_memory:stack_seg|mem1~6                                           ; 1       ;
+; data_memory:dmem|async_memory:stack_seg|mem2~3                                           ; 1       ;
+; data_memory:dmem|async_memory:heap_seg|mem2_rtl_0_bypass[25]                             ; 1       ;
+; data_memory:dmem|async_memory:heap_seg|mem2~3                                            ; 1       ;
 ; data_memory:dmem|async_memory:stack_seg|mem3~3                                           ; 1       ;
 ; data_memory:dmem|async_memory:heap_seg|mem3_rtl_0_bypass[25]                             ; 1       ;
 ; data_memory:dmem|async_memory:heap_seg|mem3~3                                            ; 1       ;
 ; data_memory:dmem|async_memory:heap_seg|mem1~3                                            ; 1       ;
 ; data_memory:dmem|async_memory:heap_seg|mem1_rtl_0_bypass[25]                             ; 1       ;
+; data_memory:dmem|async_memory:data_seg|mem1~3                                            ; 1       ;
 ; data_memory:dmem|async_memory:stack_seg|mem1~3                                           ; 1       ;
+; data_memory:dmem|async_memory:heap_seg|mem0~3                                            ; 1       ;
+; data_memory:dmem|async_memory:stack_seg|mem0_rtl_0_bypass[25]                            ; 1       ;
+; data_memory:dmem|async_memory:stack_seg|mem0~3                                           ; 1       ;
+; data_memory:dmem|async_memory:data_seg|mem3~7                                            ; 1       ;
+; data_memory:dmem|async_memory:data_seg|mem3_rtl_0_bypass[33]                             ; 1       ;
+; data_memory:dmem|async_memory:data_seg|mem1~7                                            ; 1       ;
+; data_memory:dmem|async_memory:data_seg|mem1_rtl_0_bypass[33]                             ; 1       ;
+; data_memory:dmem|async_memory:stack_seg|mem2~4                                           ; 1       ;
+; data_memory:dmem|async_memory:heap_seg|mem2_rtl_0_bypass[27]                             ; 1       ;
+; data_memory:dmem|async_memory:heap_seg|mem2~4                                            ; 1       ;
 ; data_memory:dmem|async_memory:stack_seg|mem3~4                                           ; 1       ;
 ; data_memory:dmem|async_memory:heap_seg|mem3_rtl_0_bypass[27]                             ; 1       ;
 ; data_memory:dmem|async_memory:heap_seg|mem3~4                                            ; 1       ;
 ; data_memory:dmem|async_memory:heap_seg|mem1~4                                            ; 1       ;
 ; data_memory:dmem|async_memory:heap_seg|mem1_rtl_0_bypass[27]                             ; 1       ;
 ; data_memory:dmem|async_memory:stack_seg|mem1~4                                           ; 1       ;
-; data_memory:dmem|async_memory:heap_seg|mem3~6                                            ; 1       ;
-; data_memory:dmem|async_memory:heap_seg|mem3_rtl_0_bypass[31]                             ; 1       ;
-; data_memory:dmem|async_memory:stack_seg|mem3~6                                           ; 1       ;
-; data_memory:dmem|async_memory:heap_seg|mem1~6                                            ; 1       ;
-; data_memory:dmem|async_memory:heap_seg|mem1_rtl_0_bypass[31]                             ; 1       ;
-; data_memory:dmem|async_memory:stack_seg|mem1~6                                           ; 1       ;
-; data_memory:dmem|async_memory:stack_seg|mem2~1                                           ; 1       ;
-; data_memory:dmem|async_memory:heap_seg|mem2_rtl_0_bypass[21]                             ; 1       ;
-; data_memory:dmem|async_memory:heap_seg|mem2~1                                            ; 1       ;
-; data_memory:dmem|async_memory:data_seg|mem2~2                                            ; 1       ;
-; data_memory:dmem|async_memory:data_seg|mem2_rtl_0_bypass[23]                             ; 1       ;
-; data_memory:dmem|async_memory:stack_seg|mem2~3                                           ; 1       ;
-; data_memory:dmem|async_memory:heap_seg|mem2_rtl_0_bypass[25]                             ; 1       ;
-; data_memory:dmem|async_memory:heap_seg|mem2~3                                            ; 1       ;
-; data_memory:dmem|async_memory:heap_seg|mem2~4                                            ; 1       ;
-; data_memory:dmem|async_memory:data_seg|mem2_rtl_0_bypass[27]                             ; 1       ;
-; data_memory:dmem|async_memory:data_seg|mem2~4                                            ; 1       ;
-; data_memory:dmem|async_memory:stack_seg|mem2~4                                           ; 1       ;
-; data_memory:dmem|async_memory:heap_seg|mem2~6                                            ; 1       ;
-; data_memory:dmem|async_memory:heap_seg|mem2_rtl_0_bypass[31]                             ; 1       ;
-; data_memory:dmem|async_memory:stack_seg|mem2~6                                           ; 1       ;
-; data_memory:dmem|async_memory:data_seg|mem0~7                                            ; 1       ;
-; data_memory:dmem|async_memory:data_seg|mem0_rtl_0_bypass[33]                             ; 1       ;
-; data_memory:dmem|async_memory:stack_seg|mem0~6                                           ; 1       ;
-; data_memory:dmem|async_memory:stack_seg|mem0_rtl_0_bypass[31]                            ; 1       ;
-; data_memory:dmem|async_memory:heap_seg|mem0~6                                            ; 1       ;
-; data_memory:dmem|async_memory:data_seg|mem0~6                                            ; 1       ;
-; data_memory:dmem|async_memory:heap_seg|mem0~3                                            ; 1       ;
-; data_memory:dmem|async_memory:stack_seg|mem0_rtl_0_bypass[25]                            ; 1       ;
-; data_memory:dmem|async_memory:stack_seg|mem0~3                                           ; 1       ;
-; data_memory:dmem|async_memory:data_seg|mem0~3                                            ; 1       ;
 ; data_memory:dmem|async_memory:stack_seg|mem0~4                                           ; 1       ;
 ; data_memory:dmem|async_memory:stack_seg|mem0_rtl_0_bypass[27]                            ; 1       ;
 ; data_memory:dmem|async_memory:heap_seg|mem0~4                                            ; 1       ;
-; data_memory:dmem|async_memory:stack_seg|mem0~1                                           ; 1       ;
-; data_memory:dmem|async_memory:stack_seg|mem0_rtl_0_bypass[21]                            ; 1       ;
-; data_memory:dmem|async_memory:heap_seg|mem0~1                                            ; 1       ;
-; Total number of inverted registers = 89                                                  ;         ;
+; data_memory:dmem|async_memory:stack_seg|mem2~6                                           ; 1       ;
+; data_memory:dmem|async_memory:data_seg|mem2_rtl_0_bypass[31]                             ; 1       ;
+; data_memory:dmem|async_memory:heap_seg|mem2~6                                            ; 1       ;
+; data_memory:dmem|async_memory:data_seg|mem2~6                                            ; 1       ;
+; data_memory:dmem|async_memory:stack_seg|mem0~6                                           ; 1       ;
+; data_memory:dmem|async_memory:stack_seg|mem0_rtl_0_bypass[31]                            ; 1       ;
+; data_memory:dmem|async_memory:heap_seg|mem0~6                                            ; 1       ;
+; Total number of inverted registers = 106*                                                ;         ;
 +------------------------------------------------------------------------------------------+---------+
+* Table truncated at 100 items. To change the number of inverted registers reported, set the "Number of Inverted Registers Reported" option under Assignments->Settings->Analysis and Synthesis Settings->More Settings
 
 
 +--------------------------------------------------------------------------------------------------------------------+
@@ -1713,37 +1722,35 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +--------------------+-----------+---------------+----------------------+------------------------+-------------------------------------------------------------+----------------------------+
 ; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered                                                  ; Example Multiplexer Output ;
 +--------------------+-----------+---------------+----------------------+------------------------+-------------------------------------------------------------+----------------------------+
-; 4:1                ; 73 bits   ; 146 LEs       ; 73 LEs               ; 73 LEs                 ; |processor|IDEXPipe:IDEXPipe|instructionROMOutIDEX[17]      ;                            ;
-; 4:1                ; 8 bits    ; 16 LEs        ; 8 LEs                ; 8 LEs                  ; |processor|data_memory:dmem|serial_buffer:ser|sbyte[7]      ;                            ;
-; 4:1                ; 53 bits   ; 106 LEs       ; 53 LEs               ; 53 LEs                 ; |processor|IFIDPipe:IFIDPipe|instructionROMOutIFID[0]       ;                            ;
-; 8:1                ; 32 bits   ; 160 LEs       ; 96 LEs               ; 64 LEs                 ; |processor|IDEXPipe:IDEXPipe|o_RS_DataIDEX[10]              ;                            ;
-; 8:1                ; 32 bits   ; 160 LEs       ; 96 LEs               ; 64 LEs                 ; |processor|IDEXPipe:IDEXPipe|o_RT_DataIDEX[2]               ;                            ;
-; 35:1               ; 3 bits    ; 69 LEs        ; 27 LEs               ; 42 LEs                 ; |processor|IDEXPipe:IDEXPipe|Func_inIDEX[1]                 ;                            ;
-; 26:1               ; 4 bits    ; 68 LEs        ; 32 LEs               ; 36 LEs                 ; |processor|EXMEMPipe:EXMEMPipe|O_outEXMEM[13]               ;                            ;
+; 4:1                ; 8 bits    ; 16 LEs        ; 8 LEs                ; 8 LEs                  ; |processor|data_memory:dmem|serial_buffer:ser|sbyte[3]      ;                            ;
+; 4:1                ; 53 bits   ; 106 LEs       ; 53 LEs               ; 53 LEs                 ; |processor|IFIDPipe:IFIDPipe|instructionROMOutIFID[11]      ;                            ;
+; 6:1                ; 32 bits   ; 128 LEs       ; 96 LEs               ; 32 LEs                 ; |processor|IDEXPipe:IDEXPipe|o_RS_DataIDEX[9]               ;                            ;
+; 6:1                ; 32 bits   ; 128 LEs       ; 96 LEs               ; 32 LEs                 ; |processor|IDEXPipe:IDEXPipe|o_RT_DataIDEX[30]              ;                            ;
+; 33:1               ; 3 bits    ; 66 LEs        ; 24 LEs               ; 42 LEs                 ; |processor|IDEXPipe:IDEXPipe|Func_inIDEX[3]                 ;                            ;
+; 26:1               ; 4 bits    ; 68 LEs        ; 32 LEs               ; 36 LEs                 ; |processor|EXMEMPipe:EXMEMPipe|O_outEXMEM[12]               ;                            ;
 ; 26:1               ; 8 bits    ; 136 LEs       ; 64 LEs               ; 72 LEs                 ; |processor|EXMEMPipe:EXMEMPipe|O_outEXMEM[23]               ;                            ;
 ; 27:1               ; 4 bits    ; 72 LEs        ; 36 LEs               ; 36 LEs                 ; |processor|EXMEMPipe:EXMEMPipe|O_outEXMEM[26]               ;                            ;
-; 28:1               ; 2 bits    ; 36 LEs        ; 20 LEs               ; 16 LEs                 ; |processor|EXMEMPipe:EXMEMPipe|O_outEXMEM[29]               ;                            ;
-; 14:1               ; 6 bits    ; 54 LEs        ; 48 LEs               ; 6 LEs                  ; |processor|MEMWBPipe:MEMWBPipe|readdata_outMEMWB[5]         ;                            ;
-; 3:1                ; 32 bits   ; 64 LEs        ; 64 LEs               ; 0 LEs                  ; |processor|MUX:mux101|output1[29]                           ;                            ;
+; 28:1               ; 2 bits    ; 36 LEs        ; 20 LEs               ; 16 LEs                 ; |processor|EXMEMPipe:EXMEMPipe|O_outEXMEM[28]               ;                            ;
+; 14:1               ; 6 bits    ; 54 LEs        ; 48 LEs               ; 6 LEs                  ; |processor|MEMWBPipe:MEMWBPipe|readdata_outMEMWB[6]         ;                            ;
+; 3:1                ; 32 bits   ; 64 LEs        ; 64 LEs               ; 0 LEs                  ; |processor|MUX:mux101|output1[15]                           ;                            ;
 ; 3:1                ; 2 bits    ; 4 LEs         ; 4 LEs                ; 0 LEs                  ; |processor|data_memory:dmem|async_memory:data_seg|Mux0      ;                            ;
-; 3:1                ; 4 bits    ; 8 LEs         ; 4 LEs                ; 4 LEs                  ; |processor|data_memory:dmem|async_memory:data_seg|mem0      ;                            ;
-; 3:1                ; 4 bits    ; 8 LEs         ; 4 LEs                ; 4 LEs                  ; |processor|data_memory:dmem|async_memory:stack_seg|mem0     ;                            ;
+; 3:1                ; 4 bits    ; 8 LEs         ; 4 LEs                ; 4 LEs                  ; |processor|data_memory:dmem|async_memory:data_seg|mem1      ;                            ;
+; 3:1                ; 4 bits    ; 8 LEs         ; 4 LEs                ; 4 LEs                  ; |processor|data_memory:dmem|async_memory:stack_seg|mem2     ;                            ;
 ; 3:1                ; 4 bits    ; 8 LEs         ; 4 LEs                ; 4 LEs                  ; |processor|data_memory:dmem|async_memory:heap_seg|mem2      ;                            ;
-; 3:1                ; 32 bits   ; 64 LEs        ; 64 LEs               ; 0 LEs                  ; |processor|MUX:mux7|output1[0]                              ;                            ;
-; 3:1                ; 5 bits    ; 10 LEs        ; 10 LEs               ; 0 LEs                  ; |processor|MUX:mux6|output1[1]                              ;                            ;
-; 4:1                ; 27 bits   ; 54 LEs        ; 54 LEs               ; 0 LEs                  ; |processor|MUX:muxShift1|output1[8]                         ;                            ;
-; 4:1                ; 5 bits    ; 10 LEs        ; 10 LEs               ; 0 LEs                  ; |processor|MUX:muxShift1|output1[0]                         ;                            ;
+; 3:1                ; 32 bits   ; 64 LEs        ; 64 LEs               ; 0 LEs                  ; |processor|MUX:mux7|output1[22]                             ;                            ;
+; 3:1                ; 5 bits    ; 10 LEs        ; 10 LEs               ; 0 LEs                  ; |processor|MUX:mux6|output1[3]                              ;                            ;
+; 4:1                ; 27 bits   ; 54 LEs        ; 54 LEs               ; 0 LEs                  ; |processor|MUX:muxShift1|output1[21]                        ;                            ;
+; 4:1                ; 5 bits    ; 10 LEs        ; 10 LEs               ; 0 LEs                  ; |processor|MUX:muxShift1|output1[4]                         ;                            ;
 ; 4:1                ; 2 bits    ; 4 LEs         ; 4 LEs                ; 0 LEs                  ; |processor|MUX:mux5|output1[1]                              ;                            ;
-; 4:1                ; 30 bits   ; 60 LEs        ; 60 LEs               ; 0 LEs                  ; |processor|MUX:mux5|output1[18]                             ;                            ;
-; 4:1                ; 31 bits   ; 62 LEs        ; 31 LEs               ; 31 LEs                 ; |processor|IDEXPipe:IDEXPipe|pcPlus4IDEX                    ;                            ;
-; 3:1                ; 8 bits    ; 16 LEs        ; 16 LEs               ; 0 LEs                  ; |processor|data_memory:dmem|async_memory:data_seg|Selector7 ;                            ;
+; 4:1                ; 30 bits   ; 60 LEs        ; 60 LEs               ; 0 LEs                  ; |processor|MUX:mux5|output1[19]                             ;                            ;
+; 3:1                ; 8 bits    ; 16 LEs        ; 16 LEs               ; 0 LEs                  ; |processor|data_memory:dmem|async_memory:data_seg|Selector4 ;                            ;
 ; 4:1                ; 10 bits   ; 20 LEs        ; 20 LEs               ; 0 LEs                  ; |processor|IFIDPipe:IFIDPipe|instructionROMOutIFID          ;                            ;
 ; 5:1                ; 4 bits    ; 12 LEs        ; 4 LEs                ; 8 LEs                  ; |processor|hazardDetectionNoStall:hdns|hazardReg2           ;                            ;
 ; 5:1                ; 2 bits    ; 6 LEs         ; 4 LEs                ; 2 LEs                  ; |processor|hazardDetectionNoStall:hdnsMEM|hazardReg2        ;                            ;
-; 5:1                ; 16 bits   ; 48 LEs        ; 32 LEs               ; 16 LEs                 ; |processor|data_memory:dmem|Selector0                       ;                            ;
-; 35:1               ; 2 bits    ; 46 LEs        ; 20 LEs               ; 26 LEs                 ; |processor|IDEXPipe:IDEXPipe|i_Write_EnableIDEX             ;                            ;
+; 5:1                ; 16 bits   ; 48 LEs        ; 32 LEs               ; 16 LEs                 ; |processor|data_memory:dmem|Selector1                       ;                            ;
+; 33:1               ; 2 bits    ; 44 LEs        ; 16 LEs               ; 28 LEs                 ; |processor|IDEXPipe:IDEXPipe|i_Write_EnableIDEX             ;                            ;
 ; 7:1                ; 7 bits    ; 28 LEs        ; 21 LEs               ; 7 LEs                  ; |processor|data_memory:dmem|readdata_out                    ;                            ;
-; 26:1               ; 4 bits    ; 68 LEs        ; 32 LEs               ; 36 LEs                 ; |processor|alu:alu|O_out[9]                                 ;                            ;
+; 26:1               ; 4 bits    ; 68 LEs        ; 32 LEs               ; 36 LEs                 ; |processor|alu:alu|O_out[11]                                ;                            ;
 ; 27:1               ; 4 bits    ; 72 LEs        ; 40 LEs               ; 32 LEs                 ; |processor|alu:alu|O_out[4]                                 ;                            ;
 ; 28:1               ; 2 bits    ; 36 LEs        ; 20 LEs               ; 16 LEs                 ; |processor|alu:alu|O_out[3]                                 ;                            ;
 +--------------------+-----------+---------------+----------------------+------------------------+-------------------------------------------------------------+----------------------------+
@@ -1914,6 +1921,16 @@ Note: In order to hide this table in the UI and the text report file, please set
 ; DATA_WIDTH     ; 32    ; Signed Integer                      ;
 ; REG_ADDR_WIDTH ; 5     ; Signed Integer                      ;
 +----------------+-------+-------------------------------------+
+Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
+
+
++----------------------------------------------------------------+
+; Parameter Settings for User Entity Instance: IDEXPipe:IDEXPipe ;
++-------------------+-------+------------------------------------+
+; Parameter Name    ; Value ; Type                               ;
++-------------------+-------+------------------------------------+
+; DELAY_SLOT_ENABLE ; 1     ; Signed Integer                     ;
++-------------------+-------+------------------------------------+
 Note: In order to hide this table in the UI and the text report file, please set the "Show Parameter Settings in Synthesis Report" option in "Analysis and Synthesis Settings -> More Settings" to "Off".
 
 
@@ -3116,7 +3133,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus II 32-bit Analysis & Synthesis
     Info: Version 12.0 Build 263 08/02/2012 Service Pack 2 SJ Web Edition
-    Info: Processing started: Wed Apr 24 00:58:01 2013
+    Info: Processing started: Wed May 01 15:31:18 2013
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off MIPSCPU -c MIPSCPU
 Warning (20028): Parallel compilation is not licensed and has been disabled
 Info (12021): Found 1 design units, including 1 entities, in source file hazarddetectionstall.v
@@ -3180,7 +3197,7 @@ Info (12127): Elaborating entity "processor" for the top level hierarchy
 Info (12128): Elaborating entity "programcounter" for hierarchy "programcounter:pc"
 Info (12128): Elaborating entity "adder" for hierarchy "adder:adder"
 Info (12128): Elaborating entity "inst_rom" for hierarchy "inst_rom:myInstructionROM"
-Warning (10850): Verilog HDL warning at inst_rom.v(35): number of words (596) in memory file does not match the number of elements in the address range [0:1023]
+Warning (10850): Verilog HDL warning at inst_rom.v(35): number of words (468) in memory file does not match the number of elements in the address range [0:1023]
 Warning (10030): Net "rom.data_a" at inst_rom.v(26) has no driver or initial value, using a default initial value '0'
 Warning (10030): Net "rom.waddr_a" at inst_rom.v(26) has no driver or initial value, using a default initial value '0'
 Warning (10030): Net "rom.we_a" at inst_rom.v(26) has no driver or initial value, using a default initial value '0'
@@ -3753,15 +3770,15 @@ Warning (13024): Output pins are stuck at VCC or GND
     Warning (13410): Pin "instructionROMOutMEMWBOut[30]" is stuck at GND
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Info (21057): Implemented 4082 device resources after synthesis - the final resource count might be different
+Info (21057): Implemented 4115 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 12 input pins
     Info (21059): Implemented 202 output pins
-    Info (21061): Implemented 3674 logic cells
+    Info (21061): Implemented 3707 logic cells
     Info (21064): Implemented 194 RAM segments
 Info: Quartus II 32-bit Analysis & Synthesis was successful. 0 errors, 33 warnings
-    Info: Peak virtual memory: 366 megabytes
-    Info: Processing ended: Wed Apr 24 00:59:05 2013
-    Info: Elapsed time: 00:01:04
+    Info: Peak virtual memory: 377 megabytes
+    Info: Processing ended: Wed May 01 15:32:25 2013
+    Info: Elapsed time: 00:01:07
     Info: Total CPU time (on all processors): 00:00:54
 
 
