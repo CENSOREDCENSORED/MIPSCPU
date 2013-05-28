@@ -1,3 +1,5 @@
+//`include "definitions.vh"
+
 
 module processor(
 input clock,
@@ -20,7 +22,19 @@ output[31:0] outputReg,
 output[31:0] instructionROMOutMEMWBOut
 );
 
-localparam DELAY_SLOT_ENABLE = 0;
+parameter INIT_PROGRAM = "C:/Users/Raymond/Documents/GitHub/MIPSCPU/141LTests/test.inst_rom.memh";  
+parameter DATA_MEM3 = "C:/Users/Raymond/Documents/GitHub/MIPSCPU/141LTests/test.data_ram3.memh";
+parameter DATA_MEM2 = "C:/Users/Raymond/Documents/GitHub/MIPSCPU/141LTests/test.data_ram2.memh";
+parameter DATA_MEM1 = "C:/Users/Raymond/Documents/GitHub/MIPSCPU/141LTests/test.data_ram1.memh";
+parameter DATA_MEM0 = "C:/Users/Raymond/Documents/GitHub/MIPSCPU/141LTests/test.data_ram0.memh";
+
+/*parameter INIT_PROGRAM = "C:/Users/Raymond/Documents/GitHub/MIPSCPU/141LTests/test_no_delay.inst_rom.memh";  
+parameter DATA_MEM3 = "C:/Users/Raymond/Documents/GitHub/MIPSCPU/141LTests/test_no_delay.data_ram3.memh";
+parameter DATA_MEM2 = "C:/Users/Raymond/Documents/GitHub/MIPSCPU/141LTests/test_no_delay.data_ram2.memh";
+parameter DATA_MEM1 = "C:/Users/Raymond/Documents/GitHub/MIPSCPU/141LTests/test_no_delay.data_ram1.memh";
+parameter DATA_MEM0 = "C:/Users/Raymond/Documents/GitHub/MIPSCPU/141LTests/test_no_delay.data_ram0.memh";*/
+
+localparam DELAY_SLOT_ENABLE = 1;
 
 wire stall;
 wire EXhazardReg1;
@@ -185,7 +199,7 @@ inst_rom #(
 	//.INIT_PROGRAM("C:/Users/Raymond/Documents/GitHub/MIPSCPU/141LTests/fib.inst_rom.memh"),
 	//.INIT_PROGRAM("C:/Users/Raymond/Documents/GitHub/MIPSCPU/141LTests/lab3-test.inst_rom.memh"),
 	//.INIT_PROGRAM("C:/Users/Raymond/Documents/GitHub/MIPSCPU/141LTests/hello_world.inst_rom.memh"),
-	.INIT_PROGRAM("C:/Users/Raymond/Documents/GitHub/MIPSCPU/141LTests/test.inst_rom.memh"),
+	.INIT_PROGRAM(INIT_PROGRAM),
 	//.INIT_PROGRAM("C:/Users/Raymond/Documents/GitHub/MIPSCPU/141LTests/gcd.inst_rom.memh"),
 	.ADDR_WIDTH(10)
 ) myInstructionROM(
@@ -227,7 +241,8 @@ MUX mux4(
 //Jump register MUX
 MUX mux8(
 	.input1(jumpAddressIDEX),
-	.input2(o_RS_DataIDEX),
+	//.input2(o_RS_DataIDEX),
+	.input2(aluInput1),
 	.select(jumpRegIDEX),
 	.output1(mux8out)
 );
@@ -543,10 +558,10 @@ EXMEMPipe EXMEMPipe(
 //-------------------------------------------------
 //Memory
 data_memory #(
-	.INIT_PROGRAM0("C:/Users/Raymond/Documents/GitHub/MIPSCPU/141LTests/test.data_ram0.memh"),
-	.INIT_PROGRAM1("C:/Users/Raymond/Documents/GitHub/MIPSCPU/141LTests/test.data_ram1.memh"),
-	.INIT_PROGRAM2("C:/Users/Raymond/Documents/GitHub/MIPSCPU/141LTests/test.data_ram2.memh"),
-	.INIT_PROGRAM3("C:/Users/Raymond/Documents/GitHub/MIPSCPU/141LTests/test.data_ram3.memh")
+	.INIT_PROGRAM0(DATA_MEM0),
+	.INIT_PROGRAM1(DATA_MEM1),
+	.INIT_PROGRAM2(DATA_MEM2),
+	.INIT_PROGRAM3(DATA_MEM3)
 	/*.INIT_PROGRAM0("C:/Users/Raymond/Documents/GitHub/MIPSCPU/141LTests/lab3-test.data_ram0.memh"),
 	.INIT_PROGRAM1("C:/Users/Raymond/Documents/GitHub/MIPSCPU/141LTests/lab3-test.data_ram1.memh"),
 	.INIT_PROGRAM2("C:/Users/Raymond/Documents/GitHub/MIPSCPU/141LTests/lab3-test.data_ram2.memh"),

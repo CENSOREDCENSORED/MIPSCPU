@@ -11,6 +11,25 @@
 
 
 #include "lib141.h"
+void func1(int test, int (*funcPtr) (int), int (*funcPtr2)(int,int,int*)){
+	int sqrtNum = funcPtr(test);
+	
+	int result1;
+	int result2;
+	
+	funcPtr2(sqrtNum, sqrtNum, &result1);
+	funcPtr2(test, sqrtNum, &result2);
+	if (funcPtr2 == &nonRestoringDivision){
+		if (result2 == sqrtNum) print("Works");
+		else print("Fails");
+	}
+	if (funcPtr2 == &modifiedBoothsMultiplication){
+		if (result1 == test) print("Works");
+		else print("Fails");
+	}
+	
+}
+
 
 int nonRestoringDivision(int dividend, int divisor, int * a)
 {
@@ -53,26 +72,6 @@ int modifiedBoothsMultiplication(int md, int mr, int * p)
 	}
 	
 	return *p;
-}
-
-int division(int q, int d, int *a)
-{
-	*a = 0;	
-	while (q >= d) {
-		*a = *a + 1;
-		q = q - d;
-	}
-	return q; 
-}
-
-int multiplication(int a, int b, int *p)
-{
-	*p = 0;
-	while (a != 0)
-	{
-		*p += b;
-		a--;
-	}
 }
 
 int strlen(char *string) {

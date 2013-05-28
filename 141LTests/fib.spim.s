@@ -38,6 +38,7 @@
 	nop
 	
 	.text
+	.align	2
 nonRestoringDivision:
 	.frame	$fp,16,$31		# vars= 8, regs= 1/0, args= 0, gp= 0
 	.mask	0x40000000,-4
@@ -785,7 +786,7 @@ $L6:
 	.rdata
 	.align	2
 $LC0:
-	.ascii	"Start\012\000"
+	.ascii	"S\012\000"
 	.align	2
 $LC1:
 	.ascii	"E\012\000"
@@ -800,7 +801,7 @@ main:
 	sw	$31,20($sp)
 	sw	$fp,16($sp)
 	move	$fp,$sp
-	la	$2,$LC0
+	la	$4,$LC0
 	jal	print
 	nop
 
@@ -808,7 +809,7 @@ main:
 	jal	fib
 	nop
 
-	la	$2,$LC1
+	la	$4,$LC1
 	jal	print
 	nop
 
